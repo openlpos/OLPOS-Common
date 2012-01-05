@@ -1,0 +1,7 @@
+#
+# <jcl-install-dir>/src
+# Root of all JCL src files.  See the <jcl-install-dir>/build.xml on 
+# details and info on how to build
+# @author E. Michael Maximilien (maxim@us.ibm.com)
+# @since 2.1.0
+#

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="SUB">
+  <item>
+    <col name="subscriber_id">1</col>
+    <col name="subscriber_name">test</col>
+    <col name="subscriber_pass">test</col>
+  </item>
+  <item>
+    <col name="subscriber_id">2</col>
+    <col name="subscriber_name">test1</col>
+    <col name="subscriber_pass">test</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

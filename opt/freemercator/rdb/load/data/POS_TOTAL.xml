@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="POS_TOTAL">
+  <item>
+    <col name="pos_total_id">0</col>
+    <col name="site_id">11</col>
+    <col name="pos_no">1</col>
+    <col name="emp_id">0</col>
+    <col name="drawer_no">0</col>
+  </item>
+  <item>
+    <col name="pos_total_id">1</col>
+    <col name="site_id">1</col>
+    <col name="pos_no">1</col>
+    <col name="emp_id">0</col>
+    <col name="drawer_no">0</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

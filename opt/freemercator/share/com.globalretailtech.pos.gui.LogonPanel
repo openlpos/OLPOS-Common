@@ -1,0 +1,18 @@
+LogonFont=Lucida Sans Regular
+LogonFontSize=24
+UserPrompt=Enter User ID (Demo: 1,1):
+PassPrompt=Enter Password:
+LogonFailed=Logon Failed,Retry
+TooManyRetrys=Too Many Logon Attempts!
+EnterButtontText=ENT
+ClearButtontText=CLR
+FieldLen=32
+RetryLimit=3
+OperatorColor=C9C299
+ButtonColor=666666
+BackgroundColor=000000
+
+ShutdownButtontText=ON
+ShutdownScriptIndex=0
+#F12
+ShutdownKeyCode=123

@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="CURRENCY">
+  <item>
+    <col name="currency_id">0</col>
+    <col name="config_no">1</col>
+    <col name="currency_code_id">1</col>
+    <col name="conversion_rate">1.0</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">US</col>
+    <col name="is_base">0</col>
+    <col name="is_local">1</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">1</col>
+    <col name="config_no">1</col>
+    <col name="currency_code_id">28</col>
+    <col name="conversion_rate">2.12868</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">DE</col>
+    <col name="is_base">0</col>
+    <col name="is_local">0</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">2</col>
+    <col name="config_no">1</col>
+    <col name="currency_code_id">30</col>
+    <col name="conversion_rate">1.674</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">CH</col>
+    <col name="is_base">0</col>
+    <col name="is_local">0</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">3</col>
+    <col name="config_no">1</col>
+    <col name="currency_code_id">69</col>
+    <col name="conversion_rate">7.13928</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">FR</col>
+    <col name="is_base">0</col>
+    <col name="is_local">0</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">4</col>
+    <col name="config_no">1</col>
+    <col name="currency_code_id">36</col>
+    <col name="conversion_rate">43.905</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">BE</col>
+    <col name="is_base">0</col>
+    <col name="is_local">0</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">5</col>
+    <col name="config_no">2</col>
+    <col name="currency_code_id">1</col>
+    <col name="conversion_rate">1.0</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">US</col>
+    <col name="is_base">0</col>
+    <col name="is_local">1</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">6</col>
+    <col name="config_no">2</col>
+    <col name="currency_code_id">28</col>
+    <col name="conversion_rate">2.12868</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">DE</col>
+    <col name="is_base">0</col>
+    <col name="is_local">0</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">7</col>
+    <col name="config_no">2</col>
+    <col name="currency_code_id">30</col>
+    <col name="conversion_rate">1.674</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">CH</col>
+    <col name="is_base">0</col>
+    <col name="is_local">0</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">8</col>
+    <col name="config_no">2</col>
+    <col name="currency_code_id">69</col>
+    <col name="conversion_rate">7.13928</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">FR</col>
+    <col name="is_base">0</col>
+    <col name="is_local">0</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">9</col>
+    <col name="config_no">2</col>
+    <col name="currency_code_id">36</col>
+    <col name="conversion_rate">43.905</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">BE</col>
+    <col name="is_base">0</col>
+    <col name="is_local">0</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">10</col>
+    <col name="config_no">3</col>
+    <col name="currency_code_id">1</col>
+    <col name="conversion_rate">1.0</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">US</col>
+    <col name="is_base">0</col>
+    <col name="is_local">1</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">11</col>
+    <col name="config_no">3</col>
+    <col name="currency_code_id">28</col>
+    <col name="conversion_rate">2.12868</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">DE</col>
+    <col name="is_base">0</col>
+    <col name="is_local">0</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">12</col>
+    <col name="config_no">3</col>
+    <col name="currency_code_id">30</col>
+    <col name="conversion_rate">1.674</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">CH</col>
+    <col name="is_base">0</col>
+    <col name="is_local">0</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">13</col>
+    <col name="config_no">3</col>
+    <col name="currency_code_id">69</col>
+    <col name="conversion_rate">7.13928</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">FR</col>
+    <col name="is_base">0</col>
+    <col name="is_local">0</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+  <item>
+    <col name="currency_id">14</col>
+    <col name="config_no">3</col>
+    <col name="currency_code_id">36</col>
+    <col name="conversion_rate">43.905</col>
+    <col name="smallest_denom">1</col>
+    <col name="decimal_digits">2</col>
+    <col name="locale">BE</col>
+    <col name="is_base">0</col>
+    <col name="is_local">0</col>
+    <col name="last_update">null</col>
+    <col name="currency_class">null</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

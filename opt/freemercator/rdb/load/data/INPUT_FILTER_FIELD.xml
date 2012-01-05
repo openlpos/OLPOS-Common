@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="INPUT_FILTER_FIELD">
+  <item>
+    <col name="filter_id">1</col>
+    <col name="sequence_no">1</col>
+    <col name="name">AccountNum</col>
+  </item>
+  <item>
+    <col name="filter_id">1</col>
+    <col name="sequence_no">2</col>
+    <col name="name">ExprYear</col>
+  </item>
+  <item>
+    <col name="filter_id">1</col>
+    <col name="sequence_no">3</col>
+    <col name="name">ExprMonth</col>
+  </item>
+  <item>
+    <col name="filter_id">2</col>
+    <col name="sequence_no">1</col>
+    <col name="name">AccountNum</col>
+  </item>
+  <item>
+    <col name="filter_id">2</col>
+    <col name="sequence_no">2</col>
+    <col name="name">SurName</col>
+  </item>
+  <item>
+    <col name="filter_id">2</col>
+    <col name="sequence_no">3</col>
+    <col name="name">FirstName</col>
+  </item>
+  <item>
+    <col name="filter_id">3</col>
+    <col name="sequence_no">1</col>
+    <col name="name">AccountNum</col>
+  </item>
+  <item>
+    <col name="filter_id">4</col>
+    <col name="sequence_no">1</col>
+    <col name="name">AccountNum</col>
+  </item>
+  <item>
+    <col name="filter_id">5</col>
+    <col name="sequence_no">1</col>
+    <col name="name">UpcType</col>
+  </item>
+  <item>
+    <col name="filter_id">5</col>
+    <col name="sequence_no">2</col>
+    <col name="name">UpcManufacturer</col>
+  </item>
+  <item>
+    <col name="filter_id">5</col>
+    <col name="sequence_no">3</col>
+    <col name="name">UpcProductCode</col>
+  </item>
+  <item>
+    <col name="filter_id">5</col>
+    <col name="sequence_no">4</col>
+    <col name="name">UpcCheckDigit</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

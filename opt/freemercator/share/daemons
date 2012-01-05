@@ -1,0 +1,9 @@
+#
+# Daemons - threads, running automatically upon application
+# start. Each line should present class name which implements
+# Runnable interface
+#
+
+#net.sf.mercator.daemons.EmbeddedJetty
+#net.sf.mercator.daemons.DirectoryPoller
+#net.sf.mercator.daemons.FtpPoller

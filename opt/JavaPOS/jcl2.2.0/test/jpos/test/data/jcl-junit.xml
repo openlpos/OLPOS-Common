@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JposEntries PUBLIC "-//JavaPOS//DTD//EN"
+                             "jpos/res/jcl.dtd">
+<JposEntries>
+<!--Saved by JavaPOS jpos.config/loader (JCL) version 2.0.0 RC1 on 3/6/01 10:50 AM-->
+    
+    <JposEntry logicalName="entry2">
+        <creation factoryClass="com.xyz.jpos.XyzJposServiceInstanceFactory" serviceClass="com.xyz.jpos.LineDisplayService"/>
+        <vendor name="Xyz, Corp." url="http://www.javapos.com"/>
+        <jpos category="LineDisplay" version="1.4a"/>
+        <product description="Example virtual LineDisplay JavaPOS Service from virtual Xyz Corporation" name="Virtual LineDisplay JavaPOS Service" url="http://www.javapos.com"/>
+
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="deviceBus" value="Unknown"/>
+        <prop name="vendor.prop.name2" value="vendor.prop.value2"/>
+        <prop name="vendor.prop.name1" value="vendor.prop.value1"/>
+        <prop name="vendor.prop.name0" value="vendor.prop.value0"/>
+</JposEntry>
+    
+    
+    <JposEntry logicalName="mike3">
+        <creation factoryClass="UnknownServiceInstanceFactoryClass" serviceClass="UnknownServiceClass"/>
+        <vendor name="Unknown Vendor Name" url="http://www.UnknownVerdorURL.com"/>
+        <jpos category="CashDrawer" version="1.5"/>
+        <product description="Unknown Product Description" name="Unknown Product Name" url="http://www.UnknownProductURL.com"/>
+
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="portName" value="com1"/>
+        <prop name="dataBits" value="4"/>
+        <prop name="parity" value="Even"/>
+        <prop name="mike" value="maximilien"/>
+        <prop name="flowControl" value="Xon/Xoff"/>
+        <prop name="stopBits" value="1"/>
+        <prop name="deviceBus" value="RS232"/>
+        <prop name="baudRate" value="1200"/>
+</JposEntry>
+    
+    
+    <JposEntry logicalName="mike1">
+        <creation factoryClass="UnknownServiceInstanceFactoryClass" serviceClass="UnknownServiceClass"/>
+        <vendor name="Unknown Vendor Name" url="http://www.UnknownVerdorURL.com"/>
+        <jpos category="Keylock" version="1.3"/>
+        <product description="Unknown Product Description" name="Unknown Product Name" url="http://www.UnknownProductURL.com"/>
+
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="deviceBus" value="USB"/>
+        <prop name="mike" value="maximilien"/>
+</JposEntry>
+    
+</JposEntries>

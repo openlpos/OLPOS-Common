@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="SITE_DATA_STORE">
+  <item>
+    <col name="site_data_store_id">0</col>
+    <col name="site_id">6</col>
+    <col name="pos_id">0</col>
+    <col name="data_store_type">2</col>
+    <col name="ipaddr">localhost</col>
+    <col name="port">15000</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

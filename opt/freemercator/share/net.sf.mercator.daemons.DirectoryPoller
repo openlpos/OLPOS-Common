@@ -1,0 +1,22 @@
+#
+# PollDir - directory to watch
+PollDir=../share/exchange
+
+# Pattern - file names to recognize as update requests
+Pattern=UPD_(\\w)*\\.xml
+
+# PollInterval - polling interval in seconds
+# Default - 5 minutes
+PollInterval=300
+
+LogPattern=%-4r %-5p %c %x - %m%n
+
+# Pause - pause before processing for XX seconds,
+#         to allow copy operation to be finished
+# in seconds
+Pause=5
+
+# Where to archivate processed requests
+# and which prefix to add
+ArchiveDir=../share/exchange/archive
+ArchivePrefix=yyMMdd_hhmmss_

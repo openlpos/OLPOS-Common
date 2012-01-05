@@ -1,0 +1,16 @@
+#InvoiceFont=Helvetiva
+
+TabFont=Helvetica
+TabFontSize=8
+Font=Helvetica
+FontSize=10
+TitleFont=Helvetica
+TitleFontSize=10
+SearchFont=Helvetica
+SearchFontSize=10
+
+QtyWidth=30
+ItemWidth=60
+DescWidth=180
+ValueWidth=70
+TableRows=100

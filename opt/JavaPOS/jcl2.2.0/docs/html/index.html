@@ -1,0 +1,155 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="KEYWORDS" content="javapos, javaPOS, Sun, NCR, IBM, pos, retail, e-commerce, javastation, thin client, point of sale, java programming">
+   <meta name="DESCRIPTION" content="Welcome to the JavaPOS home page. It was recognized early on that the emergence of the Java language on the computing scene offered major advantages for the developer of retail applications. The JavaPOS (Java for Point Of Sale) standards committee was formed by a collection of retail vendors and end users to examine the ways in which these Java advantages could best be exploited. This web site contains resources and information about the committee, this initiative, and the technical specifications of proposed JavaPOS implementations.">
+   <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+   <title>JavaPOS - jpos.config/loader (JCL)</title>
+<!--
+
+This Web page was designed by:
+
+E. Michael Maximilien
+JavaPOS member (IBM)
+Email: maxim@us.ibm.com
+
+-->
+</head>
+<body text="#000000" bgcolor="#ffffff" link="#008080" vlink="#000000" background="posbground.gif">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="642" HEIGHT="100%" >
+<caption></caption>
+
+<tr>
+<td ALIGN=left VALIGN=top WIDTH="140"><a href="http://www.javapos.com/index.html"><IMG alt="Java POS" border =0 height=40 src="res/newlogo.gif" width=112 ></a>&nbsp;
+  <p><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></p>
+
+		<P><A href="index.html"><FONT face="Arial" color="#FFFFFF" size="4">
+		Home</FONT></A></P>
+
+		<P><a href="docs.html"><font face="Arial" color="#FFFFFF" size="4">Docs</font></a></P>
+  <P><a href="changes.html"><font face="Arial" color="#FFFFFF" size="4">Changes</font></a></P>
+  <P><a href="to-do.html"><font face="Arial" color="#FFFFFF" size="4">To-do</font></a></P>
+  <P><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P>
+  <P><font face="Arial" color="#FFFFFF" size="4"><b><em>End Users</em></b></font></P>
+      <P><a href="faq.html"><font face="Arial" color="#FFFFFF" size="4">FAQs</font></a></P>
+      <P><a href="getting_started.html"><font face="Arial" color="#FFFFFF" size="4">Getting 
+      Started</font></a></P>
+      <P><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P>
+  <P><font face="Arial" color="#FFFFFF" size="4"><b><em>Developers</em></b></font></P>
+      <P><a href="simple_jcl.html"><font face="Arial" color="#FFFFFF" size="4">JCL 
+      RI</font></a></P>
+      <P><a href="sample_code.html"><font face="Arial" color="#FFFFFF" size="4">Sample 
+      Code</font></a></P>
+      <P><a href="../jdoc/index.html"><font face="Arial" color="#FFFFFF" size="4">JavaDOC</font></a></P>
+      <P><a href="references.html"><font face="Arial" color="#FFFFFF" size="4">References</font></a></P>
+      <P><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P></td>
+
+<td></td>
+
+<td ALIGN=left VALIGN=top ROWSPAN="2" width="497"><a NAME="top"></a>
+  <table border="0" width="100%">
+    <tr>
+      <td width="100%">
+<center><map NAME="head.home"><area SHAPE="RECT" COORDS="10,-1,192,48" HREF="index.html"></map><IMG align =bottom border=0 height=77 isMap src="res/head_home.gif" useMap=#head.home width=403 ></center>
+
+      </td>
+    </tr>
+    <tr>
+      <td width="100%">
+        <p align="center"><b><font face="Times New Roman" size="5">jpos.config/loader
+        (JCL) v2.1.0</font></b></p></td>
+    </tr>
+  </table>
+  <hr>
+  <p>
+  <b>What?</b><BR>
+		<BR>
+		The jpos.config/loader (JCL)<SUP><A href="#footnote1">1</A></SUP> is a  simple
+  loading/configuration API  that allows JavaPOS controls to bind with a
+  JavaPOS service---the service can be from any JavaPOS service provider.&nbsp; This binding requires configuration information that
+  are place on a in-memory registry.</p>
+
+  <p>This document serves as a more extensive README for the JCL.&nbsp; It shows examples on
+  how to use the JCL, configure the registry, use the provided reference implementation or
+  how to create your own implementation.&nbsp; This document also contains a sample example service code and
+  shows how to use it.</p>
+
+  <p>For more information on the JCL architecture and design, please refer to the <A href="docs.html">JCL
+  White Paper</A>.</p>
+
+  <p><b>Why?</b><BR>
+		<BR>
+		The <A href="http://www.javapos.com" target="_blank">JavaPOS</A> API has
+  been defined and somewhat "ready" since 1998, but it has always lacked
+  a clearly defined mechanism for binding the controls to the services.&nbsp; The JCL aims at defining
+  that missing API and removing any dependency in JavaPOS specification to other
+  API.&nbsp; The JCL defines this binding API with a "plug-in"
+  architecture that allows third-parties to define their own implementation if they
+  want to extend the reference implementation.</p>
+
+  <p><b>By whom?</b><BR>
+		<BR>
+		Many of the ideas of the JCL should be credited to <A
+			href="http://www.sun.com">Sun</A>'s
+  original JSD/JSL API.&nbsp; The rest and abstraction idea comes from the
+  JavaPOS technical committee.</p>
+
+  <p><b>Legal Stuff</b><BR>
+		<BR>
+		The JCL is an <A href="http://www.opensource.org">OSS</A> (open source
+  software) API that is currently maintained by <A
+			href="http://www.ibm.com">IBM</A>
+  and the JavaPOS committee.&nbsp; It is licensed under the
+  <A
+			href="http://oss.software.ibm.com/developerworks/opensource/license-cpl.html">
+		Common Public License</A> or CPL.</p>
+
+  <p>See the header below of each of the Java files for more info on the 
+  legality issues...</p>
+
+  <p><font face="Courier New" size="2">&lt;legal-header&gt;</font></p>
+
+  <p><font face="Courier New" size="1">//////////////////////////////////////////////////////////////////<br>
+  This software is provided "AS IS".  The JavaPOS working group including each of the Corporate members, contributors and individuals)  MAKES NO
+  REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY OF THE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
+  WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. The JavaPOS working group shall not be liable for
+  any damages suffered as a result of using, modifying or distributing this software or its derivatives. Permission to use, copy, modify, and distribute
+  the software and its documentation for any purpose is hereby granted.&nbsp;</font></p>
+
+  <p><font face="Courier New" size="1">The JavaPOS Config/Loader (aka JCL) is 
+  now under the CPL license, which <br>
+  is an OSS Apache-like license. The complete license is located at:<br>
+  http://oss.software.ibm.com/developerworks/opensource/license-cpl.html<br>
+  //////////////////////////////////////////////////////////////////</font></p>
+
+  <p><font face="Courier New" size="2">&lt;/legal-header&gt;</font></p>
+  <hr>
+
+  <p><u><b>Foonotes:</b></u><BR>
+		<BR>
+		<SUP><A name="footnote1">1</A></SUP> JCL acronym is also used for Job Control Language,
+  sometime&nbsp;during the Jurassic-age of computing&nbsp;:-)</p>
+
+  <p><sup><a name="footnote2">2</a></sup> Client means that the JCL code must
+  execute on the client JVM</p>
+		<HR>
+		<table border=0 width="100%">
+        <tr>
+          <td>
+            <p align=right><font face=Arial size=1 
+            >Last modified by <A href="mailto:maxim@us.ibm.com" >EMM</A> on 10/20/02 6:05 PM 
+            </font></p></td></tr></table>
+      </td>
+</tr>
+
+<tr>
+<td ALIGN=left VALIGN=bottom width="140">
+<center><A href="#top"><IMG alt=Java border=0 height=68 src="res/javawhite_onblue.gif" width=45></A></center>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

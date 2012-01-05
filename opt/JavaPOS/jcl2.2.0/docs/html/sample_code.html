@@ -1,0 +1,160 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="KEYWORDS" content="javapos, javaPOS, Sun, NCR, IBM, pos, retail, e-commerce, javastation, thin client, point of sale, java programming">
+   <meta name="DESCRIPTION" content="Welcome to the JavaPOS home page. It was recognized early on that the emergence of the Java language on the computing scene offered major advantages for the developer of retail applications. The JavaPOS (Java for Point Of Sale) standards committee was formed by a collection of retail vendors and end users to examine the ways in which these Java advantages could best be exploited. This web site contains resources and information about the committee, this initiative, and the technical specifications of proposed JavaPOS implementations.">
+   <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+   <title>JavaPOS - jpos.config/loader (JCL) - Sample Code</title>
+<!--
+
+This Web page was designed by:
+
+E. Michael Maximilien
+JavaPOS member (IBM)
+Email: maxim@us.ibm.com
+
+-->
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#006666" vlink="#666699" background="posbground.gif">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="659" HEIGHT="100%" >
+<caption><!-- Top left cell contains logo and navigation -->
+<br><!-- Bottom left cell, has java logo --></caption>
+
+<tr>
+<td ALIGN=LEFT VALIGN=TOP WIDTH="157"><a href="http://www.javapos.com/index.html"><img SRC="res/newlogo.gif" ALT="Java POS" BORDER=0 height=40 width=112></a>
+  <p><!--<A HREF="http://www.sun.com/retail"><IMG SRC="gif/retail.link.blue.gif" ALT="Retail" WIDTH="112" HEIGHT="34" BORDER="0"></A><BR><BR>-->
+  <img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120>
+      <P><a href="index.html"><font face="Arial" color="#FFFFFF" size="4">Home</font></a></P>
+      <P><a href="docs.html"><font face="Arial" color="#FFFFFF" size="4">Docs</font></a></P>
+  <P><a href="changes.html"><font face="Arial" color="#FFFFFF" size="4">Changes</font></a></P>
+  <P><a href="to-do.html"><font face="Arial" color="#FFFFFF" size="4">To-do</font></a></P>
+  <P><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P>
+  <P><font face="Arial" color="#FFFFFF" size="4"><b><em>End Users</em></b></font></P>
+      <P><a href="faq.html"><font face="Arial" color="#FFFFFF" size="4">FAQs</font></a></P>
+      <P><a href="getting_started.html"><font face="Arial" color="#FFFFFF" size="4">Getting 
+      Started</font></a></P>
+      <P><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P>
+  <P><font face="Arial" color="#FFFFFF" size="4"><b><em>Developers</em></b></font></P>
+      <P><a href="simple_jcl.html"><font face="Arial" color="#FFFFFF" size="4">JCL 
+      RI</font></a></P>
+      <P><a href="sample_code.html"><font face="Arial" color="#FFFFFF" size="4">Sample 
+      Code</font></a></P>
+      <P><a href="../jdoc/index.html"><font face="Arial" color="#FFFFFF" size="4">JavaDOC</font></a></P>
+      <P><a href="references.html"><font face="Arial" color="#FFFFFF" size="4">References</font></a></P>
+      <P><FONT color=white><!--<A HREF="http://www.sun.com/retail"><IMG SRC="gif/retail.link.blue.gif" ALT="Retail" WIDTH="112" HEIGHT="34" BORDER="0"></A><BR><BR>--></FONT><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P></td>
+
+<td width="28"><!-- Main content Cell --></td>
+
+<td ALIGN=LEFT VALIGN=TOP ROWSPAN="2" WIDTH="468"><a NAME="top"></a>
+  <table border="0" width="100%">
+    <tr>
+      <td width="100%">
+<center><map NAME="head.home"><area SHAPE="Rect" COORDS="10,-1,192,48" HREF="index.html"></map><img ISMAP SRC="res/head_home.gif" BORDER=0 USEMAP="#head.home" height=77 width=403 align=BOTTOM></center>
+
+      </td>
+    </tr>
+    <tr>
+      <td width="100%">
+        <p align="center"><b><font face="Times New Roman" size="5">jpos.config/loader
+        (JCL) - Sample Code</font></b></td>
+    </tr>
+  </table>
+  <hr>
+  <p>This section will describe the sample JCL-enabled JavaPOS service and
+  sample application that should constitute a better verification test for the
+  JCL installed and be a stating point for service writers.</p>
+
+  <ul>
+    <li><a href="#setup">Setting up, configuration and running</a></li>
+    <li><a href="#virtual_service">Sample Virtual LineDisplay service</a></li>
+    <li><a href="#compiling">Compiling sources</a></li>
+  </ul>
+  <hr>
+  <p><b><a name="setup"></a>Setting up, configuration and running</b></p>
+  <p>To setup the JCL sample code, you need to make sure that the jcl_sample.jar
+  file is in your CLASSPATH.&nbsp; See the <a href="getting_started.html">Getting
+  Started</a> on how to setup the JCL JAR files.</p>
+  <p><u>Sources:</u> s extract the jcl_sample_src.jar file in the
+  &quot;sample&quot; directory to get the source to the sample JCL test
+  application.&nbsp; Use the following command with the jar utility found in
+  Java 2 (issued in the &quot;sample&quot; directory):</p>
+  <p><font face="Courier New" size="2">&gt;jar xvf jcl_sample_src.jar</font></p>
+  <p>Run the TestApp by issuing the following command:</p>
+  <p><font face="Courier New" size="2">&gt;java com.xyz.TestApp</font></p>
+  <p>Once you launch the application you will see the following screen:</p>
+  <p><img border="0" src="res/TestApp.gif" width="509" height="148"></p>
+  <p>Type in the logical name (use &quot;LineDisplay0&quot; if using the XML
+  populator or &quot;com.xyz.MyLD&quot; if not) then Click on &quot;Open&quot;
+  then &quot;Claim&quot; then check &quot;DeviceEnabled&quot; box.&nbsp; You
+  should see the &quot;virtual&quot; 2x20 line display frame.&nbsp;&nbsp;</p>
+  <p>Display text in it by typing the text and clicking on the &quot;displayText&quot;
+  button.&nbsp; It should look something like this:</p>
+  <p align="center"><img border="0" src="res/VirtualLineDisplay.gif" width="258" height="93"></p>
+  <p><span style="background-color: #FFFF00">PS:</span> turn tracing ON to see
+  any errors that might occur while loading the app and while the JCL looks for
+  the entries file or for any errors that could happen.&nbsp; Do this by
+  defining the property <font face="Courier New" size="2">jpos.util.tracing.TurnOnAllNamedTracers</font>
+  to <font face="Courier New" size="2">ON</font> or TRUE that is set:</p>
+  <p> <font face="Courier New" size="2">jpos.util.tracing.TurnOnAllNamedTracers
+  = ON</font> </p>
+  <p>in the jpos.properties file.</p>
+  <hr>
+  <p><b><a name="virtual_service"></a>Sample Virtual LineDisplay service</b></p>
+  <p>The key points to understand about the <font face="Courier New" size="2">com.xyz.jpos.LineDisplay</font>
+  service in the sample code are:</p>
+  <ol>
+    <li><font face="Courier New" size="2">The com.xyz.jpos.LineDisplay</font>service
+      class extends the <font face="Courier New" size="2">com.xyz.jpos.DeviceService</font>
+      class</li>
+    <li>The <font face="Courier New" size="2">com.xyz.jpos.DeviceService </font>super
+      class implements <font face="Courier New" size="2">jpos.services.BaseService</font>
+      and implemented all the common methods</li>
+    <li>The <font face="Courier New" size="2">com.xyz.jpos.DeviceService </font>class
+      also implements the <font face="Courier New" size="2">jpos.loader.JposServiceInstance</font>
+      interface.&nbsp; This is important since the factory class will need to
+      cast the service object that it creates from the <font face="Courier New" size="2">com.xyz.jpos.LineDisplay
+      </font>class to this interface</li>
+    <li>The <font face="Courier New" size="2">com.xyz.jpos.DeviceService </font>has
+      a public <font face="Courier New" size="2">setJposEntry( JposEntry )</font>
+      method that the factory calls and pass the <font face="Courier New" size="2">JposEntry
+      </font>object that was used to configure this service.&nbsp; The service
+      should use the <font face="Courier New" size="2">JposEntry </font>passed
+      for further initialization (if required)</li>
+    <li>The <font face="Courier New" size="2">com.xyz.jpos.DeviceService </font>(or
+      the <font face="Courier New" size="2">com.xyz.jpos.LineDisplay</font>)
+      implements the <font face="Courier New" size="2">deleteInstance()</font>
+      method that is called when the service is disconnected form its control
+      object.&nbsp; The service typically would use this to do some clean-up
+      code (e.g. releasing resources)</li>
+  </ol>
+  <hr>
+  <p><a name="compiling"></a><b>Compiling sources</b></p>
+  <p>Compile the sample sources by issuing following command in the
+  &quot;sample&quot; directory:</p>
+  <p><font face="Courier New" size="2">&gt;javac com/xyz/*.java</font></p>
+  <p><font face="Courier New" size="2">&gt;javac com/xyz/jpos/*.java</font></p>
+  <hr>
+  <table border="0" width="100%">
+    <tr>
+      <td>
+        <p align="right"><font face="Arial" size="1">Last modified by <a href="mailto:maxim@us.ibm.com">EMM</a>
+        on <!--webbot bot="Timestamp" S-Type="EDITED"
+        S-Format="%m/%d/%Y %I:%M %p" startspan -->05/05/2002 10:48 PM<!--webbot bot="Timestamp" endspan i-checksum="26710" -->
+        </font></td>
+    </tr>
+  </table>
+
+<p align="right"><!-- 	* END       * --><!-- 	* CONTENT   * --><!-- 	* HERE      * --><!-- 	*           * --></td>
+</tr>
+
+<tr>
+<td ALIGN=LEFT VALIGN=BOTTOM width="157">
+<center><a href="#top"><img SRC="res/javawhite_onblue.gif" ALT="Java" BORDER=0 height=68 width=45></a></center>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

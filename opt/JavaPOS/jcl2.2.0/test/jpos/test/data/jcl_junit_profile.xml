@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Profile PUBLIC "-//JavaPOS//DTD//EN"
+                         "jpos/res/jcl_profile.dtd">
+
+<Profile name="JCL JUnit Corp. JavaPOS Profile">
+	<ProfileInfo version="1.0" vendorName="JCL JUnit, Corp." 
+                     vendorUrl="http://www.jcl-junit.com"
+                     description="Simple JCL profile XML file for JUnit testing"/>
+                     
+	<JposEntryInfo name="" jposVersion="" deviceCategory="LineDisplay"
+		       imageFile="jpos/res/LineDisplay.jpg">
+	
+		<StandardProp>
+			<PropInfo name="logicalName">
+				<Tooltip>The logicalName property defines the unique name for the JposEntry.  It must be unique within a set of JposEntry(s)</Tooltip>
+				<PropValue type="stringValue" choice="one" default="Unknown">
+					<Tooltip>Please type a unique value for the logicalName for this JposEntry</Tooltip>
+					<Value>""</Value>
+				</PropValue>
+			</PropInfo>
+		</StandardProp>
+    
+		<RequiredProp>
+			<PropInfo name="">
+				<Tooltip></Tooltip>
+				<PropValue type="stringValue" choice="one" default="Unknown">
+					<Tooltip></Tooltip>
+					<Value></Value>
+				</PropValue>
+			</PropInfo>
+		</RequiredProp>
+    
+		<OptionalProp>
+			<PropInfo name="">
+				<Tooltip></Tooltip>
+				<PropValue type="stringValue" choice="one" default="Unknown">
+					<Tooltip></Tooltip>
+					<Value></Value>
+				</PropValue>
+			</PropInfo>
+		</OptionalProp>
+	</JposEntryInfo>
+</Profile>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+<!-- Definitions for Tiles  -->
+<!-- 
+  This file contains definitions common to all struts module.
+  In particular, it contains the main layout and the common menus.
+  There is also the main page as a portal.
+-->
+
+<tiles-definitions>
+
+  <!-- =======================================================  -->
+  <!-- Master definition                                    -->
+  <!-- =======================================================  -->
+
+  <!-- Doc index page description  -->
+  <definition name="defaultLayout" path="WEB-INF/layouts/defaultLayout.jsp">
+      <put name="header" value="/WEB-INF/jsp/header.jsp" />
+      <put name="body"   value="REPLACE-ME" />
+      <put name="footer" value="/WEB-INF/jsp/footer.jsp" />
+  </definition>
+
+  <!-- =======================================================  -->
+  <!-- Main page body definitions                                   -->
+  <!-- =======================================================  -->
+
+  <definition name="index" extends="defaultLayout">
+    <put name="body" value="/WEB-INF/jsp/indexBody.jsp" />
+  </definition>
+  
+</tiles-definitions>

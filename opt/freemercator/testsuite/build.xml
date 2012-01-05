@@ -1,0 +1,116 @@
+<project name="FreeMercator - testsuite" basedir=".." default="main">
+
+    <target name="init">
+        <tstamp />
+        <property environment="env" />
+        <property file="${basedir}/build/build.properties" />        
+
+<!--        <sysproperty key="SHARE" value="${dir.testsuite}/share"/>  -->
+                
+        <path id="project.class.path">
+            <fileset dir="${dir.thirdparty}"      includes="**/*.jar" />
+        </path>   
+        
+        <mkdir dir="${dir.hsqldb.test}"/>
+    </target>
+    
+    <target name="dropdb" depends="init">
+        <delete>
+            <fileset  dir="${dir.hsqldb.test}" includes="site*"/>
+        </delete>
+    </target>
+    <target name="createdb" depends="init">
+        
+        <echo message="create schema: ${dir.dbschema}..."/>
+        <echo message="basedir      : ${basedir}..."/>
+        <echo message="dir.testsuite: ${dir.testsuite}..."/>
+        <echo message="dir.dbdata   : ${dir.dbdata}..."/>
+
+        <java classname="com.globalretailtech.admin.DataSchemaLoader"
+              dir="${dir.testsuite}/db"
+              classpathref="project.class.path"
+              fork="true" failonerror="true"><!-- fork is required because System.exit is used in loader -->
+            <sysproperty key="log4j.configuration" value="${dir.testsuite}/etc/log4j.properties"/>  
+            <arg value="-p${dir.testsuite}/share/com.globalretailtech.data.DBContext"/> 
+            <arg value="-D${dir.dbschema}"/> 
+            <arg value="-schema"/> 
+            <arg value="-r"/> 
+            <classpath>
+               <pathelement path="${dir.output}"/>
+            </classpath>
+        </java>
+
+        <echo message="import data from ${dir.dbdata}..."/>
+        
+        <java classname="com.globalretailtech.admin.DataSchemaLoader"
+              dir="${dir.testsuite}/db"
+              classpathref="project.class.path"
+              fork="true" failonerror="true"> 
+            <sysproperty key="log4j.configuration" value="${dir.testsuite}/etc/log4j.properties"/>  
+            <arg value="-p${dir.testsuite}/share/com.globalretailtech.data.DBContext"/> 
+            <arg value="-D${dir.dbdata}"/> 
+            <arg value="-data"/> 
+            <classpath>
+               <pathelement path="${dir.output}"/>
+            </classpath>
+        </java>
+              
+    </target>
+    
+    <target name="prepare" depends="init">
+        <mkdir dir="${dir.testsuite}/db"/>
+<!--        <copy overwrite="true" todir="${dir.testsuite}/db">
+            <fileset dir="${dir.hsqldb}" includes="site.hsqldb*"/>
+        </copy>
+-->        
+    </target>
+    
+<!-- Make ========================================================= -->
+    
+    <target name="compile" depends="init">
+        <javac
+            destdir="${dir.output}"
+            debug="${compiler.debug}" 
+            deprecation="${compiler.deprecation}"
+            compiler="${compiler.type}"
+            classpathref="project.class.path"
+        >
+            <src path="${dir.testsuite}/src" />
+        </javac>
+    </target>
+    
+<!-- Tests ========================================================= -->
+    <target name="unit-tests" depends="compile">
+      <delete dir="${dir.reports}"/>
+      <mkdir dir="${dir.reports}"/>
+      <junit printsummary="yes" haltonfailure="yes" dir="${dir.testsuite}" fork="on">
+        <classpath>
+          <path refid="project.class.path"/>
+          <pathelement location="${dir.output}"/>
+        </classpath>
+
+      <formatter type="xml"/>
+
+<!--  <test name="tsi.oo.da.TEST.PhoneTest" haltonfailure="no" outfile="result"/> -->
+
+      <batchtest fork="yes" todir="${dir.reports}">
+        <fileset dir="${dir.testsuite}/src">
+          <include name="**/*Test*.java"/>
+          <exclude name="**/AllTests.java"/>
+          <exclude name="**/*BaseTest*.java"/>
+        </fileset>
+      </batchtest>
+    </junit>
+    <junitreport todir="${dir.reports}">
+      <fileset dir="${dir.reports}">
+        <include name="TEST-*.xml"/>
+      </fileset>
+      <report format="frames" todir="${dir.reports}"/>
+    </junitreport>
+
+  </target>
+    
+<!-- Main ========================================================= -->
+    <target name="main" depends="init, dropdb, createdb, unit-tests">
+    </target>
+</project>

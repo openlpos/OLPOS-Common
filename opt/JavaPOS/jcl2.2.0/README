@@ -1,0 +1,8 @@
+#
+# <jcl-install-dir>
+# Root of all JCL files.  Please open the readme.html file in your favorite
+# browsr and follow the necessary links.  Each directory contains a similar
+# README-<dir> file with necessary short info about its contents
+# @author E. Michael Maximilien (maxim@us.ibm.com)
+# @since 2.1.0
+#

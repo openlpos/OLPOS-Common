@@ -1,0 +1,391 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="KEYWORDS" content="javapos, javaPOS, Sun, NCR, IBM, pos, retail, e-commerce, javastation, thin client, point of sale, java programming">
+   <meta name="DESCRIPTION" content="Welcome to the JavaPOS home page. It was recognized early on that the emergence of the Java language on the computing scene offered major advantages for the developer of retail applications. The JavaPOS (Java for Point Of Sale) standards committee was formed by a collection of retail vendors and end users to examine the ways in which these Java advantages could best be exploited. This web site contains resources and information about the committee, this initiative, and the technical specifications of proposed JavaPOS implementations.">
+   <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+   <title>JavaPOS - jpos.config/loader (JCL) - JCL RI</title>
+<!--
+
+This Web page was designed by:
+
+E. Michael Maximilien
+JavaPOS member (IBM)
+Email: maxim@us.ibm.com
+
+-->
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#006666" vlink="#666699" background="posbground.gif">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="632" HEIGHT="100%" >
+<caption><!-- Top left cell contains logo and navigation -->
+<br><!-- Bottom left cell, has java logo --></caption>
+
+<tr>
+<td ALIGN=LEFT VALIGN=TOP WIDTH="156"><a href="http://www.javapos.com/index.html"><img SRC="res/newlogo.gif" ALT="Java POS" BORDER=0 width="112" height="40"></a>
+  <p><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></p>
+      <P><a href="index.html"><font face="Arial" color="#FFFFFF" size="4">Home</font></a></P>
+      <P><a href="docs.html"><font face="Arial" color="#FFFFFF" size="4">Docs</font></a></P>
+  <P><a href="changes.html"><font face="Arial" color="#FFFFFF" size="4">Changes</font></a></P>
+  <P><a href="to-do.html"><font face="Arial" color="#FFFFFF" size="4">To-do</font></a></P>
+  <P><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P>
+  <P><font face="Arial" color="#FFFFFF" size="4"><b><em>End Users</em></b></font></P>
+      <P><a href="faq.html"><font face="Arial" color="#FFFFFF" size="4">FAQs</font></a></P>
+      <P><a href="getting_started.html"><font face="Arial" color="#FFFFFF" size="4">Getting 
+      Started</font></a></P>
+      <P><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P>
+  <P><font face="Arial" color="#FFFFFF" size="4"><b><em>Developers</em></b></font></P>
+      <P><a href="simple_jcl.html"><font face="Arial" color="#FFFFFF" size="4">JCL 
+      RI</font></a></P>
+      <P><a href="sample_code.html"><font face="Arial" color="#FFFFFF" size="4">Sample 
+      Code</font></a></P>
+      <P><a href="../jdoc/index.html"><font face="Arial" color="#FFFFFF" size="4">JavaDOC</font></a></P>
+      <P><a href="references.html"><font face="Arial" color="#FFFFFF" size="4">References</font></a></P>
+      <P><FONT color=white><!--<A HREF="http://www.sun.com/retail"><IMG SRC="gif/retail.link.blue.gif" ALT="Retail" WIDTH="112" HEIGHT="34" BORDER="0"></A><BR><BR>--></FONT><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P>
+  <p><!--<A HREF="http://www.sun.com/retail"><IMG SRC="gif/retail.link.blue.gif" ALT="Retail" WIDTH="112" HEIGHT="34" BORDER="0"></A><BR><BR>-->
+</td>
+
+<td width="6"><!-- Main content Cell --></td>
+
+<td ALIGN=LEFT VALIGN=TOP ROWSPAN="2" WIDTH="464"><a NAME="top"></a>
+  <table border="0" width="100%">
+    <tr>
+      <td width="100%">
+<center><map NAME="head.home"><area SHAPE="Rect" COORDS="10,-1,192,48" HREF="index.html"></map><img ISMAP SRC="res/head_home.gif" BORDER=0 USEMAP="#head.home" align=BOTTOM width="403" height="77"></center>
+
+      </td>
+    </tr>
+    <tr>
+      <td width="100%">
+        <p align="center"><b><font face="Times New Roman" size="5">jpos.config/loader
+        (JCL) - JCL RI</font></b><p align="center"><b><font face="Times New Roman" size="5">(Reference
+        Implementation)</font></b></td>
+    </tr>
+  </table>
+  <hr>
+  <p>The JCL RI (aka &quot;Simple JCL&quot;) is a all Java lightweight implementation of the core JCL
+  interfaces.&nbsp; This implementation has gone through a few iterations
+  which makes it a bit more complex then what it started with.&nbsp; However,
+  the implementation remains still somewhat &quot;simple&quot; yet allowing
+  various options to be customized, for instance as of JCL 2.1.0 you can use an XML populator option or specify more than one populator to be used.</p>
+  <p>The following will describe how to use (in-depth) and customize the JCL RI.&nbsp; If you want information on its
+  architecture and
+  design then see the <a href="docs.html">JCL White Paper</a>.</p>
+  <p><span style="background-color: #FFFF00">NOTE:</span> the JCL White Paper is
+  out of date.&nbsp; It needs to account for changes in 1.2 and 2.0 release.</p>
+  <ul>
+    <li><!-- 	* INSERT    * --><!-- 	* CONTENT   * --><!-- 	* HERE      * --><!-- 	*           * --><a href="#setup">Setting
+      up and using the JCL RI</a></li>
+    <li><a href="#props">JCL RI properties options</a></li>
+    <li><a href="#ser_pop">Using the default &quot;serialization&quot; populator</a></li>
+    <li><a href="#xml">Using the XML populator.&nbsp; JCL DTD and XML files</a></li>
+    <li><a href="#sources">Compiling Sources</a></li>
+  </ul>
+  <p align="center">
+  <img border="0" src="res/Duke-UnderConstruction.gif" width="84" height="90"></p>
+  <p align="center"><span style="background-color: #FFFF00"><b>This page is
+  Under Construction (needs updating for 2.0.0 release)</b></span></p>
+  <hr>
+  <p><b><a name="setup"></a>Setting up and using the </b><b>JCL RI</b></p>
+  <p>Setup the JCL RI by making sure that the jclall.jar file OR jcl.jar and
+  jcl_simple.jar file is in your CLASSPATH.&nbsp; Please see the <a href="getting_started.html#setup_and_test">setting
+  up the JCL</a> for details on how to do that.</p>
+  <p><u>Sources:</u>  If you want to see the source files, extract the src.jar file in the &quot;src&quot; directory
+  to get the source to the JCL (including the &quot;JCL RI&quot;
+  implementation).&nbsp; Use the following command with the jar utility found in
+  Java 2 (issued in the &quot;src&quot; directory):</p>
+  <p><font face="Courier New" size="2">&gt;jar xvf src.jar</font></p>
+  <hr>
+  <p><b><a name="props"></a>JCL RI properties options</b></p>
+  <p>The JCL properties options are defined as part of the &quot;jpos.properties&quot;
+  file.&nbsp;&nbsp;</p>
+  <p><i>Using and Setting Options via the "jpos.properties" File</i><br>
+  <br>
+                  One of the new features in the JCL 1.2 release is the ability to define Java properties toconfigure the JCL and/or to customize its functionality.<br>
+  <br>
+                  The JCL properties are defined in a file called "jpos.properties" a sample of which is in the
+  &lt;jcl-dir>\src\jpos\\res directory.  This file is copied to the jcl-dir&gt;\src\jpos\res
+  directory and is included in the JCL JAR files.&nbsp;<br>
+  <br>
+  <span style="background-color: #FFFF00">NOTE :</span>  to modify this properties file you must either recompile the JCL or easily edit the                  file and insert your modifications in the JCL JAR file that you are using (see the JAR tool
+  documentation on how to update a JAR file).<br>
+  <br>
+                  The "jpos.properties" file is like other Java properties files in that it
+  defines &lt;key, value>
+  pairs in a flat text file.  Each key and value are defined as follows:</p>
+  <p>                  #Sample jpos.key key with value jpos.value (this is a comment)<br>
+  <br>
+                  jpos.key = jpos.value<br>
+  <br>
+                  To avoid name clashing in the Java property namespace all the JCL properties follow the
+  JCL package name convention.<br>
+  <br>
+                  For more details on the JCL properties and what the values should be set to, please read the sample properties file (either in the JAR files or in the &lt;jcl-dir>src\jpos\res directory.<br>
+  <br>
+  jpos.properties<br>
+  <br>
+                  This file contains extensive comments describing all the JCL properties: their meaning and
+  possible values.<br>
+  <br>
+                  With the jpos.properties file you can:<br>
+  <br>
+                    1.Specify the JCL implementation to use.  If none is defined then the default simple is
+  used.</p>
+  <p>                    2.Specify the populator class and/or file or URL to use if you are using the
+  JCL RI implementation.  That's how you would specify to use the simple XML
+  populator.&nbsp;<br>
+  .<br>
+                    3.Turn tracing ON or OFF in the JCL.<br>
+  <br>
+                  Verify (print out) Current Properties<br>
+  <br>
+                  You can also printout the name and values of all the current "jpos.properties" that will be
+  loaded by the JCL by using the simple console app provided in the jpos.util package:<br>
+  <br>
+                  >java jpos.util.JposPropertiesViewer<br>
+  <br>
+                  It will print out to System.out a listing of all the properties configured with the current JCL
+  configuration.  The output will look something like this:<br>
+  <br>
+                  JavaPOS jpos.config/loader (JCL) defined Java properties:<br>
+                  &lt;!-- name = "propName" value = "propValue" --><br>
+                  &lt;name = "jpos.config.regPopulatorClass" value =<br>
+                  "jpos.config.simple.xml.SimpleXmlRegPopulator" /><br>
+                  &lt;name = "jpos.loader.serviceManagerClass" value =<br>
+                  "jpos.loader.simple.SimpleServiceManager" /><br>
+                  &lt;name = "jpos.config.populatorFile" value = "./res/sample.xml" /><br>
+                  &lt;name = "jpos.util.tracing" value = "ON" /><br>
+  <br>
+  <span style="background-color: #FFFF00">NOTE :</span>   more options are bound to come in newer releases of the JCL.  Please try to learn
+  this facility now!</p>
+  <p>See two sections below on how to use the default <a href="#ser_pop">&quot;serialization&quot;
+  populator</a> and the new <a href="#xml">XML populator</a>.</p>
+  <hr>
+  <p><b><a name="ser_pop"></a>Using the default &quot;serialization&quot;
+  populator</b></p>
+  <p>The default populator used by the JCL is the &quot;serialization&quot;
+  populator.&nbsp; It is named that way because it looks for the defined
+  JposEntries in a file named &quot;jpos.cfg&quot; which needs to contain
+  serialized objects whose class implements the JposEntry interface.</p>
+  <p>This populator is used by either:</p>
+  <p>not defining the <font face="Courier New" size="2">jpos.config.regPopulatorClass</font>&nbsp;</p>
+  <p>OR defining it to be:</p>
+  <p><font face="Courier New" size="2">jpos.config.regPopulatorClass = jpos.config.simple.SimpleRegPopulator</font></p>
+  <p><i>Default search algorithm</i></p>
+  <p>For historical reasons the default search algorithm of the default
+  populator is the following:</p>
+  <ol>
+    <li>Look for a &quot;jpos.cfg&quot; file that contain serialized JposEntry
+      objects</li>
+    <li>Search for file in all paths define in the CLASSPATH in order</li>
+    <li>If no file is found then look for the file in all JAR and Zip files in
+      CLASSPATH at the root of each JAR or Zip file.</li>
+    <li>If no file is found then saving the registry will save a &quot;jpos.cfg&quot;
+      file containing any new JposEntry defined in the registry at the current
+      directory (the directory in which the JVM was started).</li>
+  </ol>
+  <p><i><a name="overridding_search"></a>Overriding the search algorithm</i></p>
+  <p>The search algorithm can be overridden by defining either following two
+  properties.</p>
+  <p><font face="Courier New" size="2">jpos.config.populatorFile<br>
+  jpos.config.populatorFileURL</font><br>
+  </p>
+  <p>The populator file property must be set to a valid file containing the
+  serialized entries and the URL must be a &quot;well-formed&quot; URL (with any
+  protocols supported by Java i.e. http, file, ...)</p>
+  <p><span style="background-color: #FFFF00">NOTE:</span> if both are defined
+  then the populator file is used.</p>
+  <p><span style="background-color: #FFFF00">NOTE 2:</span> when using the
+  populator file in Win32 either define the paths with &quot;/&quot; or remember
+  to use &quot;\\&quot; (e.g. <a href="file:///C://temp//jpos.cfg">C:\\temp\\jpos.cfg</a>
+  or C:/temp/jpos.cfg)</p>
+  <p><span style="background-color: #FFFF00">NOTE 3:</span> when using the
+  populator URL you may not be able to save the registry if the protocol does
+  not support output.</p>
+  <hr>
+  <p><b><a name="xml"></a>Using the XML populator:&nbsp; JCL DTD and XML files</b></p>
+  <p>The XML populator is a new addition to the JCL.&nbsp; It allows you to
+  define your properties using an XML file and allows you to save the registry
+  contents in XML.</p>
+  <p>The XML populator requires the <a href="http://xml.apache.org/xerces-j/index.html">Apache
+  Xerces-J</a> XML support for Java to be installed and setup on your system
+  (the Xerces-J package was known in its early age as the <a href="http://alphaWorks.ibm.com">IBM
+  XML4J</a>).</p>
+  <p>Please download and install the Xerces-J 3.0 or later package before using
+  the XML populator (it can be as simple as a 1-JAR file setup)</p>
+  <p><i>Setup</i></p>
+  <p>To use the XML populator you must have the Xerces-J package
+  installed.&nbsp;</p>
+  <p>Modify the jpos.properties file to:</p>
+  <ol>
+    <li>Specify the <font face="Courier New" size="2">SimpleXmlRegPopulator</font>
+      as your <font face="Courier New" size="2">jpos.config.regPopulatorClas</font>s</li>
+    <li>And, use the <font face="Courier New" size="2">jpos.config.populatorFile</font>
+      OR <font face="Courier New" size="2">jpos.config.populatorFileURL</font>
+      to specify the location and name of the XML file with the entries.&nbsp;
+      See details <a href="#overridding_search">above</a>.</li>
+  </ol>
+  <p><i>DTD</i></p>
+  <p>The XML populator uses the following DTD (<a href="../../../../res/jcl.dtd">jcl.dtd</a>)
+  which requires that various properties be defined as well as allowing any
+  property to be defined:</p>
+  <p><font face="Courier New" size="2">&lt;?xml encoding="UTF-8"?><br>
+  <br>
+  &lt;!-- Revision: 0 1.2 http://www.nrf-arts.com/JavaPOS/JCL/jcl.dtd, docs, xml4j2, xml4j2_0_13  --><br>
+  <br>
+  &lt;!ELEMENT JposEntries (JposEntry)*><br>
+  <br>
+  &lt;!ELEMENT JposEntry (creation, vendor, jpos, product, prop+)><br>
+  &lt;!ATTLIST JposEntry logicalName CDATA #REQUIRED><br>
+  <br>
+  &lt;!ELEMENT creation (#PCDATA)><br>
+  &lt;!ELEMENT vendor (#PCDATA)><br>
+  &lt;!ELEMENT jpos (#PCDATA)><br>
+  &lt;!ELEMENT product (#PCDATA)><br>
+  &lt;!ELEMENT prop (#PCDATA)><br>
+  <br>
+  &lt;!ATTLIST creation<br>
+          factoryClass CDATA #REQUIRED<br>
+          serviceClass CDATA #REQUIRED><br>
+  <br>
+  &lt;!ATTLIST vendor<br>
+          name CDATA #REQUIRED<br>
+          url CDATA #IMPLIED><br>
+  <br>
+  &lt;!ATTLIST jpos<br>
+          version CDATA #REQUIRED<br>
+          category ( BumpBar | CashChanger | CashDrawer | CoinDispenser | FiscalPrinter |<br>
+                     HardTotals | Keylock | RemoteOrderDisplay | Scale | Scanner | SignatureCapture |<br>
+                     ToneIndicator | LineDisplay | MICR | MSR | PinPad | POSKeyboard |<br>
+                     POSPrinter ) #REQUIRED><br>
+  <br>
+  &lt;!ATTLIST product&nbsp;<br>
+          name CDATA #REQUIRED<br>
+          description CDATA #REQUIRED<br>
+          url CDATA #IMPLIED><br>
+  <br>
+  &lt;!ATTLIST prop<br>
+          name CDATA #REQUIRED<br>
+          value CDATA #REQUIRED></font></p>
+  <p><span style="background-color: #FFFF00">NOTE:</span> this populator
+  requires that all the properties agreed upon at the NY-2K meeting be
+  defined.&nbsp; They are grouped into 4 XML elements: creation, jpos, vendor
+  and product.&nbsp; The DTD also allows any property to be defined (these
+  should be the vendor specific properties)</p>
+  <p><span style="background-color: #FFFF00">NOTE 2:</span> in a future version
+  of the JCL, I will define elements for the standard RS232 and RS485
+  properties.<br>
+  </p>
+  <p><i>Example</i></p>
+  <p>The best way to create your XML entries file is to start with the example <a href="../../../../res/jcl.xml">jcl.xml</a>
+  file provided.</p>
+  <p>This file shows how to setup the sample LineDisplay service from the <a href="sample_code.html">sample
+  code</a> and how to setup an IBM POSPrinter.</p>
+  <p><font face="Courier New" size="1">&lt;?xml version="1.0" encoding="UTF-8"?><br>
+  &lt;!DOCTYPE JposEntries PUBLIC "JposEntries"<br>
+                             "jpos/res/jcl.dtd"><br>
+  &lt;JposEntries><br>
+  &lt;!--Saved by JavaPOS jpos.config/loader (JCL) version 1.2.0 on 2/3/00 11:59 AM--><br>
+  <br>
+    &lt;JposEntry logicalName="POSPrinter0"><br>
+        &lt;creation factoryClass="com.ibm.jpos.IBMJposServiceInstanceFactory" serviceClass="com.ibm.jpos.services.IBM4610Printer"/><br>
+        &lt;vendor name="IBM, Corp." url="http://www.ibm.com"/><br>
+        &lt;jpos category="POSPrinter" version="1.4a"/><br>
+        &lt;product description="IBM&amp;apos;s POSPrinter Service for IBM&amp;apos;s 4610 POS Printer" name="IBM Services for JavaPOS(TM) Standard" url="http://www.clearlakes.ibm.com"/><br>
+  <br>
+        &lt;!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )--><br>
+        &lt;prop name="impClass" value="com.ibm.jpos.services.poss.IBM4610PrinterImp"/><br>
+        &lt;prop name="abstractionClass" value="com.ibm.jpos.services.IBM4610Printer"/><br>
+    &lt;/JposEntry><br>
+  <br>
+  <br>
+    &lt;JposEntry logicalName="LineDisplay0"><br>
+        &lt;creation factoryClass="com.xyz.jpos.XyzJposServiceInstanceFactory" serviceClass="com.xyz.jpos.LineDisplayService"/><br>
+        &lt;vendor name="Xyz, Corp." url="http://www.javapos.com"/><br>
+        &lt;jpos category="LineDisplay" version="1.4a"/><br>
+        &lt;product description="Example virtual LineDisplay JavaPOS Service from virtual Xyz Corporation" name="Xyz Virutal LineDiaply Service for JavaPOS(TM) Standard" url="http://www.javapos.com"/><br>
+  <br>
+        &lt;!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )--><br>
+    &lt;/JposEntry><br>
+  <br>
+  &lt;/JposEntries></font><br>
+  </p>
+  <p><span style="background-color: #FFFF00">NOTE:</span> you should specify the
+  location of the jcl.dtd in the &lt;!DOCTYPE&gt; so that the XML file can be
+  validated.</p>
+  <hr>
+  <p><b><a name="sources"></a></b><b>Compiling Sources</b><br>
+  <br>
+                  With each version of the JCL you will get the complete source files listed in the                  &lt;jcl-dir>\src directory.  This also includes a makefile to build the JCL.<br>
+  <br>
+  <span style="background-color: #FFFF00">NOTE:</span> the sample sources are located in the &lt;jcl-dir>\sample directory.  See the                  Sample Code section for more info.&nbsp;<br>
+  <br>
+                  To compile/build the JCL you will need the following:</p>
+  <ol>
+    <li>Java 1.1: JDK 1.1.8 or later with Swing 1.1 FCS or later (for the<br>
+                       jpos.config.simple.editor code)&nbsp;</li>
+    <li>Java 2: JDK 1.2.2 or later&nbsp;</li>
+    <li>The current make files are provided in two formats:&nbsp;<br>
+      1.&nbsp; Win32 NMAKE.  This file is named "makefile"&nbsp;<br>
+      2.&nbsp; UNIX make: This file is named "unix_makefile"&nbsp;<br>
+    </li>
+  </ol>
+  <p><span style="background-color: #FFFF00">NOTE:</span> both makefiles are equivalent except for "\" changed to "/".  Also, I did not have a
+  chance to test the UNIX make files.  I will do so soon and update if a change is needed.<br>
+  <br>
+                  At this point, you will most likely need to set the current directory i.e. "." in your
+  CLASSPATH and remove the JCL JAR files from the CLASSPATH.<br>
+  <br>
+                  Checking make options<br>
+  <br>
+                  To check the different make options.  change to the "src" directory and type:<br>
+  <br>
+  <span style="background-color: #FFFF00">DEFINITION:</span> UNIX replace &quot;nmake&quot; with "make" and for
+  WIN32 it means then make utility</p>
+  <p>&gt;nmake<br>
+  <br>
+                  This will output all the options of the makefile<br>
+  <br>
+                  Compiling<br>
+  <br>
+                  To do a clean compile, change to the "src" directory and type:<br>
+  <br>
+  &gt;nmake clean<br>
+  <br>
+  &gt;nmake all<br>
+  <br>
+                  This will delete all the .class files and compile all the jpos.* packages (controls and JCL)<br>
+  <br>
+                  Creating JAR files<br>
+  <br>
+                  To create all the JCL JAR files (not including the jcl_sample.jar file) do the following:<br>
+  <br>
+  &gt;nmake jars<br>
+  <br>
+                  This will create the jcl.jar, jcl_simple.jar, jpos.jar (this is an unofficial set of JCL-enabled<br>
+                  JavaPOS controls, based on the 1.4 controls).<br>
+  </p>
+  <hr>
+  <table border="0" width="100%">
+    <tr>
+      <td>
+        <p align="right"><font face="Arial" size="1">Last modified by <a href="mailto:kdrivera@us.ibm.com">KDR</a>
+        on <!--webbot bot="Timestamp" S-Type="EDITED"
+        S-Format="%m/%d/%Y %I:%M %p" startspan -->05/05/2002 10:51 PM<!--webbot bot="Timestamp" endspan i-checksum="25878" -->
+        </font></td>
+    </tr>
+  </table>
+
+</td>
+</tr>
+
+<tr>
+<td ALIGN=LEFT VALIGN=BOTTOM width="156">
+<center><a href="#top"><img SRC="res/javawhite_onblue.gif" ALT="Java" BORDER=0 width="45" height="68"></a></center>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

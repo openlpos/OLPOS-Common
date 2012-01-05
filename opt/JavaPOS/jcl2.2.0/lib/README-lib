@@ -1,0 +1,26 @@
+#
+# <jcl-install-dir>/lib
+# Root of all JCL binary files (i.e. JAR files) this directory is needed to build JCL
+# All generated JAR files will also be added to this directory.  You can always see
+# the contents of a JAR file by using the jar tvf <jarfileName>.jar command.
+# The following is a list of the generated files with short description:
+# 1) jcl.jar --- the .class for the core JCL only (w/o controls)
+# 2) jcl_src.jar --- the .java source files for the core JCL
+# 3) jcl_editor.jar --- the .class for the JCL editor only as well as other 
+#    necessary resource files
+# 4) jcl_editor_src.jar --- the .java source for the editor and necessary 
+#    resource files
+# 5) jcl_sample.jar --- the .class files for the JCL sample example 
+# 6) jcl_sample_src.jar --- the .java source for the JCL sample example
+# 7) jcl_test.jar --- the .class file for the JUnit tests
+# 8) jcl_test_src.jar --- the .java and resource data files for the JCL JUnit tests
+# 9) jpos1<x>-controls.jar --- generated JAR file with the .class of the controls 
+#    sources found from the JavaPOS web site: http://www.javapos.com
+# 10) jpos1<x>.jar --- generated combined JavaPOS controls and JCL .class files
+# 11) README-lib --- this readme file
+# 
+# NOTE: In the above items 9)  and 10) <x> == 5, 6, and 7 and stands for the JavaPOS
+# controls version 1.5, 1.6 and 1.7 respectively
+# @author E. Michael Maximilien (maxim@us.ibm.com)
+# @since 2.1.0
+#

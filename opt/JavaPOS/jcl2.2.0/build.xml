@@ -1,0 +1,493 @@
+<?xml version="1.0"?>
+
+<!-- 
+     XML Ant (http://www.apache.org/ant) build file for JavaPOS/config.loader   
+     
+     Send any comment or problems to address listed below.   
+     
+     @author E. Michael Maximilien (maxim@us.ibm.com)
+     @version 2.1.0
+-->
+
+<project name="jcl" default="help">
+
+    <!-- Base root directories -->
+    <property name="jcl.home" value="."/>
+ 
+    <property name="jpos15.home" value="../jpos-controls1.5"/>
+    <property name="jpos16.home" value="../jpos-controls1.6"/>
+    <property name="jpos17.home" value="../jpos-controls1.7"/>    
+
+    <!-- Setting some properties for build file -->    
+    <property name="jcl.bin" value="${jcl.home}/bin"/>
+    <property name="jcl.src" value="${jcl.home}/src"/>
+    <property name="jcl.test" value="${jcl.home}/test"/>
+    <property name="jcl.test.data" value="${jcl.src}/test/jpos/test/data"/>
+    <property name="jcl.sample" value="${jcl.home}/sample"/>
+    <property name="jcl.lib" value="${jcl.home}/lib"/>
+    <property name="jcl.docs" value="${jcl.home}/docs"/>
+    <property name="jcl.docs.jdoc" value="${jcl.docs}/jdoc"/>
+    <property name="jcl.dist" value="${jcl.home}/dist"/>
+    
+    <!-- JAR files properties -->
+    <property name="jcl.jar.file" value="${jcl.lib}/jcl.jar"/>
+    <property name="jcl.jar.file.mf" value="${jcl.bin}/jcl.mf"/>
+    <property name="jcl.editor.jar.file" value="${jcl.lib}/jcl_editor.jar"/>
+    <property name="jcl.editor.jar.file.mf" value="${jcl.bin}/jcl_editor.mf"/>
+    <property name="jcl.sample.jar.file" value="${jcl.lib}/jcl_sample.jar"/>
+    <property name="jcl.sample.jar.file.mf" value="${jcl.bin}/jcl_sample.mf"/>
+    <property name="jcl.test.jar.file" value="${jcl.lib}/jcl_test.jar"/>
+    <property name="jpos15.jar.file" value="${jcl.lib}/jpos15.jar"/>
+    <property name="jpos16.jar.file" value="${jcl.lib}/jpos16.jar"/>
+    <property name="jpos17.jar.file" value="${jcl.lib}/jpos17.jar"/>
+    
+    <property name="jcl.jar.src.file" value="${jcl.lib}/jcl_src.jar"/>
+    <property name="jcl.test.jar.src.file" value="${jcl.lib}/jcl_test_src.jar"/>
+    <property name="jcl.editor.src.jar.file" value="${jcl.lib}/jcl_editor_src.jar"/>
+    <property name="jcl.sample.src.jar.file" value="${jcl.lib}/jcl_sample_src.jar"/>
+    
+    <property name="jcl.version" value="2.2.0"/>
+    <property name="jcl.dist.release.name" value="jcl${jcl.version}"/>
+    <property name="jcl.dist.zip.file.name" value="${jcl.dist.release.name}.zip"/>
+    <property name="jcl.dist.zip.file" value="${jcl.dist}/${jcl.dist.zip.file.name}"/>
+    <property name="jcl.dist-jdoc.zip.file.name" value="${jcl.dist.release.name}-jdoc.zip"/>    
+    <property name="jcl.dist-jdoc.zip.file" value="${jcl.dist}/${jcl.dist-jdoc.zip.file.name}"/>    
+    
+    <!-- JavaDOC files properties -->
+    <property name="jcl.test.class" value="jpos.AllTests"/>
+    <property name="jcl.jdoc.windowtitle" value="JavaDOC for jpos.config/loader (JCL v${jcl.version}) API"/>
+    <property name="jcl.jdoc.doctitle" value="JCL v${jcl.version} API"/>
+    <property name="jcl.jdoc.bottom" value="This API and code belongs to the JavaPOS committee please see LICENCE file for details"/>
+    
+    <!-- Other files properties -->
+    <property name="jcl.properties.file" value="${jcl.src}/jpos/res/jpos.properties"/>
+    <property name="jcl.dtd.file" value="${jcl.src}/jpos/res/jcl.dtd"/>
+    <property name="jcl.xsd.file" value="${jcl.src}/jpos/res/jcl.xsd"/>    
+    <property name="jcl.profile.dtd.file" value="${jcl.src}/jpos/res/jcl_profile.dtd"/>
+    <property name="jcl.res.images.files" value="${jcl.src}/jpos/res/images/**"/>
+    <property name="jcl.build.file" value="${jcl.home}/build.xml"/>
+    <property name="jcl.readme.file" value="${jcl.home}/README"/>
+    <property name="jcl.license.file" value="${jcl.home}/LICENSE"/>
+    
+    <!-- Java App files -->
+    <property name="jcl.editor.class" value="jpos.config.simple.editor.JposEntryEditor"/>
+    <property name="jcl.version.class" value="jpos.config.Version"/>
+    <property name="jcl.sample.class" value="com.xyz.TestApp"/>
+    <property name="junit.testrunner.class" value="junit.textui.TestRunner"/>
+
+    <!-- 
+        Displays help for this build.xml file - including all possible targets
+    -->
+    <target name="help">
+        <echo message="Run ant with one of following targets:"/>
+        <echo message="---------------------------------------------------------------"/>
+        <echo message="help             Displays this message                         "/>
+        <echo message="clean            Cleans the .class, .jar and JavaDOC output    "/>
+        <echo message="compile          Compiles the src, test and sample .java files "/>
+        <echo message="debug            Compiles the src, test and sample .java files with debug option."/>
+        <echo message="jars             Creates all necessary .jar files              "/>
+        <echo message="jdoc             Generates the JavaDOC in docs/jdoc            "/>
+        <echo message="run              Compiles src and runs JCL version class       "/>
+        <echo message="run-editor       Runs the JCL Swing editor                     "/>        
+        <echo message="runEditor        Runs the JCL Swing editor (same as above)     "/>
+        <echo message="test             Runs the root JUnit TestCase suite class      "/>
+        <echo message="dist             Creates the distribution Zip files            "/>
+        <echo message="dist-no-jdoc     Creates the distribution Zip file w/o JavaDOC "/>        
+        <echo message="dist-jdoc        Creates the JavaDOC distribution Zip          "/>        
+        <echo message="all              runs ant compile jars jdoc                    "/>
+        <echo message="------------                                                   "/>
+        <echo message="Assumptions:                                                   "/>
+        <echo message="1) JCL_HOME environment property is set to root of JCL code    "/>
+        <echo message="2) JPOS_CONTROLS15_HOME env property is set to root of         "/>
+        <echo message="   JavaPOS 1.5 controls code get at: http://www.javapos.org    "/>
+        <echo message="2) JPOS_CONTROLS16_HOME env property is set to root of         "/>
+        <echo message="   JavaPOS 1.6 controls code get at: http://www.javapos.org    "/>
+        <echo message="3) JPOS_CONTROLS17_HOME env property is set to root of         "/>
+        <echo message="   JavaPOS 1.7 controls code get at: http://www.javapos.org    "/>        
+    </target>
+    
+    <!-- This task creates jcl.mf -->
+    <target name="createJclMfFile" unless="jcl.jar.file.mf.present">
+        <echo message="Creating jcl.mf (manifest) file"/>
+        <mkdir dir="${jcl.bin}"/>
+        <echo message="Main-Class: ${jcl.version.class}" file="${jcl.jar.file.mf}"/>
+    </target>
+    
+    <!-- This task creates jcl_editor.mf -->
+    <target name="createJclEditorMfFile" unless="jcl.editor.jar.file.mf.present">
+        <echo message="Creating jcl_editor.mf (manifest) file"/>
+        <echo message="Main-Class: ${jcl.editor.class}" file="${jcl.editor.jar.file.mf}"/>
+    </target>
+    
+    <!-- This task creates jcl_sample.mf -->
+    <target name="createJclSampleMfFile" unless="jcl.sample.jar.file.mf.present">
+        <echo message="Creating jcl_sample.mf (manifest) file"/>
+        <echo message="Main-Class: ${jcl.sample.class}" file="${jcl.sample.jar.file.mf}"/>
+    </target>
+        
+    <!-- This task creates the manifest files that do not exist (needed for the JAR files) -->
+    <target name="createMfFiles">
+        <echo message="Creating all .mf (manifest) files"/>
+        <antcall target="createJclMfFile"/>
+        <antcall target="createJclEditorMfFile"/>
+        <antcall target="createJclSampleMfFile"/>
+    </target>    
+             
+    <!-- This task checks if the manifest files exist (needed for the JAR files) -->
+    <target name="checkMfFiles">
+        <echo message="Checking availability of .mf (manifest) files"/>
+        <available file="${jcl.jar.file.mf}" property="jcl.jar.file.mf.present"/>
+        <available file="${jcl.editor.jar.file.mf}" property="jcl.editor.jar.file.mf.present"/>
+        <available file="${jcl.sample.jar.file.mf}" property="jcl.sample.jar.file.mf.present"/>
+        <antcall target="createMfFiles"></antcall>
+    </target>
+    
+    <!-- Checks if build should fail -->
+    <target name="checkIfBuildShouldFail1" 
+            unless="jpos.JposException.class.present">
+        <fail message="Could not find JavaPOS controls class jpos.JposException in CLASSPATH"/>
+    </target>
+    
+    <target name="checkIfBuildShouldFail2" 
+            unless="jpos.JposConst.class.present">
+        <fail message="Could not find JavaPOS controls class jpos.JposConst in CLASSPATH"/>
+    </target>
+                                                  
+    <!-- 
+        Makes sure that the jpos.JposException and jpos.JposConst classes are in the
+        CLASSPATH since these are needed for JCL compilation.  Otherwise fails        
+    -->
+    <target name="checkForControls">
+    
+        <available classname="jpos.JposException" 
+                   property="jpos.JposException.class.present"/>
+        <available classname="jpos.JposConst" 
+                   property="jpos.JposConst.class.present"/>
+        
+        <!-- 
+            <antcall target="checkIfBuildShouldFail1"></antcall> 
+            <antcall target="checkIfBuildShouldFail2"></antcall>
+        -->
+    </target>
+    
+    <!-- Initialization build stuff -->                                                         
+    <target name="init">
+        <!-- Creates the time stamp -->
+        <tstamp/>
+
+        <antcall target="checkForControls"></antcall>
+        
+        <!-- Creates directories if they do not already exist -->
+        <mkdir dir="${jcl.test}"/>
+        <mkdir dir="${jcl.lib}"/>
+        <mkdir dir="${jcl.sample}"/>
+        <mkdir dir="${jcl.docs.jdoc}"/>
+
+        <antcall target="checkMfFiles"></antcall>
+    </target>
+  
+    <!-- Compile JCL files without debug option -->
+    <target name="compile" description="Compile JCL java source without debug option.">
+      <antcall target="-generate">
+        <param name="javac.debug" value="off"/>
+      </antcall>
+    </target>
+
+    <!-- Compile JCL files with debug option -->
+    <target name="debug" description="Compile JCL java source without debug option.">
+      <antcall target="-generate">
+        <param name="javac.debug" value="on"/>
+      </antcall>
+    </target>
+  
+    <!-- Compile JCL files -->
+    <target name="-generate" depends="init">
+        <echo message="Compiling JCL v${jcl.version} classes"/>
+        <javac deprecation="on" 
+               debug="${javac.debug}"
+               srcdir="${jcl.src}" 
+               destdir="${jcl.bin}"
+               includes="jpos/**"
+               excludes="jpos/config/simple/editor/**"/>
+        
+        <echo message="Compiling JCL v${jcl.version} Editor classes"/>
+        <javac deprecation="on" 
+               debug="${javac.debug}"
+               srcdir="${jcl.src}" 
+               destdir="${jcl.bin}"
+               includes="jpos/config/simple/editor/**"
+               excludes="jpos/config/simple/editor/i18n/*"/>
+               
+        <echo message="Compiling JCL v${jcl.version} Editor i18n classes"/>
+        <javac deprecation="on" 
+               debug="${javac.debug}"
+               srcdir="${jcl.src}" 
+               destdir="${jcl.bin}"
+               includes="jpos/config/simple/editor/i18n/**"
+               excludes="jpos/config/simple/editor/i18n/JposEntryEditorRc_ja.java"/>
+               
+        <javac deprecation="on" 
+               debug="${javac.debug}"
+               srcdir="${jcl.src}" 
+               destdir="${jcl.bin}"
+               encoding="SJIS"
+               includes="jpos/config/simple/editor/i18n/JposEntryEditorRc_ja.java"/>
+        
+        <echo message="Compiling JCL v${jcl.version} sample classes"/>
+        <javac deprecation="on" 
+               debug="${javac.debug}"
+               srcdir="${jcl.sample}"
+               destdir="${jcl.bin}"
+               includes="com/**"/>
+
+        <echo message="Compiling JCL v${jcl.version} JUnit tests classes"/>
+        <javac deprecation="on" 
+               debug="${javac.debug}"
+               srcdir="${jcl.test}" 
+               destdir="${jcl.bin}"
+               includes="jpos/**"/>
+
+        <echo message="Converting i18n property files"/>
+        <native2ascii dest="${jcl.bin}" encoding="Windows-31J"
+                      ext=".properties" includes="**/JposEntryEditorRc_ja_JP.sj" src="${jcl.src}"/>
+        <native2ascii dest="${jcl.bin}" encoding="EUC-KR"
+                      ext=".properties" includes="**/JposEntryEditorRc_ko_KR.euc" src="${jcl.src}"/>
+        <native2ascii dest="${jcl.bin}" encoding="GBK"
+                      ext=".properties" includes="**/JposEntryEditorRc_zh_CN.gbk" src="${jcl.src}"/>
+        <native2ascii dest="${jcl.bin}" encoding="BIG5"
+                      ext=".properties" includes="**/JposEntryEditorRc_zh_TW.B5" src="${jcl.src}"/>
+        <copy todir="${jcl.bin}">
+            <fileset dir="${jcl.src}">
+                <include name="**/JposEntryEditorRc.properties"/>
+                <include name="**/JposEntryEditorRc_de_DE.properties"/>
+                <include name="**/JposEntryEditorRc_en_US.properties"/>
+                <include name="**/JposEntryEditorRc_es_MX.properties"/>
+                <include name="**/JposEntryEditorRc_fr_FR.properties"/>
+            </fileset>
+        </copy>
+    </target>
+  
+    <!-- Create JCL JAR file -->
+    <target name="jars" depends="compile">
+    	<echo message="Updating bin/jpos/res/*.* with src/jpos/res"/>
+        <copy todir="${jcl.bin}" overwrite="yes">
+             <fileset dir="${jcl.src}"
+                      includes="jpos/res/**"/>
+    	</copy>
+    	
+	    <echo message="Creating JAR files"/>
+        <jar jarfile="${jcl.jar.file}"
+             manifest="${jcl.jar.file.mf}"
+             basedir="${jcl.bin}"
+             includes="jpos/**/*.class,jpos/res/jpos.properties,jpos/res/jcl.dtd,jpos/res/jcl.xsd,jpos/res/jcl_profile.dtd"
+             excludes="jpos/*.class,jpos/services/*.class,jpos/events/*.class,jpos/config/simple/editor/**/*.class,jpos/test/**,**/AllTests.class,**/*TestCase.class"/>
+        
+        <jar jarfile="${jcl.editor.jar.file}"
+             basedir="${jcl.bin}"
+             includes="jpos/config/simple/editor/**/*.class,jpos/res/images/**,jpos/config/simple/editor/i18n/*.properties"
+             excludes="jpos/test/**,**/AllTests.class,**/*TestCase.class"/>
+
+        <jar jarfile="${jcl.test.jar.file}"
+             basedir="${jcl.bin}"
+             includes="jpos/**/*.class"/>
+<!--
+  we shouldn't need to build these any more - JKL
+
+        <jar jarfile="${jpos15.jar.file}"
+             manifest="${jcl.jar.file.mf}">
+             <fileset dir="${jpos15.home}/bin"
+                      includes="jpos/**/*.class"/>
+             <fileset dir="${jcl.home}/bin"
+                      includes="jpos/config/**/*.class,jpos/loader/**/*.class,jpos/util/**/*.class,
+                                jpos/profile/**/*.class,jpos/res/*.*"
+                      excludes="jpos/config/simple/editor/**/*.class"/>
+        </jar>
+        
+        <jar jarfile="${jpos16.jar.file}"
+             manifest="${jcl.jar.file.mf}">
+             <fileset dir="${jpos16.home}/bin"
+                      includes="jpos/**/*.class"/>
+             <fileset dir="${jcl.home}/bin"
+                      includes="jpos/config/**/*.class,jpos/loader/**/*.class,jpos/util/**/*.class,
+                                jpos/profile/**/*.class,jpos/res/*.*"
+                      excludes="jpos/config/simple/editor/**/*.class"/>
+        </jar>
+
+        <jar jarfile="${jpos17.jar.file}"
+             manifest="${jcl.jar.file.mf}">
+             <fileset dir="${jpos17.home}/bin"
+                      includes="jpos/**/*.class"/>
+             <fileset dir="${jcl.home}/bin"
+                      includes="jpos/config/**/*.class,jpos/loader/**/*.class,jpos/util/**/*.class,
+                                jpos/profile/**/*.class,jpos/res/*.*"
+                      excludes="jpos/config/simple/editor/**/*.class"/>
+        </jar>
+    -->    
+        <jar jarfile="${jcl.sample.jar.file}"
+             manifest="${jcl.sample.jar.file.mf}"
+             basedir="${jcl.sample}"
+             includes="com/**/*.class"/>
+             
+        <jar jarfile="${jcl.jar.src.file}"
+             manifest="${jcl.jar.file.mf}"
+             basedir="${jcl.src}"
+             includes="${jcl.build.file},jpos/**/*.java,jpos/res/jpos.properties,jpos/res/jcl.dtd,jpos/res/jcl.xsd,jpos/res/jcl_profile.dtd"
+             excludes="jpos/*.java,jpos/services/*.java,jpos/events/*.java,jpos/config/simple/editor/**/*.java"/>
+                     
+        <jar jarfile="${jcl.editor.src.jar.file}"
+             basedir="${jcl.src}"
+             includes="jpos/config/simple/editor/**/*.java,jpos/res/images/**"/>
+             
+        <jar jarfile="${jcl.test.jar.src.file}"
+             basedir="${jcl.src}"
+             includes="jpos/**/*.java,jpos/res/jpos.properties,jpos/res/jcl.dtd,jpos/res/jcl.xsd,jpos/res/jcl_profile.dtd,jpos/test/**/*.*"/>
+                             
+        <jar jarfile="${jcl.sample.src.jar.file}"
+             basedir="${jcl.sample}"
+             includes="com/**/*.java"/>
+    </target>
+
+    <target name="all" depends="compile,jars,jdoc"/>
+   
+    <!-- Generates the JavaDOC fot this project --> 
+    <target name="jdoc" depends="compile">
+        <javadoc 
+        	packagenames="jpos.*"
+        	excludepackagenames="jpos.config.simple.editor.i18n"
+            sourcepath="${jcl.src}"
+            destdir="${jcl.docs.jdoc}"
+            encoding="SJIS"
+            author="true"
+            version="true"
+            Package="true"
+            use="true"
+            windowtitle="${jcl.jdoc.windowtitle}"
+            doctitle="${jcl.jdoc.doctitle}"
+            bottom="${jcl.jdoc.bottom}">
+        </javadoc>
+    </target>
+    
+    <target name="run" depends="compile">
+        <java classname="${jcl.version.class}"
+              fork="yes">
+            <classpath>
+                <pathelement location="${jcl.src}"/>
+                <pathelement path="${java.class.path}"/>
+            </classpath>
+        </java>
+    </target>
+
+    <target name="runEditor" depends="compile">
+        <antcall target="run-editor"/>
+    </target>
+    
+    <target name="run-editor" depends="compile">
+        <java classname="${jcl.editor.class}"
+              fork="yes">
+            <classpath>
+                <pathelement location="${jcl.bin}"/>
+                <pathelement location="${jcl.src}"/>
+                <pathelement path="${java.class.path}"/>
+            </classpath>
+        </java>
+    </target>
+    
+    <target name="test" depends="compile">
+        <mkdir dir="${jcl.bin}/jpos/test/data"/>
+        <copy todir="${jcl.bin}">
+            <fileset dir="${jcl.test}">
+                <include name="**/defect6562.xml"/>
+                <include name="**/jcl_junit_profile.xml"/>
+                <include name="**/jcl_junit_test_prop_type.xml"/>
+            </fileset>
+        </copy>
+        <java classname="${junit.testrunner.class}"
+              fork="true"
+              dir="${jcl.bin}">
+              
+            <arg value="${jcl.test.class}"/>
+            <classpath>
+                <pathelement location="${jcl.bin}"/>
+                <pathelement location="${jcl.src}"/>
+                <pathelement location="${jcl.test}"/>
+                <pathelement path="${java.class.path}"/>
+            </classpath>
+        </java>
+        
+    	<echo message="Updating bin/jpos/res/*.* with src/jpos/res/*.*"/>
+        <copy todir="${jcl.bin}" overwrite="yes">
+             <fileset dir="${jcl.src}"
+                      includes="jpos/res/**"/>
+    	</copy>        
+    </target>
+
+    <target name="dist">
+    	<antcall target="dist-no-jdoc"/>
+    	<antcall target="dist-jdoc"/>
+	</target>
+    
+    <target name="dist-no-jdoc" depends="jars">
+        <delete dir="${jcl.dist}/${jcl.dist.release.name}"/>
+        <mkdir dir="${jcl.dist}/${jcl.dist.release.name}"/>
+        <copy todir="${jcl.dist}/${jcl.dist.release.name}">
+             <fileset dir="${jcl.home}"
+                      includes="README,LICENSE,readme.html,changes.txt,requests.txt,editor.sh,editor.bat"/>
+             <fileset dir="${jcl.home}"
+                      includes="docs/README-docs,docs/**/*"
+                      excludes="docs/jdoc/**"/>
+             <fileset dir="${jcl.home}"
+                      includes="lib/README-lib,lib/*.jar"
+                      excludes="lib/*src.jar"/>
+             <fileset dir="${jcl.home}"
+                      includes="sample/README-sample,sample/**/*"/>
+             <fileset dir="${jcl.home}"
+                      includes="build.xml,src/README-src,src/**/*"/>
+             <fileset dir="${jcl.home}"
+                      includes="test/README-test,test/**/*"/>
+        </copy>
+        <zip zipfile="${jcl.dist.zip.file}">
+             <fileset dir="${jcl.dist}"
+                      includes="${jcl.dist.release.name}/**/*"/>
+        </zip>
+        <move file="${jcl.dist.zip.file}" todir="${jcl.home}"/>
+        <delete dir="${jcl.dist}"/>
+        <echo message="Successfully created JCL ${jcl.version} Zip distribution in file ${jcl.dist.zip.file.name}"/>
+    </target>
+
+    <target name="dist-jdoc" depends="jdoc">
+        <delete dir="${jcl.dist}/${jcl.dist.release.name}"/>
+        <mkdir dir="${jcl.dist}/${jcl.dist.release.name}"/>
+        <copy todir="${jcl.dist}/${jcl.dist.release.name}">
+             <fileset dir="${jcl.home}"
+                      includes="docs/README-docs,docs/jdoc/**/*"/>
+        </copy>
+        <zip zipfile="${jcl.dist-jdoc.zip.file}">
+             <fileset dir="${jcl.dist}"
+                      includes="${jcl.dist.release.name}/**/*"/>
+        </zip>
+        <move file="${jcl.dist-jdoc.zip.file}" todir="${jcl.home}"/>
+        <delete dir="${jcl.dist}"/>
+        <echo message="Successfully created JCL ${jcl.version} Zip jdoc distribution in file ${jcl.dist-jdoc.zip.file.name}"/>
+    </target>
+
+    <target name="clean" depends="init">
+        <delete>
+            <fileset dir="${jcl.bin}" includes="jpos/**/*.class"/>
+            <fileset dir="${jcl.bin}" includes="com/**/*.class"/>
+            <fileset dir="${jcl.bin}" includes="jpos/**/*.class"/>
+            <fileset dir="${jcl.src}" includes="jpos/**/*.class"/>
+            <fileset dir="${jcl.test}" includes="jpos/**/*.class"/>            
+        </delete>
+        <delete file="${jcl.jar.file}"/>
+        <delete file="${jcl.jar.src.file}"/>
+        <delete file="${jcl.editor.jar.file}"/>
+        <delete file="${jcl.editor.src.jar.file}"/>
+        <delete file="${jcl.sample.jar.file}"/>
+        <delete file="${jcl.sample.src.jar.file}"/>
+        <delete file="${jcl.test.jar.file}"/>
+        <delete file="${jcl.test.jar.src.file}"/>
+        <delete file="${jpos15.jar.file}"/>
+        <delete file="${jpos16.jar.file}"/>
+        <delete file="${jpos17.jar.file}"/>        
+    </target>
+</project>

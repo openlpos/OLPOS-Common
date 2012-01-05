@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="TAX_GROUP">
+  <item>
+    <col name="tax_group_id">1</col>
+    <col name="config_no">1</col>
+  </item>
+  <item>
+    <col name="tax_group_id">2</col>
+    <col name="config_no">2</col>
+  </item>
+  <item>
+    <col name="tax_group_id">3</col>
+    <col name="config_no">3</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

@@ -1,0 +1,3 @@
+rem basic script to launch the GPOS app.  change the share location if you want to point to a different directory
+
+java -Dlog4j.configuration="..\etc\log4j.properties" -DSHARE="..\share" -classpath ../lib/mercator.jar;../etc/;../thirdparty/log4j-1.2.8.jar;../thirdparty/java-getopt-1.0.9.jar;../thirdparty/jpos17-controls.jar;../thirdparty/hsqldb.jar;../thirdparty/jakarta-regexp-1.2.jar;../thirdparty/jcl.jar;../thirdparty/jcl_editor.jar;../thirdparty/junit.jar;../thirdparty/servlet.jar;../thirdparty/xerces.jar com.globalretailtech.admin.ConfigMain %1 %2 %3 %4 %5 %6 %7 %8 %9

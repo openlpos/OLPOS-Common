@@ -1,0 +1,28 @@
+#WARNING: If you edit this file by hand and 
+#change the general structure, the Admin Utility 
+#may experience undefined behavior
+#
+#BEGIN#org.postgresql.Driver#
+#User=postgres
+#ConnectPrefix=jdbc:postgresql://
+#ConnectFile=/mercator
+#Password=postgres
+#ConnectHost=localhost:5432
+#Driver=org.postgresql.Driver
+#END#org.postgresql.Driver#
+#BEGIN#org.hsqldb.jdbcDriver#
+User=sa
+ConnectPrefix=jdbc:hsqldb:
+ConnectFile=../rdb/db/site.hsqldb
+Password=
+ConnectHost=
+Driver=org.hsqldb.jdbcDriver
+#END#org.hsqldb.jdbcDriver#
+#BEGIN#interbase.interclient.Driver#
+#User=pos
+#ConnectPrefix=jdbc:interbase://
+#ConnectFile=/home/dres/project/gnucash/related/mercator/mercator/rdb/db/site.gdb
+#Password=pos
+#ConnectHost=localhost
+#Driver=interbase.interclient.Driver
+#END#interbase.interclient.Driver#

@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="MEDIA">
+  <item>
+    <col name="media_id">0</col>
+    <col name="config_no">1</col>
+    <col name="media_type">1</col>
+    <col name="halo">20000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Cash</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">1</col>
+    <col name="config_no">1</col>
+    <col name="media_type">2</col>
+    <col name="halo">100</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Check</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">2</col>
+    <col name="config_no">1</col>
+    <col name="media_type">3</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Visa</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">3</col>
+    <col name="config_no">1</col>
+    <col name="media_type">4</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Master Card</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">4</col>
+    <col name="config_no">1</col>
+    <col name="media_type">5</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">American Express</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">5</col>
+    <col name="config_no">1</col>
+    <col name="media_type">6</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Debit Card</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">6</col>
+    <col name="config_no">1</col>
+    <col name="media_type">7</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Euro</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">7</col>
+    <col name="config_no">1</col>
+    <col name="media_type">8</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">DEM</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">8</col>
+    <col name="config_no">1</col>
+    <col name="media_type">9</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">DKK</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">9</col>
+    <col name="config_no">2</col>
+    <col name="media_type">1</col>
+    <col name="halo">20000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Cash</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">10</col>
+    <col name="config_no">2</col>
+    <col name="media_type">2</col>
+    <col name="halo">100</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Check</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">11</col>
+    <col name="config_no">2</col>
+    <col name="media_type">3</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Visa</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">12</col>
+    <col name="config_no">2</col>
+    <col name="media_type">4</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Master Card</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">13</col>
+    <col name="config_no">2</col>
+    <col name="media_type">5</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">American Express</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">14</col>
+    <col name="config_no">2</col>
+    <col name="media_type">6</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Debit Card</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">15</col>
+    <col name="config_no">2</col>
+    <col name="media_type">7</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Euro</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">16</col>
+    <col name="config_no">2</col>
+    <col name="media_type">8</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">DEM</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">17</col>
+    <col name="config_no">2</col>
+    <col name="media_type">9</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">DKK</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">27</col>
+    <col name="config_no">2</col>
+    <col name="media_type">10</col>
+    <col name="halo">10000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Credit</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">28</col>
+    <col name="config_no">2</col>
+    <col name="media_type">11</col>
+    <col name="halo">10000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Gift</col>
+    <col name="media_class">null</col>
+  </item>
+
+
+
+  <item>
+    <col name="media_id">18</col>
+    <col name="config_no">3</col>
+    <col name="media_type">1</col>
+    <col name="halo">20000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Cash</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">19</col>
+    <col name="config_no">3</col>
+    <col name="media_type">2</col>
+    <col name="halo">100</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Check</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">20</col>
+    <col name="config_no">3</col>
+    <col name="media_type">3</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Visa</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">21</col>
+    <col name="config_no">3</col>
+    <col name="media_type">4</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Master Card</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">22</col>
+    <col name="config_no">3</col>
+    <col name="media_type">5</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">American Express</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">23</col>
+    <col name="config_no">3</col>
+    <col name="media_type">6</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Debit Card</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">24</col>
+    <col name="config_no">3</col>
+    <col name="media_type">7</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">Euro</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">25</col>
+    <col name="config_no">3</col>
+    <col name="media_type">8</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">DEM</col>
+    <col name="media_class">null</col>
+  </item>
+  <item>
+    <col name="media_id">26</col>
+    <col name="config_no">3</col>
+    <col name="media_type">9</col>
+    <col name="halo">100000</col>
+    <col name="lalo">0</col>
+    <col name="media_desc">DKK</col>
+    <col name="media_class">null</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

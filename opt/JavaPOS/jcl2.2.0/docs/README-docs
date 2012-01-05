@@ -1,0 +1,8 @@
+#
+# <jcl-install-dir>/docs
+# Root of all JCL documentations including HTML, whitepaper and JavaDOC
+# Launch <jcl-install-dir>/readme.html to browse all documentation.  The
+# generated JavaDOC API HTML documentation are located in <jcl-install-dir>/docs/jdoc
+# @author E. Michael Maximilien (maxim@us.ibm.com)
+# @since 2.1.0
+#

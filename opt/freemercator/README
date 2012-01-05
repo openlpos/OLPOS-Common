@@ -1,0 +1,47 @@
+Overview 
+========
+
+This archive contains the source code and runtime components for the
+FreeMercator Point of Sale, a standalone POS transaction engine. It
+is a branch of the existing Mercator project.  
+
+It utilizes an object oriented design intended to provide a foundation
+for general retail POS operations. Currently the system supports POS
+functionality similar to what you would see in an off-the-shelf
+register from casio or royal but is based on relational database
+technology, supports a graphical or non-graphical (POS peripherals)
+user interface and implements a highly user extendable OO design.
+
+Getting Started 
+===============
+
+The INSTALL file contains instructions and required components for
+setting up a runtime environment and compiling the system. Mercator is
+written in java so you need a java virtual machine (JVM). The initial
+release is oriented towards a development environment so it talks in
+terms of a JDK. 
+
+Releases 
+============
+
+* Mercator 0.4.3, March, 2003
+
+As usual, see the NEWS file, all the details are in there.
+
+* Mercator 0.4.2, March, 2003
+
+See the NEWS file for a feature summary, in general the release is getting new features out, and working towards a production release.  There is now support for hardware and some employee tracking.  As always, more to come soon.
+
+* Mercator 0.4.1, March, 2003
+
+This second release of FreeMercator builds on the last with a new XML file format, new admin utility base, new log4j calls, revised DB ResultSet handling, and many more fixes.
+
+Read the bottom of INSTALL for details on the admin utility.
+
+* Mercator 0.4.0, February, 2003
+
+This is the first release of FreeMercator, it is a branch of version 
+0.3.3 of the Mercator project from GlobalRetailTech.  This version is 
+targeted solely at developers and should not be run in a production 
+environment.  See the forums at http://freemercator.sf.net for more details 
+as they become available.

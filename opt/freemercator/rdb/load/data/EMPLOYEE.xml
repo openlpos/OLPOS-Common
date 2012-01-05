@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<mercatordata>
+	<tableinsert table="EMPLOYEE">
+		<item>
+			<col name="employee_id">0</col>
+			<col name="logon_no">1</col>
+			<col name="logon_pass">1</col>
+			<col name="profile">1</col>
+			<col name="fname">Manager</col>
+			<col name="lname">Store</col>
+			<col name="mi"/>
+			<col name="ssn"/>
+			<col name="sal_grade">0</col>
+			<col name="hourly_wage">null</col>
+			<col name="employee_key">null</col>
+		</item>
+		<item>
+			<col name="employee_id">1</col>
+			<col name="logon_no">11</col>
+			<col name="logon_pass">11</col>
+			<col name="profile">2</col>
+			<col name="fname">Cashier</col>
+			<col name="lname">Store</col>
+			<col name="mi"/>
+			<col name="ssn"/>
+			<col name="sal_grade">0</col>
+			<col name="hourly_wage">null</col>
+			<col name="employee_key">null</col>
+		</item>
+		<item>
+			<col name="employee_id">2</col>
+			<col name="logon_no">2</col>
+			<col name="logon_pass">2</col>
+			<col name="profile">3</col>
+			<col name="fname">Manager</col>
+			<col name="lname">Store2</col>
+			<col name="mi"/>
+			<col name="ssn"/>
+			<col name="sal_grade">0</col>
+			<col name="hourly_wage">null</col>
+			<col name="employee_key">null</col>
+		</item>
+		<item>
+			<col name="employee_id">3</col>
+			<col name="logon_no">22</col>
+			<col name="logon_pass">22</col>
+			<col name="profile">4</col>
+			<col name="fname">Cashier</col>
+			<col name="lname">Store2</col>
+			<col name="mi"/>
+			<col name="ssn"/>
+			<col name="sal_grade">0</col>
+			<col name="hourly_wage">null</col>
+			<col name="employee_key">null</col>
+		</item>
+		<item>
+			<col name="employee_id">4</col>
+			<col name="logon_no">3</col>
+			<col name="logon_pass">3</col>
+			<col name="profile">5</col>
+			<col name="fname">Manager</col>
+			<col name="lname">Barista</col>
+			<col name="mi"/>
+			<col name="ssn"/>
+			<col name="sal_grade">0</col>
+			<col name="hourly_wage">null</col>
+			<col name="employee_key">null</col>
+		</item>
+		<item>
+			<col name="employee_id">5</col>
+			<col name="logon_no">33</col>
+			<col name="logon_pass">33</col>
+			<col name="profile">6</col>
+			<col name="fname">Cashier</col>
+			<col name="lname">Barista</col>
+			<col name="mi"/>
+			<col name="ssn"/>
+			<col name="sal_grade">0</col>
+			<col name="hourly_wage">null</col>
+			<col name="employee_key">null</col>
+		</item>
+	</tableinsert>
+</mercatordata>

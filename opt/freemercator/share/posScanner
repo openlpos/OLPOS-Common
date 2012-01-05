@@ -1,0 +1,6 @@
+Description=Laser Scanner
+ScannerFile=scanner.properties
+x=0
+y=3
+h=1
+w=1

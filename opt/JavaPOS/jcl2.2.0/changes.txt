@@ -1,0 +1,564 @@
+#------------------------------------------------------------------------------
+# Changes to JavaPOS Configuration Loader (JCL)
+# @author E. Michael Maximilien (maxim@us.ibm.com)
+# @since 1.2 (NY 2K meeting)
+# @version 2.1.0
+#
+# Description of changes:
+# The changes are listed under its appropriate category (i.e. core classes/
+# interfaces, ...) a short description is provided and also the originator or 
+# requestors of that change is listed in square brackets  (i.e. [Datafit])
+# NOTE: all IBM references refers to the author above
+# NOTE2: when methods/instance are added to a class or interface then UML 
+# notation is used.  For example:
+#   <access> <className>::<methodName>( <argName>:<argType>, ... ): <returnType>
+# where <access> == + (for public), - (for private), # (for protected) and nothing
+# for package
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# Changes in 2.2.0 since 2.1.0-RC4 release
+#------------------------------------------------------------------------------
+
+
+A) Architecture/Design modifications/improvements
+B) Core classes/interfaces changes
+	0.- Fixed build.xml to exclude Japanese Rc file in normal editor compilation 
+		[IBM]
+	1.- Fixed build.xml to run unit test through.
+		[IBM]
+	2.- Add 'debug' task into build.xml that compiles source file with debug option.
+		[IBM]
+	3.- Remove duplicated 'all' description from help task of build.xml.
+		[IBM]
+	4.- Make 'bin' directory in advance to avoid compilation error.
+		[IBM]
+	5.- Put i18n property files for CJK.
+		[IBM]
+	6.- Change build.xml so that i18n property files go into jcl_editor.jar.
+		[IBM]
+	7.- Change build.xml so that JUnit test case will not go into jar.jar/jcl_editor.jar files.
+		[IBM]
+	8.- Remove JposEntryEditorRc_ja.properties file. Now this file is generated from JposEntryEditorRc_ja.sj.
+		[IBM]
+	9.- Change the JposEntryEditor to allow multiple deletions for XML entries [IBM]
+	10.- Change all text files CVS attributes to ASCII-ko since some were set to
+	     binary incorectly [IBM]
+	11.- Added a DTD entity resolver to find the jpos/res/jcl.dtd w/o having to extract it
+	     from JAR file [Star-Micronics]
+		
+C) Editor classes/interfaces changes
+	0.- Added a fix for bug# 3162in MainFrame.openFile() method to show error 
+		message when invalid or empty serialized file is loaded [IBM]
+	1.- Fix for bug# 3172 asking user to save edits if they switch to another
+		JposEntry while editing one [IBM]
+		
+D) Other changes/additions
+    0.- Fixed a few broken anchor tags in faq.html and added a qestion
+        about using the JCL with J2ME - [langej@ultimatetechnology.com]
+
+E)	Internationalization
+	0. - Deleted Internationalization class files from the i18n directory [IBM]
+	1. - Created equivelent properties files for each pre-defined local [IBM]
+	2. - Fix for bug #IR52578 unable to view Japanense character in the 
+		 JposEntryEditor. [IBM]
+	
+#------------------------------------------------------------------------------
+# Changes in 2.1.0-RC3 since 2.1.0-RC2 release
+#------------------------------------------------------------------------------
+
+
+A) Architecture/Design modifications/improvements
+B) Core classes/interfaces changes
+   0.- Updated Version string to 2.1.0-RC3 and build.xml file [IBM]
+   1.- Added a check for service != null in ServiceConnection.disconnect before
+       calling deleteInstance() on the service [IBM]
+   2.- Fix for bug #2993: Correct RegPopulator was not being set in JposEntryList [IBM]
+   3.- Removed the sample/res directory.  No longer needed. [sxiao@corebt.com]
+   4.- Fix the sample/res/sample.xml file and moved it to the sample 
+       directory [sxiao@corebt.com]
+   
+C) Editor classes/interfaces changes
+   0.- Fix for bug #2975: added code to prompt user to save property and entry if the user
+       selects to close file or registry while editing property/entry [IBM]
+   1.- Fix for bug #3000: added FileUtil and make MainFrame keep track of where registry is
+   	   loaded [IBM]
+   
+D) Other changes/additions
+   0.- Fix the controls/*build.xml <jar> target to exclude:
+   	   excludes="jpos/**/*TestCase.class,jpos/**/*.stub" [IBM]
+   1.- Updated the jpos1<x>-controls.jar and jpos1<x>.jar with updated
+   	   controls for 1.7 as well as JAR files being built correctly (see
+   	   0 item above) [IBM]
+	
+#------------------------------------------------------------------------------
+# Changes in 2.1.0-RC2 since 2.1.0-RC1 release
+#------------------------------------------------------------------------------
+
+
+A) Architecture/Design modifications/improvements
+B) Core classes/interfaces changes
+   0.- Added HID as a new deviceBus to jpos.config.JposEntryConst [IBM]
+   
+C) Editor classes/interfaces changes
+   0.- Fix about diaglog---was clipping version string.  Fix for bug # 2925 [IBM]
+   1.- Fix message in Vendor Properties---Message is wrong for adding an empty property
+   	   Fix for bug #2940 [IBM]
+   2.- Fix "Auto delete device entry on copy" not being updated from config dialog.  Fix
+       for bug #2934 [IBM]
+   3.- Fix 'JposEntry Merger' to append .xml or .cfg when merging entries in XML or
+       serialized.  Fix for bug #2950 [IBM]
+   4.- Fix for bug #2951: "No warning message when overwriting files" [IBM]
+   5.- Fix for bug #2953: "Editor asks to save changes when no jposregistry is open" [IBM]
+   6.- Fix for bug #2942: "Ask to save changes on Exit even when already saved" [IBM]
+   7.- Fix for bug #2957: "Extra button on Remove message" [IBM]
+   8.- Fix for bug #2954: "Message of property already exists" [IBM]
+   9.- Fix for bug #2962: "No message of invalid file when merging serialized files" [IBM]
+   10.- Fix for bug #2941: "Can't easilty switch the editor from XML to serialized mode" [IBM]
+   11.- Fix for bug #2967: "Editor buttons are not disabled" [IBM]
+   12.- Fix for bug #2968: "Error when using numeric types" [IBM]
+   13.- Fix for bug #2969: "Registry is not updated" [IBM]
+   14.- Fix for bug #2973: "When using a valid JposRegistry no entries loaded" [IBM]
+   15.- Fix for bug #2975: "Properties displayed and not registry is opened" [IBM]
+   
+D) Other changes/additions
+   0.- Fixed build so that JAR files include the src/jpos/res/*.* files, RC1
+       inluded incorrect jpos/res/jpos.properties file---which came from
+       "test".  Fix for bug # 2869 [IBM]
+   1.- Split the distribution Zip into two files.  One with all the the files
+       w/o the generated JavaDOC files and the other with the JavaDOC files.
+       This hopefully makes the downloading a bit easier.  
+       Fix for bug # 2880 [IBM]
+   2.- Fix a bug in the TracerFactory where named tracers where being turned on
+       automatically if tunOnNamedTracers property was present [IBM]
+   3.- Updated the jpos17*.jar files with the 1.7 source controls drop of 5/9/2002 [IBM]
+
+#------------------------------------------------------------------------------
+# Changes in 2.1.0-RC1 since 2.0.1 release
+#------------------------------------------------------------------------------
+
+
+A) Architecture/Design modifications/improvements
+B) Core classes/interfaces changes
+   0.- Added a new XML populator to load/save using Xerces2 SAX parser.  This new
+       parser uses XML schema defined in jpos/res/jcl.xsd.  A sample jpos-schema.xml
+       file is provided as an example XML file that uses the schema [IBM]
+C) Editor classes/interfaces changes
+   0.- The editor will now save its editor.config file in a new directory located:
+       <user.home>/.jcl
+       this directory gets created if necessary [IBM]
+   1.- Fixed bug #1882---when resetting editor preferences, default setting were
+       not in effect after restarting editor [IBM]
+   2.- Fixed bug #2828---Scale device not added [IBM/Fujitsu]
+   3.- Added a.6 and 1.7 as a choice for jposVersion and added new 1.6 and 1.7 devices: 
+       PointCardRW, CheckScanner and MotionSensor [IBM]
+   4.- Fixed bug #1888---if user selects a bad XML or serialized file to merge then they
+       are presented with an error and sent back to select a good XML or serialized file. [IBM]
+   5.- Fixed bug #1886---added option to allow user to "save as" the JposEntryRegistry 
+       contents [IBM]
+D) Other changes/additions
+   0.- Streamlined the build "src" and "test".  Now, build.xml resides in
+       the root install dir and "src" and "test" are at the same level.  The build.xml
+       file got updated to use the new structure.  This new structure helps the JCL
+       code to be added to CVS more easily. [IBM]
+   1.- Added a jpos.util.tracing package with an improved tracing facility [IBM]
+   2.- Returned bug #1894 since could not reproduce [IBM]
+   3.- Added better tracing to various of the core classes.  This tracing is
+       using the new jpos.util.tracing classes and can be switched on for all
+       classes or for specific classes.  See jpos.res.jcl.properties file. [IBM]
+   4.- Added much documentation and info to the jpos/res/jpos.properties
+       file.  This explains all the different properties and how they can
+       be used to enable/disable various aspects of the JCL [IBM]
+   5.- The build will now create lib/jpos15.jar, lib/jpos16.jar and lib/jpos17.jar
+       if the appropriate JPOS_CONTROLS1<5/6/7>_HOME are defined to point to the
+       root directory where the JavaPOS 1.5, 1.6 and 1.7 controls are located.  These
+       are expected to have the following directories: src, test, bin and lib.
+       src == all the JavaPOS controls source
+       test == any JUnit test sources
+       bin == all the .class output from the compiled src and test
+       lib == the JAR files
+       I have included sample ANT build.xml files that I use to create the
+       JavaPOS controls on my system.  They are under the "controls" directory.
+       Follow the README-controls for details. [IBM]
+   6.- The JCL is now license under the Common Public License (CPL).  Reference to
+       that license is added to all source files and README files [IBM]
+   7.- Updated the HTML documentation to reflect recent changes [IBM]
+   8.- A few more JUnit UTs were added and they all can be ran using:
+       % ant test
+       This assumes that JUnit1.7 is installed and setup on your system [IBM]
+   9.- 
+       
+#------------------------------------------------------------------------------
+# Changes in 2.0.1 since 2.0.0 release
+#------------------------------------------------------------------------------
+
+A) Architecture/Design modifications/improvements
+B) Core classes/interfaces changes
+C) Editor classes/interfaces changes
+D) Other changes/additions
+   0.- Fix problem in XercesRegPopulator that stopped it from dynamically extracting
+       the jcl.dtd file from a JAR file and creating and deleting it as needed for
+       XML entries parsing.
+
+#------------------------------------------------------------------------------
+# Changes in 2.0.0 since 2.0.0 RC2 release
+#------------------------------------------------------------------------------
+
+A) Architecture/Design modifications/improvements
+   0.- Support for properties of different types then String.  The allowed 
+       types are restricted now using the XML populator to the Java primitive
+       wrapper classes (i.e. Integer, Long, ...).  String is the default type
+       NOTE: though only these types are supported in the default XML populator
+       since the JposEntry and JposEntry.Prop interfaces support any serializable
+       object as the value of a property, it is conceivable that other types will
+       be allowed for the default populator as well as custom populators [IBM]
+   
+B) Core classes/interfaces changes
+   0.- Added a Parallel interface as a busType [IBM suggested by NCR]
+   1.- Added "1.6" as a valid constant for jposVersion property [IBM]
+   2.- Fixed slight bug whereby jpos.xml was not being found in CLASSPATH
+       different then current directory when multiple populators are used [IBM]
+   3.- Added support for typed properties to be specified in the XML file with XML 
+       populator this results in adding the attribute type to the DTD <prop> element 
+       and modifying the XercesRegPopulator to correctly add properties of 
+       appropriate types.  Only type supported now (may change in future) are all the 
+       wrapper primitive types (i.e. Integer, Long, ...) and String is the default
+       type.  See also change 4 and 5 (below) [IBM]
+   4.- Added methods to JposEntry interface and the JposEntry.Prop interface
+       that accomodate properties with types [IBM]
+   5.- Implemented new methods and support for properties with type in the JposEntry 
+       and JposEntry.Prop interfaces [IBM]
+   6.- Added the following exception classes JposConfigException and JposLoaderException
+       deriving from JposException [IBM]
+   7.- Added methods in the JposEntryUtility to support property types [IBM]
+   8.- Added constants in JposEntryConst to support property types [IBM]
+   
+C) Editor classes/interfaces changes
+   0.- Editor version in the About dialog now corresponds to the JCL release version [IBM]
+   1.- Removed the "Edit" -> "Modify" sub-menu since it used the "old" editor dialog [IBM]
+   2.- Added types for property in the vendor properties tab page [IBM]
+   3.- When removing vendor property always confirm [IBM]
+   4.- Added a way to reset the editor configuration info [IBM]
+   5.- Removed "JCL 1.2" option from editor [IBM]
+   6.- Disallow adding properties with empty names [IBM]
+   7.- Disallow changing the logicalName of a property.  Must Delete or Copy entire entry [IBM]
+   8.- Indicate a success message if XML/CFG file saved correctly in merger [IBM]
+   9.- All file chooser now correctly show file filter [IBM]
+   10.- Vendor properties values of integer type are shown in hex if this is selected in config [IBM]
+   11.- "Save as..." automatically adds extension if user does not add it themselves [IBM]
+   12.- Add a checkbox in "Copy..." JposEntry that auto delete previous entry [IBM]
+   13. If user choose to reset config then show dialog to indicate that restart of editor is required [IBM]
+   
+D) Other changes/additions
+   0.- Improved HTML documentation [IBM]
+   1.- Updated JCL White Paper [IBM]
+   2.- Updated Linux/UNIX "editor" script to better launch the editor in these environments
+      [Eric Richardson <eric@milagrosoft.com>]
+   4.- Installation now also includes the JUnit (http://www.junit.org) tests for the JCL.
+       You can run the tests by extracting the test classes in the "<JCL_HOME>src/test"
+       directory and either:
+       a) using Apache Ant with:
+            %ant -buildfile build_jcl.xml test
+       b) using JUnit directly.  For instance using the JUnit text TestRunner assuming both
+       <JCL_HOME>/src and <JCL_HOME>/src/test are in your CLASSAPTH issuing the following 
+       command in the <JCL_HOME>/src/test directory:
+            %java junit.textui.TestRunner jpos.AllTests
+       PS: all tests should run successfully.  If any tests fails please submit a bug report
+       to E. Michael Maximilien at maxim@us.ibm.com
+   5.- In the sample TestAppFrame set the logigalName JTextField with the test logical name
+       that is set by default in the JCL registry "com.xyz.MyLD" this can be used to verify
+       that the JCL installation is working since the sample code implements a virtual LineDisplay
+       service that shows a Swing LineDisplay that can display text and clear text
+
+#------------------------------------------------------------------------------
+# Changes in 2.0.0 RC2 since 2.0.0 RC1 release
+# The changes are listed under its appropriate category (i.e. core classes/
+# interfaces, ...) a short description is provided and also the originator or requestor
+# of that change is listed in square brackets  (i.e. [Datafit])
+# NOTE: when methods/instance are added to a class or interface then UML notation is
+# used.  For example:
+#   <access> <className>::<methodName>( <argName>:<argType>, ... ): <returnType>
+# where <access> == + (for public), - (for private), # (for protected) and nothing for package
+#------------------------------------------------------------------------------
+
+A) Architecture/Design modifications/improvements
+   
+B) Core classes/interfaces changes
+   0.- Moved all RS232 constants from JposEntryConst to RS232Const [IBM]
+   
+C) Editor classes/interfaces changes
+   
+   0.- Fix bug when switching from standard props view to other tabs and no entry selected [IBM]
+   1.- Better defaults for RS232 properties (see RS232Const for defaults) [IBM]
+   2.- Editor now remembers the last location where file was loaded or saved [IBM]
+   2.- Vendor properties were not being cleared if no entry selected or new file loaded [IBM]
+   
+D) Other changes/additions
+
+   0.- Replaces all Makefile with build.xml file that creates all .class and .jar [IBM]
+   1.- Corrected JAR files so that they include jpos.properties and DTD files [IBM]
+
+#------------------------------------------------------------------------------
+# Changes in 2.0.0 RC1 since 1.3 beta 1 release
+# The changes are listed under its appropriate category (i.e. core classes/
+# interfaces, ...) a short description is provided and also the originator or requestor
+# of that change is listed in square brackets  (i.e. [Datafit])
+# NOTE: when methods/instance are added to a class or interface then UML notation is
+# used.  For example:
+#   <access> <className>::<methodName>( <argName>:<argType>, ... ): <returnType>
+# where <access> == + (for public), - (for private), # (for protected) and nothing for package
+#------------------------------------------------------------------------------
+
+A) Architecture/Design modifications/improvements
+   
+   0.- Added multi-populator support to better support multi-vendor solutions.  You can
+       now specify mutiple populator class via the multi-property named: 
+       jpos.config.populator.class.n <value>
+       where n = 0, 1, 2, ... and 
+       jpos.config.populator.file.n = <value>
+       The n value for the file matches the populator class specified. [IBM]
+   
+B) Core classes/interfaces changes
+   
+   0.- Added JposEntry.modifyPropertyValue method and also in the SimpleEntry class.  This
+       does not change the serialVersionUID of the class so there are not compatibility
+       concerns [IBM]
+       
+   1.- Added multi-property support that is you can specify multiple related properties
+       like <propName>.<n> = <value> where n = 0, 1, ...  This results is to support 
+       mulitple populator support.  This resulted in adding a core inner interface 
+       JposProperties.MultiProperty methods and various a couple methods in the outer
+       interface [IBM]
+       
+   2.- Added getClassName():String and getUniqueKey():String to JposRegPopulator interface
+       and subsequently to implementing classes.  This is needed for multiple populator 
+       support [IBM]
+   
+   3.- Moved all JposProperties constants to a separate interface called JposPropertiesConst
+       JposProperties now extends JposPropertiesConst [IBM]
+       
+   4.- Added 2 new multi-property base name constants in JposPropertiesConst called [IBM]:
+       + JPOS_CONFIG_POPULATOR_CLASS_MULTIPROP_NAME : String = "jpos.config.populator.class"
+       + JPOS_CONFIG_POPULATOR_FILE_MULTIPROP_NAME : String = "jpos.config.populator.file"
+       Added constant PROP_NAME_ARRAY that keeps all property names
+   
+   5.- To support multiple populator added following to JposEntry and SimpleEntry [IBM]:
+       a) + JposEntry::getRegPopulator() : JposRegPopulator
+       b) + Transient JposRegPopulator field
+       c) + SimpleEntry::SimpleEntry() and SimpleEntry::SimpleEntry( pop : JposRegPopulator )
+       d) SimpleEntry::setRegPopulator( JposRegPopulator pop ):void
+       e) AbstractRegPopulator::AbstractRegPopulator( String id ) { this affects all subclasses
+          of AsbtractRegPopulator that is SimpleRegPopulator, XercesRegPopulator, 
+      SimpleXmlRegPopulator which now also have a 1-arg ctor and the no-arg ctor need to
+      pass the default ID to the superclass ctor.
+   
+   6.- SimpleXmlRegPopulator implements XmlRegPopulator as it should have [IBM]
+   
+   7.- Removed deprecated methods in SimpleServiceManager (set/getEntriesFileName) [IBM]
+   
+   8.- Added following methods (if interface then also implementing classes):
+    a) JposEntry::getLogicalName():String
+    b) SimpleEntryRegistry::toString():String
+    c) JposEntryRegistry::addJposEntry( e:JposEntry ):void
+
+   9.- Added toString() method to DefaultProperties class and changed implementation
+       of the JposPropertiesViewer class to use that method [IBM]
+   
+   10.- Added method JposServiceManager::reloadEntryRegistry():void that reloads
+        the populators and registry at runtime.  Useful if properties or populator
+    files change at runtime [IBM]
+       
+        
+C) Editor classes/interfaces changes
+
+   0.- Added PropertiesEditor amd PropertiesEditorFrame class as a simple application
+       that allows you to edit the jpos.properties file [IBM]
+   
+D) Other changes/additions
+ 
+   0.- jpos.util.JposPropertiesViewer application now list properties sorting them 
+       by name [IBM]
+   
+E) JCL profile details
+
+   0.- Started adding JCL profile support in package jpos.profile.  Various interfaces
+       and classes are added defining the JCL profile object model, XML DTD and files.
+       This is not yet complete [IBM]
+
+#------------------------------------------------------------------------------
+# Changes in 1.2 since 1.2 RC1 and RC2 release
+# The changes are listed under its appropriate category (i.e. core classes/
+# interfaces, ...) a short description is provided and also the originator or requestor
+# of that change is listed in square brackets  (i.e. [Datafit])
+#------------------------------------------------------------------------------
+
+A) Architecture/Design modifications/improvements
+   None
+
+B) Core classes/interfaces changes
+   1.- Added overloaded save and load methods in the RegPopulator interface
+       This change should not adversly affect existing JCL implementations. [IBM]
+   2.- Fix a bug in the XercesRegPopulator and AbsractRegPopulator which caused 
+       the entries to be cleared if you loaded a new populator file. [IBM]
+   3.- XercesregPopulator now automatically extract jpos/res/jcl.dtd if the DTD is
+       not present otherwise uses the one present.  Also if the DTD was extracted it
+       is removed automatically. [IBM]
+   4.- SimpleEntry now contains a serialVersionUID constant for backward compatibility
+       of serialized entries with future releases. [Wincore-Nirxdorff]
+        
+C) Editor classes/interfaces changes
+   None, since RC2.
+
+D) Other changes/additions
+   1.- The JCL is now release as an InstallShield for Java setup.class.  Tested under
+       Linux and Win32 fine.  Solaris test worked for RC2 release. [IBM]
+
+#------------------------------------------------------------------------------
+# Changes in 1.2.0 RC1 since 1.2.0 EA3 release
+# The changes are listed under its appropriate category (i.e. core classes/
+# interfaces, ...) a short description is provided and also the originator or requestor
+# of that change is listed in square brackets  (i.e. [Datafit])
+#------------------------------------------------------------------------------
+
+A) Architecture/Design modifications/improvements
+   None
+
+B) Core classes/interfaces changes
+   None
+        
+C) Editor classes/interfaces changes
+   Various improvements and bug fixes:
+   1.- 
+
+D) Other changes/additions
+   1.- The jpos.util.DefaultProperties file is now changed to load the jpos.properties
+       file using the ClassLoader.getSystemResourceAsStream instead of using the 
+       ResourceBundle class.  This makes it possible for the jpos.properties to be
+       located in the system directory OR a Zip/JAR file.  [IBM]
+   2.- Changed the com.xyz.jpos.XyzJposServiceInstanceFactory and com.xyz.jpos.DeviceService
+       classes so that the factory passes the JposEntry to the DeviceService class for
+       further intialization. [IBM]
+   3.- Improved the JCL installation by using a self-install .class file using InstallShield
+       for Java 3.0. [IBM]
+
+#------------------------------------------------------------------------------
+# Changes in 1.2.0 EA3 since 1.2.0 EA2 release
+# The changes are listed under its appropriate category (i.e. core classes/
+# interfaces, ...) a short description is provided and also the originator or requestor
+# of that change is listed in square brackets  (i.e. [Datafit])
+#------------------------------------------------------------------------------
+
+A) Architecture/Design modifications/improvements
+    None
+
+B) Core classes/interfaces changes
+    None
+        
+C) Editor classes/interfaces changes
+    None
+
+D) Other changes/additions
+   1.- Was using the Vector.add method in XercesRegPopulator and SimpleRegPopulator.  The
+       Vector.add method was added in Java 2 and is not compatible with Java 1.1.  Reverted
+       to make maintain compatibility and using Vector.addElement now... [IBM]
+   2.- Made necessary changes in jpos.config.simple.xml package to support the Xerces 1.0.3 release [IBM-Japan]
+       a) Change the XercesRegPopulator.serializeDocument method to not use the XMLSerializer.init 
+          method call and instead pass the PrintWriter and OutputFormater objects in its ctor
+   3.- To maintain compatibility with previous releases, change default in the jpos.properties to:
+       a) Set tracing to OFF
+       b) Set the default populator to be the SimpleRegPopulator instead of the XML populator
+       NOTE: these defaults are subject to change, every user should set there own defaults
+             by editing the properties file [IBM]
+   4.- Added JavaDOC comment to XercesRegPopulator and changed createEmptyDocument signature to
+       not expect a Document object since it never used that parameter [IBM]
+
+#------------------------------------------------------------------------------
+# Changes in 1.2.0 since 1.1 release
+# The changes are listed under its appropriate category (i.e. core classes/
+# interfaces, ...) a short description is provided and also the originator or requestor
+# of that change is listed in square brackets  (i.e. [Datafit])
+#------------------------------------------------------------------------------
+
+A) Architecture/Design modifications/improvements
+    1.- Added a way to dynamically change the properties of the "jpos.config/loader"
+        via the Java properties file and resource mechanism.  This allows easier 
+        configuration/customization without direct code modification.  Can define
+        various properties to customize the "jpos.config/loader.  If the properties
+        file is cannot be loaded, is incorrect or not present then the defaults
+        Simple implementation is used.  See change B-1.  [IBM]
+    2.- Added support for customizing the populator and populator file or URL. [IBM]
+    3.- Created an XML DTD and XML populator that uses the Apache Xerces-J DOM API [IBM]
+
+B) Core classes/interfaces changes
+    1.- The JposServiceLoader will load the "jpos.properties" file in the "res"
+        directory to read in Java properties for the JavaPOS.  The "jpos.config.
+        serviceInstanceFactoryClass" property can be defined there. [IBM]
+        NOTE: to keep backward compatibility if the property is defined by running
+        java -D<propName>=<propValue> <className> then this System property 
+        overrides any property defined in the "jpos.properties" file.  Also if
+        the "jpos.properties" file is not found, could not be loaded and or
+        is incorrect then the loader defaults to the Simple implementation.
+        This .properties file is now located "jpos\res" directory. [IBM]
+    2.- Allow dynamic adding/removing of JposEntry in the JposEntryRegistry [IBM/Datafit]
+    3.- Added JposProperties and DefaultProperties interface and class to encapsulate
+        all properties related operations.  These are added in the jpos.util package [IBM]
+    4.- Deprecated various ctor and methods in SimpleServiceManager and SimpleEntryRegistry 
+        please see the JavaDOC for details. [IBM]
+    5.- The JposEntryRegistry now has a load/save and needs to return a valid JposRegPopulator
+        which needs to be used to load/save the entries. [IBM/JavaPOS-J]
+    6.- Added a simple application to indicate the current JCL version.  Run using:
+                    %java jpos.loader.Version
+                    OR
+                    %java jpos.config.Version
+        The output should be similar to:
+                    JavaPOS jpos.config/loader (JCL) version 1.2.0
+    7.- Added a JposRegPopulator interface to search/load/save the JposRegistry.  With this 
+        infrastructure you can select different populator implementation like the default 
+        looks for jpos.cfg in classpath then inside root of all JAR/Zip files.  A new property
+        is defined in the jpos.properties file to control this: 
+                jpos.config.regPopulatorClass = jpos.config.simple.SimpleRegPopulator
+        NOTE: by default if this property is not defined then the SimpleRegPopulator is used. [IBM]
+    8.- The default populator can now load the configuration information from a jpos.cfg file
+        that is in a JAR or Zip file.  [Datafit]
+        NOTE: since the JAR/Zip files are in use they cannot be modified so saving the registry
+              will generate an error.
+    9.- Added 2 properties called: jpos.config.populatorFile and jpos.config.populatorFileURL
+        Defined one of them to force the populator to get the entries from the file or URL specified.
+        NOTE: if both are defined then the "jpos.config.populatorFile" value is used.  Also
+              using the "jpos.config.populatorFileURL" one can point to local files or JAR using the 
+              the "file" protocol (Java 1.1 and 2) and "jar" protocol (Java 2 only). [IBM]
+    10.- Added a populator to load/save the entries in XML according to the XML DTD for JposEntry 
+         defined in the "jpos/res/jcl.dtd" file.  A sample valid "jcl.xml" XML file is provided.
+         To use the XML populator you MUST define the populator file or URL. More details on this 
+         populator be provided in the readme. Note this populator requires that all of the 
+         required JavaPOS properties be defined.  [IBM]
+    11.- Added a simple tracing facility in the jpos.util package.  Turn it on and off by using
+         the jpos.properties file [IBM]
+         
+    12.- In class SimpleRegPopulator changed:
+                  new ObjectInputStream( new FileInputStream... to
+                  new ObjectInputStream( new BufferedInputStream( new FileInputStream...
+         This buffering could improve load performance on some system... [IBM]
+    13.- Added all the required property names constants in the JposEntry interface [IBM]
+        
+C) Editor classes/interfaces changes
+    1.- Added setDefaultFrameCloseOperation/setFrameVisible static methods in
+        class JposEntryEditor to allow the editor to be embedded into a Java app
+        (otherwise exiting the editor would exit the JVM). [IBM]
+    2.- Change the AboutDialog to reflect version number and added Java logo [IBM]
+    3.- Added "Edit" -> "Look and Feel" -> "Java LnF"/"Native LnF" menu item to 
+        allow dynamic changes of the current LnF. [Datafit]
+    4.- Message area (at bottom of frame) scroll down when text is outputed. [IBM]
+    5.- Increase the MainFrame default width by about 2% to 705 pixel. [IBM]
+    6.- Increase size of JTextField inn the JposEntryViewPanel class and set
+        the tooltip-text of all text fields to text value if value length is
+        bigger then the text field number of columns. [IBM]
+
+D) Other changes/additions
+    1.- Added JavaDOC comments on all class/method/interface. [IBM]
+    2.- Change indentation to 4 space. [IBM]
+    3.- Generate JavaDOC HTML documentation for the core/simple/editor classes
+        and interfaces. [IBM]
+    4.- Run spell-check on all code comments. [IBM]
+    5.- Improve readme, changes etc.. doc to make it easy for first time users. [IBM/Other]
+    6.- Changed all legal-header to reflect IBM's new legal-header proposal [IBM]

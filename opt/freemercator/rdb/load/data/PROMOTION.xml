@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="PROMOTION">
+  <item>
+    <col name="promotion_id">1</col>
+    <col name="promotion_no">1</col>
+    <col name="promotion_type">1</col>
+    <col name="promotion_val1">3</col>
+    <col name="promotion_val2">0</col>
+    <col name="promotion_val3">0</col>
+    <col name="promotion_val4">0</col>
+    <col name="promotion_val5">0</col>
+    <col name="promotion_dval1">30.0</col>
+    <col name="promotion_dval2">0.0</col>
+    <col name="promotion_dval3">0.0</col>
+    <col name="promotion_dval4">0.0</col>
+    <col name="promotion_dval5">0.0</col>
+    <col name="print_before_item">0</col>
+    <col name="valid_times">null</col>
+    <col name="valid_days">null</col>
+    <col name="promotion_string">Group Discount</col>
+    <col name="promotion_class">com.globalretailtech.pos.operators.GroupDiscount</col>
+  </item>
+  <item>
+    <col name="promotion_id">2</col>
+    <col name="promotion_no">2</col>
+    <col name="promotion_type">1</col>
+    <col name="promotion_val1">30</col>
+    <col name="promotion_val2">0</col>
+    <col name="promotion_val3">0</col>
+    <col name="promotion_val4">0</col>
+    <col name="promotion_val5">0</col>
+    <col name="promotion_dval1">0.0</col>
+    <col name="promotion_dval2">0.0</col>
+    <col name="promotion_dval3">0.0</col>
+    <col name="promotion_dval4">0.0</col>
+    <col name="promotion_dval5">0.0</col>
+    <col name="print_before_item">0</col>
+    <col name="valid_times">null</col>
+    <col name="valid_days">null</col>
+    <col name="promotion_string">Item Discount</col>
+    <col name="promotion_class">com.globalretailtech.pos.operators.MarkdownByPercent</col>
+  </item>
+  <item>
+    <col name="promotion_id">3</col>
+    <col name="promotion_no">3</col>
+    <col name="promotion_type">1</col>
+    <col name="promotion_val1">3</col>
+    <col name="promotion_val2">0</col>
+    <col name="promotion_val3">0</col>
+    <col name="promotion_val4">0</col>
+    <col name="promotion_val5">0</col>
+    <col name="promotion_dval1">500.0</col>
+    <col name="promotion_dval2">0.0</col>
+    <col name="promotion_dval3">0.0</col>
+    <col name="promotion_dval4">0.0</col>
+    <col name="promotion_dval5">0.0</col>
+    <col name="print_before_item">0</col>
+    <col name="valid_times">null</col>
+    <col name="valid_days">null</col>
+    <col name="promotion_string">?n? For ?x?</col>
+    <col name="promotion_class">com.globalretailtech.pos.operators.NForX</col>
+  </item>
+  <item>
+    <col name="promotion_id">4</col>
+    <col name="promotion_no">4</col>
+    <col name="promotion_type">1</col>
+    <col name="promotion_val1">3</col>
+    <col name="promotion_val2">0</col>
+    <col name="promotion_val3">0</col>
+    <col name="promotion_val4">0</col>
+    <col name="promotion_val5">0</col>
+    <col name="promotion_dval1">100.0</col>
+    <col name="promotion_dval2">0.0</col>
+    <col name="promotion_dval3">0.0</col>
+    <col name="promotion_dval4">0.0</col>
+    <col name="promotion_dval5">0.0</col>
+    <col name="print_before_item">0</col>
+    <col name="valid_times">null</col>
+    <col name="valid_days">null</col>
+    <col name="promotion_string">?n? For ?x?</col>
+    <col name="promotion_class">com.globalretailtech.pos.operators.NForX</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

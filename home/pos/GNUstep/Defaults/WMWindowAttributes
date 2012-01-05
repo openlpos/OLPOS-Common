@@ -1,0 +1,26 @@
+{
+  firefox.Firefox = {
+    Icon = "web-browser.png";
+  };
+  xterm.XTerm = {
+    Icon = "gnome-term.png";
+  };
+  groupLeader.WPrefs = {
+    Icon = "/usr/lib/GNUstep/Applications/WPrefs.app/WPrefs.tiff";
+  };
+  "gnome-volume-control.Gnome-volume-control" = {
+    Icon = "gnome-settings-sound.png";
+  };
+  Dialog.Firefox = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/Dialog.Firefox.xpm";
+  };
+  gqview.Gqview = {
+    Icon = "/home/admin/GNUstep/Library/WindowMaker/CachedPixmaps/gqview.Gqview.xpm";
+  };
+  "gnome-nettool.Gnome-nettool" = {
+    Icon = "gnome-fs-network.png";
+  };
+  "xscreensaver-demo.Xscreensaver-demo" = {
+    Icon = "gnome-ccscreensaver.png";
+  };
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="POS_CONFIG">
+  <item>
+    <col name="config_id">2</col>
+    <col name="config_no">3</col>
+    <col name="name">POS 3</col>
+  </item>
+  <item>
+    <col name="config_id">1</col>
+    <col name="config_no">2</col>
+    <col name="name">POS 2</col>
+  </item>
+  <item>
+    <col name="config_id">0</col>
+    <col name="config_no">1</col>
+    <col name="name">POS 1</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

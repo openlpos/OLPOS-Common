@@ -1,0 +1,10 @@
+Description=Operator Display
+Columns=40
+Rows=2
+StartupText=Stand by....
+Font=Helvetiva
+FontSize=10
+x=0
+y=0
+h=1
+w=2

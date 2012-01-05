@@ -1,0 +1,7 @@
+[GdmGreeterTheme]
+Greeter=olpos.xml
+Name=OLPOS GDM Greeter
+Description=OLPOS GDM Greeter
+Author=William Kennedy <wjkennedy@openlpos.org>
+Copyright=(c) 2008 (GPL)
+Screenshot=screenshot.png

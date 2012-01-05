@@ -1,0 +1,8 @@
+Site=9457
+POS=1
+Configuration=1
+Debug=y
+LogEvents=n
+LogFile=pos.log
+EventFile=event.log
+SleepInterval=500

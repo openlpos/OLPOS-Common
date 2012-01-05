@@ -1,0 +1,3833 @@
+<?xml version="1.0"?>
+<mercatordata>
+	<tableinsert table="POS_PARAM">
+		<item>
+			<col name="param_id">0</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ReceiptLine1</col>
+			<col name="param_value">Welcome</col>
+		</item>
+		<item>
+			<col name="param_id">1</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OperTitle</col>
+			<col name="param_value">Operator Display</col>
+		</item>
+		<item>
+			<col name="param_id">2</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Total</col>
+			<col name="param_value">Total</col>
+		</item>
+		<item>
+			<col name="param_id">3</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TotalTax</col>
+			<col name="param_value">Total Tax</col>
+		</item>
+		<item>
+			<col name="param_id">4</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SubTotal</col>
+			<col name="param_value">SubTotal</col>
+		</item>
+		<item>
+			<col name="param_id">5</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashTender</col>
+			<col name="param_value">Cash Tender</col>
+		</item>
+		<item>
+			<col name="param_id">6</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CheckTender</col>
+			<col name="param_value">Check Tender</col>
+		</item>
+		<item>
+			<col name="param_id">7</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CreditCard</col>
+			<col name="param_value">Credit Card Tender</col>
+		</item>
+		<item>
+			<col name="param_id">8</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Discount</col>
+			<col name="param_value">Discount</col>
+		</item>
+		<item>
+			<col name="param_id">9</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Markout</col>
+			<col name="param_value">Markout</col>
+		</item>
+		<item>
+			<col name="param_id">10</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Change</col>
+			<col name="param_value">Change Due</col>
+		</item>
+		<item>
+			<col name="param_id">11</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashBack</col>
+			<col name="param_value">Cash Back</col>
+		</item>
+		<item>
+			<col name="param_id">12</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CloseDrawer</col>
+			<col name="param_value">Close Cash Drawer</col>
+		</item>
+		<item>
+			<col name="param_id">13</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InsertCheck</col>
+			<col name="param_value">Insert check</col>
+		</item>
+		<item>
+			<col name="param_id">14</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InsertValidation</col>
+			<col name="param_value">Insert Validation</col>
+		</item>
+		<item>
+			<col name="param_id">15</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InsertCCValidation</col>
+			<col name="param_value">Insert credit card receipt</col>
+		</item>
+		<item>
+			<col name="param_id">16</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadName</col>
+			<col name="param_value">Bad user ID, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">17</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadPass</col>
+			<col name="param_value">Invalid password, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">18</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InvalidCustomer</col>
+			<col name="param_value">Invalid customer number, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">19</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TooMany</col>
+			<col name="param_value">Too many logon attempts, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">20</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">GoodLogin</col>
+			<col name="param_value">Logon successful</col>
+		</item>
+		<item>
+			<col name="param_id">21</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OkText</col>
+			<col name="param_value">OK</col>
+		</item>
+		<item>
+			<col name="param_id">22</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CancelText</col>
+			<col name="param_value">Cancel</col>
+		</item>
+		<item>
+			<col name="param_id">23</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ClearText</col>
+			<col name="param_value">Clear</col>
+		</item>
+		<item>
+			<col name="param_id">24</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InvalidInput</col>
+			<col name="param_value">Invalid Input, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">25</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptOpenAmount</col>
+			<col name="param_value">Enter open amount: </col>
+		</item>
+		<item>
+			<col name="param_id">26</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptAmount</col>
+			<col name="param_value">Enter amount: </col>
+		</item>
+		<item>
+			<col name="param_id">27</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCashBack</col>
+			<col name="param_value">Cash back amount:</col>
+		</item>
+		<item>
+			<col name="param_id">28</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ConfirmOpenAmount</col>
+			<col name="param_value">Confirm (enter/clear)</col>
+		</item>
+		<item>
+			<col name="param_id">29</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">RegOpen</col>
+			<col name="param_value">Register Open</col>
+		</item>
+		<item>
+			<col name="param_id">30</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TotalRequired</col>
+			<col name="param_value">Total Required, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">31</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InsufficientFunds</col>
+			<col name="param_value">Insufficient Funds, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">32</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BalanceDue</col>
+			<col name="param_value">Balance Due:</col>
+		</item>
+		<item>
+			<col name="param_id">33</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">MgrIntervention</col>
+			<col name="param_value">Manager intervention required</col>
+		</item>
+		<item>
+			<col name="param_id">34</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EnterUser</col>
+			<col name="param_value">Enter User ID: </col>
+		</item>
+		<item>
+			<col name="param_id">35</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EnterPass</col>
+			<col name="param_value">Enter Password: </col>
+		</item>
+		<item>
+			<col name="param_id">36</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">LoginTab</col>
+			<col name="param_value">Login</col>
+		</item>
+		<item>
+			<col name="param_id">37</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptDrawerNo</col>
+			<col name="param_value">Enter drawer number: </col>
+		</item>
+		<item>
+			<col name="param_id">38</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ConfirmDrawerNo</col>
+			<col name="param_value">Confirm (enter/clear)</col>
+		</item>
+		<item>
+			<col name="param_id">39</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadDrawerNo</col>
+			<col name="param_value">Invalid drawer number</col>
+		</item>
+		<item>
+			<col name="param_id">40</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadCheckNo</col>
+			<col name="param_value">Invalid check number</col>
+		</item>
+		<item>
+			<col name="param_id">41</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadCCNo</col>
+			<col name="param_value">Invalid credit card</col>
+		</item>
+		<item>
+			<col name="param_id">42</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCustomer</col>
+			<col name="param_value">Enter Customer Number: </col>
+		</item>
+		<item>
+			<col name="param_id">43</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">VoidSale</col>
+			<col name="param_value">Sale Voided, press enter</col>
+		</item>
+		<item>
+			<col name="param_id">44</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ConvertedAltCurrency</col>
+			<col name="param_value">Converted total</col>
+		</item>
+		<item>
+			<col name="param_id">45</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">AltCurrTenderPrompt</col>
+			<col name="param_value">Enter alternate currency amount: </col>
+		</item>
+		<item>
+			<col name="param_id">46</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">AltCurrencyDescription</col>
+			<col name="param_value">Alternate Currency Tender</col>
+		</item>
+		<item>
+			<col name="param_id">47</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TenderTotal</col>
+			<col name="param_value">Amount Tendered</col>
+		</item>
+		<item>
+			<col name="param_id">48</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TerminalLocked</col>
+			<col name="param_value">Terminal locked, press enter</col>
+		</item>
+		<item>
+			<col name="param_id">49</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EnterItem</col>
+			<col name="param_value">Enter item</col>
+		</item>
+		<item>
+			<col name="param_id">50</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EnterWeight</col>
+			<col name="param_value">Enter weight</col>
+		</item>
+		<item>
+			<col name="param_id">51</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Pause</col>
+			<col name="param_value">Press enter to continue...</col>
+		</item>
+		<item>
+			<col name="param_id">52</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CloaeCash</col>
+			<col name="param_value">Close cash drawer.</col>
+		</item>
+		<item>
+			<col name="param_id">53</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">RecallFailed</col>
+			<col name="param_value">Transaction not found</col>
+		</item>
+		<item>
+			<col name="param_id">54</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashLimitExceeded</col>
+			<col name="param_value">Cash in drawer limit exceeded</col>
+		</item>
+		<item>
+			<col name="param_id">55</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">NonTaxCount</col>
+			<col name="param_value">Non-Tax transactions</col>
+		</item>
+		<item>
+			<col name="param_id">56</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">NonTaxAmount</col>
+			<col name="param_value">Non-Tax amount</col>
+		</item>
+		<item>
+			<col name="param_id">57</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TaxCount</col>
+			<col name="param_value">Tax transactions </col>
+		</item>
+		<item>
+			<col name="param_id">58</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TaxAmount</col>
+			<col name="param_value">Tax amount </col>
+		</item>
+		<item>
+			<col name="param_id">59</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">VoidCount</col>
+			<col name="param_value">Void transactions</col>
+		</item>
+		<item>
+			<col name="param_id">60</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">VoidAmount</col>
+			<col name="param_value">Void amount</col>
+		</item>
+		<item>
+			<col name="param_id">61</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ReturnCount</col>
+			<col name="param_value">Return transactions</col>
+		</item>
+		<item>
+			<col name="param_id">62</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ReturnAmount</col>
+			<col name="param_value">Return amount</col>
+		</item>
+		<item>
+			<col name="param_id">63</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CouponCount</col>
+			<col name="param_value">Coupon transactions</col>
+		</item>
+		<item>
+			<col name="param_id">64</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CouponAmount</col>
+			<col name="param_value">Coupon amount</col>
+		</item>
+		<item>
+			<col name="param_id">65</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CreditCardCount</col>
+			<col name="param_value">Credit transactions</col>
+		</item>
+		<item>
+			<col name="param_id">66</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CreditCardAmount</col>
+			<col name="param_value">Credit amount</col>
+		</item>
+		<item>
+			<col name="param_id">67</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CheckCount</col>
+			<col name="param_value">Check transactions</col>
+		</item>
+		<item>
+			<col name="param_id">68</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CheckAmount</col>
+			<col name="param_value">Check amount</col>
+		</item>
+		<item>
+			<col name="param_id">69</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">RecdOnAcctCount</col>
+			<col name="param_value">Received on account transactions</col>
+		</item>
+		<item>
+			<col name="param_id">70</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">RecdOnAcctAmount</col>
+			<col name="param_value">Received on account amount</col>
+		</item>
+		<item>
+			<col name="param_id">71</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PaidInCount</col>
+			<col name="param_value">Paid in transactions</col>
+		</item>
+		<item>
+			<col name="param_id">72</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PaidInAmount</col>
+			<col name="param_value">Paid in Amount</col>
+		</item>
+		<item>
+			<col name="param_id">73</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PaidOutCount</col>
+			<col name="param_value">Paid out transactions</col>
+		</item>
+		<item>
+			<col name="param_id">74</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PaidOutAmount</col>
+			<col name="param_value">Paid out Amount</col>
+		</item>
+		<item>
+			<col name="param_id">75</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashInDrCount</col>
+			<col name="param_value">Cash transactions</col>
+		</item>
+		<item>
+			<col name="param_id">76</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashInDrAmount</col>
+			<col name="param_value">Cash in Drawer Amount</col>
+		</item>
+		<item>
+			<col name="param_id">77</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">LoanCount</col>
+			<col name="param_value">Loan transactions</col>
+		</item>
+		<item>
+			<col name="param_id">78</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">LoanAmount</col>
+			<col name="param_value">Loans amount</col>
+		</item>
+		<item>
+			<col name="param_id">79</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PickupCount</col>
+			<col name="param_value">Pickup transactions</col>
+		</item>
+		<item>
+			<col name="param_id">80</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PickupAmount</col>
+			<col name="param_value">Pickup amount</col>
+		</item>
+		<item>
+			<col name="param_id">81</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name"/>
+			<col name="param_value"> transactions</col>
+		</item>
+		<item>
+			<col name="param_id">82</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name"/>
+			<col name="param_value"> amount</col>
+		</item>
+		<item>
+			<col name="param_id">83</col>
+			<col name="config_no">1</col>
+			<col name="param_type">2</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashPickup</col>
+			<col name="param_value">10000.0</col>
+		</item>
+		<item>
+			<col name="param_id">84</col>
+			<col name="config_no">1</col>
+			<col name="param_type">1</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">NumCashDrawers</col>
+			<col name="param_value">2</col>
+		</item>
+		<item>
+			<col name="param_id">85</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptPosNo</col>
+			<col name="param_value">Enter POS Number: </col>
+		</item>
+		<item>
+			<col name="param_id">86</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptTransNo</col>
+			<col name="param_value">Enter Transaction Number:</col>
+		</item>
+		<item>
+			<col name="param_id">87</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">NoSaleCount</col>
+			<col name="param_value">No sale transactions</col>
+		</item>
+		<item>
+			<col name="param_id">88</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TransNo</col>
+			<col name="param_value">TRANS#</col>
+		</item>
+		<item>
+			<col name="param_id">89</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TransType</col>
+			<col name="param_value">TRANS TYPE</col>
+		</item>
+		<item>
+			<col name="param_id">90</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OperLogon</col>
+			<col name="param_value">Operator logon</col>
+		</item>
+		<item>
+			<col name="param_id">91</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OperLogoff</col>
+			<col name="param_value">Operator logoff</col>
+		</item>
+		<item>
+			<col name="param_id">92</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BankTrans</col>
+			<col name="param_value">Bank transaction</col>
+		</item>
+		<item>
+			<col name="param_id">93</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCheckNo</col>
+			<col name="param_value">Enter check number:</col>
+		</item>
+		<item>
+			<col name="param_id">94</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCCNo</col>
+			<col name="param_value">Enter credit card number:</col>
+		</item>
+		<item>
+			<col name="param_id">95</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCCExpr</col>
+			<col name="param_value">Enter expiration data:</col>
+		</item>
+		<item>
+			<col name="param_id">96</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Confirm</col>
+			<col name="param_value">Press enter</col>
+		</item>
+		<item>
+			<col name="param_id">97</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">GroupDiscount</col>
+			<col name="param_value">10% off third item</col>
+		</item>
+		<item>
+			<col name="param_id">98</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteName</col>
+			<col name="param_value">Olympic Retailers, Inc.</col>
+		</item>
+		<item>
+			<col name="param_id">99</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr1</col>
+			<col name="param_value">9601 Provost Road, NW</col>
+		</item>
+		<item>
+			<col name="param_id">100</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr2</col>
+			<col name="param_value">Silverdale</col>
+		</item>
+		<item>
+			<col name="param_id">101</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr3</col>
+			<col name="param_value">WA</col>
+		</item>
+		<item>
+			<col name="param_id">102</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr4</col>
+			<col name="param_value">98383</col>
+		</item>
+		<item>
+			<col name="param_id">103</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr5</col>
+			<col name="param_value"/>
+		</item>
+		<item>
+			<col name="param_id">104</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr6</col>
+			<col name="param_value"/>
+		</item>
+		<item>
+			<col name="param_id">105</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SitePhone</col>
+			<col name="param_value">(555) 555-1234</col>
+		</item>
+		<item>
+			<col name="param_id">106</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteFax</col>
+			<col name="param_value">(555) 555-4321</col>
+		</item>
+		<item>
+			<col name="param_id">107</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TrxTag</col>
+			<col name="param_value">Transaction</col>
+		</item>
+		<item>
+			<col name="param_id">108</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PosTag</col>
+			<col name="param_value">Register</col>
+		</item>
+		<item>
+			<col name="param_id">109</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EmpTag</col>
+			<col name="param_value">Employee</col>
+		</item>
+		<item>
+			<col name="param_id">110</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">DateTag</col>
+			<col name="param_value">Time/Date</col>
+		</item>
+		<item>
+			<col name="param_id">111</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TimeTag</col>
+			<col name="param_value">Time </col>
+		</item>
+		<item>
+			<col name="param_id">112</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">QtyHeader</col>
+			<col name="param_value">Qty</col>
+		</item>
+		<item>
+			<col name="param_id">113</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ItemHeader</col>
+			<col name="param_value">Item</col>
+		</item>
+		<item>
+			<col name="param_id">114</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">DescHeader</col>
+			<col name="param_value">Description</col>
+		</item>
+		<item>
+			<col name="param_id">115</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PriceHeader</col>
+			<col name="param_value">Price</col>
+		</item>
+		<item>
+			<col name="param_id">116</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustNoTag</col>
+			<col name="param_value">Number</col>
+		</item>
+		<item>
+			<col name="param_id">117</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustNameTag</col>
+			<col name="param_value">Name</col>
+		</item>
+		<item>
+			<col name="param_id">118</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustAddrTag</col>
+			<col name="param_value">Address</col>
+		</item>
+		<item>
+			<col name="param_id">119</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustCityTag</col>
+			<col name="param_value">City</col>
+		</item>
+		<item>
+			<col name="param_id">120</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustStateTag</col>
+			<col name="param_value">State</col>
+		</item>
+		<item>
+			<col name="param_id">121</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustZipTag</col>
+			<col name="param_value">Zip</col>
+		</item>
+		<item>
+			<col name="param_id">122</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustPhoneTag</col>
+			<col name="param_value">Phone</col>
+		</item>
+		<item>
+			<col name="param_id">123</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustFaxTag</col>
+			<col name="param_value">Fax</col>
+		</item>
+		<item>
+			<col name="param_id">124</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustEmailTag</col>
+			<col name="param_value">E-Mail</col>
+		</item>
+		<item>
+			<col name="param_id">125</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OverMeiaLimit</col>
+			<col name="param_value">Over Media Limit</col>
+		</item>
+		<item>
+			<col name="param_id">126</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">UnderMediaLimit</col>
+			<col name="param_value">Under Media Limit</col>
+		</item>
+		<item>
+			<col name="param_id">127</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ConvertedTotal</col>
+			<col name="param_value">Converted Total</col>
+		</item>
+		<item>
+			<col name="param_id">128</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">AltCurrTotal</col>
+			<col name="param_value">Alternate Currency Total</col>
+		</item>
+		<item>
+			<col name="param_id">129</col>
+			<col name="config_no">1</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Locale</col>
+			<col name="param_value">USA</col>
+		</item>
+		<item>
+			<col name="param_id">130</col>
+			<col name="config_no">1</col>
+			<col name="param_type">2</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">DecimalPlaces</col>
+			<col name="param_value">2</col>
+		</item>
+		<item>
+			<col name="param_id">131</col>
+			<col name="config_no">1</col>
+			<col name="param_type">4</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptForCashBack</col>
+			<col name="param_value">TRUE</col>
+		</item>
+		<item>
+			<col name="param_id">132</col>
+			<col name="config_no">1</col>
+			<col name="param_type">1</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">DefaultDrawerNo</col>
+			<col name="param_value">1</col>
+		</item>
+		<item>
+			<col name="param_id">133</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ReceiptLine1</col>
+			<col name="param_value">Welcome</col>
+		</item>
+		<item>
+			<col name="param_id">134</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OperTitle</col>
+			<col name="param_value">Operator Display</col>
+		</item>
+		<item>
+			<col name="param_id">135</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Total</col>
+			<col name="param_value">Total</col>
+		</item>
+		<item>
+			<col name="param_id">136</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TotalTax</col>
+			<col name="param_value">Total Tax</col>
+		</item>
+		<item>
+			<col name="param_id">137</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SubTotal</col>
+			<col name="param_value">SubTotal</col>
+		</item>
+		<item>
+			<col name="param_id">138</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashTender</col>
+			<col name="param_value">Cash Tender</col>
+		</item>
+		<item>
+			<col name="param_id">139</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CheckTender</col>
+			<col name="param_value">Check Tender</col>
+		</item>
+		<item>
+			<col name="param_id">140</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CreditCard</col>
+			<col name="param_value">Credit Card Tender</col>
+		</item>
+		<item>
+			<col name="param_id">141</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Discount</col>
+			<col name="param_value">Discount</col>
+		</item>
+		<item>
+			<col name="param_id">142</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Markout</col>
+			<col name="param_value">Markout</col>
+		</item>
+		<item>
+			<col name="param_id">143</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Change</col>
+			<col name="param_value">Change Due</col>
+		</item>
+		<item>
+			<col name="param_id">144</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashBack</col>
+			<col name="param_value">Cash Back</col>
+		</item>
+		<item>
+			<col name="param_id">145</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CloseDrawer</col>
+			<col name="param_value">Close Cash Drawer</col>
+		</item>
+		<item>
+			<col name="param_id">146</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InsertCheck</col>
+			<col name="param_value">Insert check</col>
+		</item>
+		<item>
+			<col name="param_id">147</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InsertValidation</col>
+			<col name="param_value">Insert Validation</col>
+		</item>
+		<item>
+			<col name="param_id">148</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InsertCCValidation</col>
+			<col name="param_value">Insert credit card receipt</col>
+		</item>
+		<item>
+			<col name="param_id">149</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadName</col>
+			<col name="param_value">Bad user ID, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">150</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadPass</col>
+			<col name="param_value">Invalid password, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">151</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InvalidCustomer</col>
+			<col name="param_value">Invalid customer number, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">152</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TooMany</col>
+			<col name="param_value">Too many logon attempts, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">153</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">GoodLogin</col>
+			<col name="param_value">Logon successful</col>
+		</item>
+		<item>
+			<col name="param_id">154</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OkText</col>
+			<col name="param_value">OK</col>
+		</item>
+		<item>
+			<col name="param_id">155</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CancelText</col>
+			<col name="param_value">Cancel</col>
+		</item>
+		<item>
+			<col name="param_id">156</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ClearText</col>
+			<col name="param_value">Clear</col>
+		</item>
+		<item>
+			<col name="param_id">157</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InvalidInput</col>
+			<col name="param_value">Invalid Input, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">158</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptOpenAmount</col>
+			<col name="param_value">Enter open amount: </col>
+		</item>
+		<item>
+			<col name="param_id">159</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptAmount</col>
+			<col name="param_value">Enter amount: </col>
+		</item>
+		<item>
+			<col name="param_id">160</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCashBack</col>
+			<col name="param_value">Cash back amount:</col>
+		</item>
+		<item>
+			<col name="param_id">161</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ConfirmOpenAmount</col>
+			<col name="param_value">Confirm (enter/clear)</col>
+		</item>
+		<item>
+			<col name="param_id">162</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">RegOpen</col>
+			<col name="param_value">Register Open</col>
+		</item>
+		<item>
+			<col name="param_id">163</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TotalRequired</col>
+			<col name="param_value">Total Required, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">164</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InsufficientFunds</col>
+			<col name="param_value">Insufficient Funds, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">165</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BalanceDue</col>
+			<col name="param_value">Balance Due:</col>
+		</item>
+		<item>
+			<col name="param_id">166</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">MgrIntervention</col>
+			<col name="param_value">Manager intervention required</col>
+		</item>
+		<item>
+			<col name="param_id">167</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EnterUser</col>
+			<col name="param_value">Enter User ID: </col>
+		</item>
+		<item>
+			<col name="param_id">168</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EnterPass</col>
+			<col name="param_value">Enter Password: </col>
+		</item>
+		<item>
+			<col name="param_id">169</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">LoginTab</col>
+			<col name="param_value">Login</col>
+		</item>
+		<item>
+			<col name="param_id">170</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptDrawerNo</col>
+			<col name="param_value">Enter drawer number: </col>
+		</item>
+		<item>
+			<col name="param_id">171</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ConfirmDrawerNo</col>
+			<col name="param_value">Confirm (enter/clear)</col>
+		</item>
+		<item>
+			<col name="param_id">172</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadDrawerNo</col>
+			<col name="param_value">Invalid drawer number</col>
+		</item>
+		<item>
+			<col name="param_id">173</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadCheckNo</col>
+			<col name="param_value">Invalid check number</col>
+		</item>
+		<item>
+			<col name="param_id">174</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadCCNo</col>
+			<col name="param_value">Invalid credit card</col>
+		</item>
+		<item>
+			<col name="param_id">175</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCustomer</col>
+			<col name="param_value">Enter Customer Number: </col>
+		</item>
+		<item>
+			<col name="param_id">176</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">VoidSale</col>
+			<col name="param_value">Sale Voided, press enter</col>
+		</item>
+		<item>
+			<col name="param_id">177</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ConvertedAltCurrency</col>
+			<col name="param_value">Converted total</col>
+		</item>
+		<item>
+			<col name="param_id">178</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">AltCurrTenderPrompt</col>
+			<col name="param_value">Enter alternate currency amount: </col>
+		</item>
+		<item>
+			<col name="param_id">179</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">AltCurrencyDescription</col>
+			<col name="param_value">Alternate Currency Tender</col>
+		</item>
+		<item>
+			<col name="param_id">180</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TenderTotal</col>
+			<col name="param_value">Amount Tendered</col>
+		</item>
+		<item>
+			<col name="param_id">181</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TerminalLocked</col>
+			<col name="param_value">Terminal locked, press enter</col>
+		</item>
+		<item>
+			<col name="param_id">182</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EnterItem</col>
+			<col name="param_value">Enter item</col>
+		</item>
+		<item>
+			<col name="param_id">183</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EnterWeight</col>
+			<col name="param_value">Enter weight</col>
+		</item>
+		<item>
+			<col name="param_id">184</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Pause</col>
+			<col name="param_value">Press enter to continue...</col>
+		</item>
+		<item>
+			<col name="param_id">185</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CloaeCash</col>
+			<col name="param_value">Close cash drawer.</col>
+		</item>
+		<item>
+			<col name="param_id">186</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">RecallFailed</col>
+			<col name="param_value">Transaction not found</col>
+		</item>
+		<item>
+			<col name="param_id">187</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashLimitExceeded</col>
+			<col name="param_value">Cash in drawer limit exceeded</col>
+		</item>
+		<item>
+			<col name="param_id">188</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">NonTaxCount</col>
+			<col name="param_value">Non-Tax transactions</col>
+		</item>
+		<item>
+			<col name="param_id">189</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">NonTaxAmount</col>
+			<col name="param_value">Non-Tax amount</col>
+		</item>
+		<item>
+			<col name="param_id">190</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TaxCount</col>
+			<col name="param_value">Tax transactions </col>
+		</item>
+		<item>
+			<col name="param_id">191</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TaxAmount</col>
+			<col name="param_value">Tax amount </col>
+		</item>
+		<item>
+			<col name="param_id">192</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">VoidCount</col>
+			<col name="param_value">Void transactions</col>
+		</item>
+		<item>
+			<col name="param_id">193</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">VoidAmount</col>
+			<col name="param_value">Void amount</col>
+		</item>
+		<item>
+			<col name="param_id">194</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ReturnCount</col>
+			<col name="param_value">Return transactions</col>
+		</item>
+		<item>
+			<col name="param_id">195</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ReturnAmount</col>
+			<col name="param_value">Return amount</col>
+		</item>
+		<item>
+			<col name="param_id">196</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CouponCount</col>
+			<col name="param_value">Coupon transactions</col>
+		</item>
+		<item>
+			<col name="param_id">197</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CouponAmount</col>
+			<col name="param_value">Coupon amount</col>
+		</item>
+		<item>
+			<col name="param_id">198</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CreditCardCount</col>
+			<col name="param_value">Credit transactions</col>
+		</item>
+		<item>
+			<col name="param_id">199</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CreditCardAmount</col>
+			<col name="param_value">Credit amount</col>
+		</item>
+		<item>
+			<col name="param_id">200</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CheckCount</col>
+			<col name="param_value">Check transactions</col>
+		</item>
+		<item>
+			<col name="param_id">201</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CheckAmount</col>
+			<col name="param_value">Check amount</col>
+		</item>
+		<item>
+			<col name="param_id">202</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">RecdOnAcctCount</col>
+			<col name="param_value">Received on account transactions</col>
+		</item>
+		<item>
+			<col name="param_id">203</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">RecdOnAcctAmount</col>
+			<col name="param_value">Received on account amount</col>
+		</item>
+		<item>
+			<col name="param_id">204</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PaidInCount</col>
+			<col name="param_value">Paid in transactions</col>
+		</item>
+		<item>
+			<col name="param_id">205</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PaidInAmount</col>
+			<col name="param_value">Paid in Amount</col>
+		</item>
+		<item>
+			<col name="param_id">206</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PaidOutCount</col>
+			<col name="param_value">Paid out transactions</col>
+		</item>
+		<item>
+			<col name="param_id">207</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PaidOutAmount</col>
+			<col name="param_value">Paid out Amount</col>
+		</item>
+		<item>
+			<col name="param_id">208</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashInDrCount</col>
+			<col name="param_value">Cash transactions</col>
+		</item>
+		<item>
+			<col name="param_id">209</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashInDrAmount</col>
+			<col name="param_value">Cash in Drawer Amount</col>
+		</item>
+		<item>
+			<col name="param_id">210</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">LoanCount</col>
+			<col name="param_value">Loan transactions</col>
+		</item>
+		<item>
+			<col name="param_id">211</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">LoanAmount</col>
+			<col name="param_value">Loans amount</col>
+		</item>
+		<item>
+			<col name="param_id">212</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PickupCount</col>
+			<col name="param_value">Pickup transactions</col>
+		</item>
+		<item>
+			<col name="param_id">213</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PickupAmount</col>
+			<col name="param_value">Pickup amount</col>
+		</item>
+		<item>
+			<col name="param_id">214</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name"/>
+			<col name="param_value"> transactions</col>
+		</item>
+		<item>
+			<col name="param_id">215</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name"/>
+			<col name="param_value"> amount</col>
+		</item>
+		<item>
+			<col name="param_id">216</col>
+			<col name="config_no">2</col>
+			<col name="param_type">2</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashPickup</col>
+			<col name="param_value">10000.0</col>
+		</item>
+		<item>
+			<col name="param_id">217</col>
+			<col name="config_no">2</col>
+			<col name="param_type">1</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">NumCashDrawers</col>
+			<col name="param_value">2</col>
+		</item>
+		<item>
+			<col name="param_id">218</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptPosNo</col>
+			<col name="param_value">Enter POS Number: </col>
+		</item>
+		<item>
+			<col name="param_id">219</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptTransNo</col>
+			<col name="param_value">Enter Transaction Number:</col>
+		</item>
+		<item>
+			<col name="param_id">220</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">NoSaleCount</col>
+			<col name="param_value">No sale transactions</col>
+		</item>
+		<item>
+			<col name="param_id">221</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TransNo</col>
+			<col name="param_value">TRANS#</col>
+		</item>
+		<item>
+			<col name="param_id">222</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TransType</col>
+			<col name="param_value">TRANS TYPE</col>
+		</item>
+		<item>
+			<col name="param_id">223</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OperLogon</col>
+			<col name="param_value">Operator logon</col>
+		</item>
+		<item>
+			<col name="param_id">224</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OperLogoff</col>
+			<col name="param_value">Operator logoff</col>
+		</item>
+		<item>
+			<col name="param_id">225</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BankTrans</col>
+			<col name="param_value">Bank transaction</col>
+		</item>
+		<item>
+			<col name="param_id">226</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCheckNo</col>
+			<col name="param_value">Enter check number:</col>
+		</item>
+		<item>
+			<col name="param_id">227</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCCNo</col>
+			<col name="param_value">Enter credit card number:</col>
+		</item>
+		<item>
+			<col name="param_id">228</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCCExpr</col>
+			<col name="param_value">Enter expiration data:</col>
+		</item>
+		<item>
+			<col name="param_id">229</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Confirm</col>
+			<col name="param_value">Press enter</col>
+		</item>
+		<item>
+			<col name="param_id">230</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">GroupDiscount</col>
+			<col name="param_value">10% off third item</col>
+		</item>
+		<item>
+			<col name="param_id">231</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SaleInProgress</col>
+			<col name="param_value">Open sale, void or complete</col>
+		</item>
+		<item>
+			<col name="param_id">232</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr1</col>
+			<col name="param_value">9601 Provost Road, NW</col>
+		</item>
+		<item>
+			<col name="param_id">233</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr2</col>
+			<col name="param_value">Silverdale</col>
+		</item>
+		<item>
+			<col name="param_id">234</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr3</col>
+			<col name="param_value">WA</col>
+		</item>
+		<item>
+			<col name="param_id">235</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr4</col>
+			<col name="param_value">98383</col>
+		</item>
+		<item>
+			<col name="param_id">236</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr5</col>
+			<col name="param_value"/>
+		</item>
+		<item>
+			<col name="param_id">237</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr6</col>
+			<col name="param_value"/>
+		</item>
+		<item>
+			<col name="param_id">238</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SitePhone</col>
+			<col name="param_value">(555) 555-1234</col>
+		</item>
+		<item>
+			<col name="param_id">239</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteFax</col>
+			<col name="param_value">(555) 555-4321</col>
+		</item>
+		<item>
+			<col name="param_id">240</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TrxTag</col>
+			<col name="param_value">Transaction</col>
+		</item>
+		<item>
+			<col name="param_id">241</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PosTag</col>
+			<col name="param_value">Register</col>
+		</item>
+		<item>
+			<col name="param_id">242</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EmpTag</col>
+			<col name="param_value">Employee</col>
+		</item>
+		<item>
+			<col name="param_id">243</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">DateTag</col>
+			<col name="param_value">Time/Date</col>
+		</item>
+		<item>
+			<col name="param_id">244</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TimeTag</col>
+			<col name="param_value">Time </col>
+		</item>
+		<item>
+			<col name="param_id">245</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">QtyHeader</col>
+			<col name="param_value">Qty</col>
+		</item>
+		<item>
+			<col name="param_id">246</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ItemHeader</col>
+			<col name="param_value">Item</col>
+		</item>
+		<item>
+			<col name="param_id">247</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">DescHeader</col>
+			<col name="param_value">Description</col>
+		</item>
+		<item>
+			<col name="param_id">248</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PriceHeader</col>
+			<col name="param_value">Price</col>
+		</item>
+		<item>
+			<col name="param_id">249</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustNoTag</col>
+			<col name="param_value">Number</col>
+		</item>
+		<item>
+			<col name="param_id">250</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustNameTag</col>
+			<col name="param_value">Name</col>
+		</item>
+		<item>
+			<col name="param_id">251</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustAddrTag</col>
+			<col name="param_value">Address</col>
+		</item>
+		<item>
+			<col name="param_id">252</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustCityTag</col>
+			<col name="param_value">City</col>
+		</item>
+		<item>
+			<col name="param_id">253</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustStateTag</col>
+			<col name="param_value">State</col>
+		</item>
+		<item>
+			<col name="param_id">254</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustZipTag</col>
+			<col name="param_value">Zip</col>
+		</item>
+		<item>
+			<col name="param_id">255</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustPhoneTag</col>
+			<col name="param_value">Phone</col>
+		</item>
+		<item>
+			<col name="param_id">256</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustFaxTag</col>
+			<col name="param_value">Fax</col>
+		</item>
+		<item>
+			<col name="param_id">257</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustEmailTag</col>
+			<col name="param_value">E-Mail</col>
+		</item>
+		<item>
+			<col name="param_id">258</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OverMeiaLimit</col>
+			<col name="param_value">Over Media Limit</col>
+		</item>
+		<item>
+			<col name="param_id">259</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">UnderMediaLimit</col>
+			<col name="param_value">Under Media Limit</col>
+		</item>
+		<item>
+			<col name="param_id">260</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ConvertedTotal</col>
+			<col name="param_value">Converted Total</col>
+		</item>
+		<item>
+			<col name="param_id">261</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">AltCurrTotal</col>
+			<col name="param_value">Alternate Currency Total</col>
+		</item>
+		<item>
+			<col name="param_id">262</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Locale</col>
+			<col name="param_value">USA</col>
+		</item>
+		<item>
+			<col name="param_id">263</col>
+			<col name="config_no">2</col>
+			<col name="param_type">2</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">DecimalPlaces</col>
+			<col name="param_value">2</col>
+		</item>
+		<item>
+			<col name="param_id">264</col>
+			<col name="config_no">2</col>
+			<col name="param_type">4</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptForCashBack</col>
+			<col name="param_value">TRUE</col>
+		</item>
+		<item>
+			<col name="param_id">265</col>
+			<col name="config_no">2</col>
+			<col name="param_type">1</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">DefaultDrawerNo</col>
+			<col name="param_value">1</col>
+		</item>
+		<item>
+			<col name="param_id">266</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ReceiptLine1</col>
+			<col name="param_value">Welcome</col>
+		</item>
+		<item>
+			<col name="param_id">267</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OperTitle</col>
+			<col name="param_value">Operator Display</col>
+		</item>
+		<item>
+			<col name="param_id">268</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Total</col>
+			<col name="param_value">Total</col>
+		</item>
+		<item>
+			<col name="param_id">269</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TotalTax</col>
+			<col name="param_value">Total Tax</col>
+		</item>
+		<item>
+			<col name="param_id">270</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SubTotal</col>
+			<col name="param_value">SubTotal</col>
+		</item>
+		<item>
+			<col name="param_id">271</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashTender</col>
+			<col name="param_value">Cash Tender</col>
+		</item>
+		<item>
+			<col name="param_id">272</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CheckTender</col>
+			<col name="param_value">Check Tender</col>
+		</item>
+		<item>
+			<col name="param_id">273</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CreditCard</col>
+			<col name="param_value">Credit Card Tender</col>
+		</item>
+		<item>
+			<col name="param_id">274</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Discount</col>
+			<col name="param_value">Discount</col>
+		</item>
+		<item>
+			<col name="param_id">275</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Markout</col>
+			<col name="param_value">Markout</col>
+		</item>
+		<item>
+			<col name="param_id">276</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Change</col>
+			<col name="param_value">Change Due</col>
+		</item>
+		<item>
+			<col name="param_id">277</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashBack</col>
+			<col name="param_value">Cash Back</col>
+		</item>
+		<item>
+			<col name="param_id">278</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CloseDrawer</col>
+			<col name="param_value">Close Cash Drawer</col>
+		</item>
+		<item>
+			<col name="param_id">279</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InsertCheck</col>
+			<col name="param_value">Insert check</col>
+		</item>
+		<item>
+			<col name="param_id">280</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InsertValidation</col>
+			<col name="param_value">Insert Validation</col>
+		</item>
+		<item>
+			<col name="param_id">281</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InsertCCValidation</col>
+			<col name="param_value">Insert credit card receipt</col>
+		</item>
+		<item>
+			<col name="param_id">282</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadName</col>
+			<col name="param_value">Bad user ID, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">283</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadPass</col>
+			<col name="param_value">Invalid password, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">284</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InvalidCustomer</col>
+			<col name="param_value">Invalid customer number, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">285</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TooMany</col>
+			<col name="param_value">Too many logon attempts, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">286</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">GoodLogin</col>
+			<col name="param_value">Logon successful</col>
+		</item>
+		<item>
+			<col name="param_id">287</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OkText</col>
+			<col name="param_value">OK</col>
+		</item>
+		<item>
+			<col name="param_id">288</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CancelText</col>
+			<col name="param_value">Cancel</col>
+		</item>
+		<item>
+			<col name="param_id">289</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ClearText</col>
+			<col name="param_value">Clear</col>
+		</item>
+		<item>
+			<col name="param_id">290</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InvalidInput</col>
+			<col name="param_value">Invalid Input, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">291</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptOpenAmount</col>
+			<col name="param_value">Enter open amount: </col>
+		</item>
+		<item>
+			<col name="param_id">292</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptAmount</col>
+			<col name="param_value">Enter amount: </col>
+		</item>
+		<item>
+			<col name="param_id">293</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCashBack</col>
+			<col name="param_value">Cash back amount:</col>
+		</item>
+		<item>
+			<col name="param_id">294</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ConfirmOpenAmount</col>
+			<col name="param_value">Confirm (enter/clear)</col>
+		</item>
+		<item>
+			<col name="param_id">295</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">RegOpen</col>
+			<col name="param_value">Register Open</col>
+		</item>
+		<item>
+			<col name="param_id">296</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TotalRequired</col>
+			<col name="param_value">Total Required, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">297</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">InsufficientFunds</col>
+			<col name="param_value">Insufficient Funds, press clear</col>
+		</item>
+		<item>
+			<col name="param_id">298</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BalanceDue</col>
+			<col name="param_value">Balance Due:</col>
+		</item>
+		<item>
+			<col name="param_id">299</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">MgrIntervention</col>
+			<col name="param_value">Manager intervention required</col>
+		</item>
+		<item>
+			<col name="param_id">300</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EnterUser</col>
+			<col name="param_value">Enter User ID: </col>
+		</item>
+		<item>
+			<col name="param_id">301</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EnterPass</col>
+			<col name="param_value">Enter Password: </col>
+		</item>
+		<item>
+			<col name="param_id">302</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">LoginTab</col>
+			<col name="param_value">Login</col>
+		</item>
+		<item>
+			<col name="param_id">303</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptDrawerNo</col>
+			<col name="param_value">Enter drawer number: </col>
+		</item>
+		<item>
+			<col name="param_id">304</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ConfirmDrawerNo</col>
+			<col name="param_value">Confirm (enter/clear)</col>
+		</item>
+		<item>
+			<col name="param_id">305</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadDrawerNo</col>
+			<col name="param_value">Invalid drawer number</col>
+		</item>
+		<item>
+			<col name="param_id">306</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadCheckNo</col>
+			<col name="param_value">Invalid check number</col>
+		</item>
+		<item>
+			<col name="param_id">307</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BadCCNo</col>
+			<col name="param_value">Invalid credit card</col>
+		</item>
+		<item>
+			<col name="param_id">308</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCustomer</col>
+			<col name="param_value">Enter Customer Number: </col>
+		</item>
+		<item>
+			<col name="param_id">309</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">VoidSale</col>
+			<col name="param_value">Sale Voided, press enter</col>
+		</item>
+		<item>
+			<col name="param_id">310</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ConvertedAltCurrency</col>
+			<col name="param_value">Converted total</col>
+		</item>
+		<item>
+			<col name="param_id">311</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">AltCurrTenderPrompt</col>
+			<col name="param_value">Enter alternate currency amount: </col>
+		</item>
+		<item>
+			<col name="param_id">312</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">AltCurrencyDescription</col>
+			<col name="param_value">Alternate Currency Tender</col>
+		</item>
+		<item>
+			<col name="param_id">313</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TenderTotal</col>
+			<col name="param_value">Amount Tendered</col>
+		</item>
+		<item>
+			<col name="param_id">314</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TerminalLocked</col>
+			<col name="param_value">Terminal locked, press enter</col>
+		</item>
+		<item>
+			<col name="param_id">315</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EnterItem</col>
+			<col name="param_value">Enter item</col>
+		</item>
+		<item>
+			<col name="param_id">316</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EnterWeight</col>
+			<col name="param_value">Enter weight</col>
+		</item>
+		<item>
+			<col name="param_id">317</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Pause</col>
+			<col name="param_value">Press enter to continue...</col>
+		</item>
+		<item>
+			<col name="param_id">318</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CloaeCash</col>
+			<col name="param_value">Close cash drawer.</col>
+		</item>
+		<item>
+			<col name="param_id">319</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">RecallFailed</col>
+			<col name="param_value">Transaction not found</col>
+		</item>
+		<item>
+			<col name="param_id">320</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashLimitExceeded</col>
+			<col name="param_value">Cash in drawer limit exceeded</col>
+		</item>
+		<item>
+			<col name="param_id">321</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">NonTaxCount</col>
+			<col name="param_value">Non-Tax transactions</col>
+		</item>
+		<item>
+			<col name="param_id">322</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">NonTaxAmount</col>
+			<col name="param_value">Non-Tax amount</col>
+		</item>
+		<item>
+			<col name="param_id">323</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TaxCount</col>
+			<col name="param_value">Tax transactions </col>
+		</item>
+		<item>
+			<col name="param_id">324</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TaxAmount</col>
+			<col name="param_value">Tax amount </col>
+		</item>
+		<item>
+			<col name="param_id">325</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">VoidCount</col>
+			<col name="param_value">Void transactions</col>
+		</item>
+		<item>
+			<col name="param_id">326</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">VoidAmount</col>
+			<col name="param_value">Void amount</col>
+		</item>
+		<item>
+			<col name="param_id">327</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ReturnCount</col>
+			<col name="param_value">Return transactions</col>
+		</item>
+		<item>
+			<col name="param_id">328</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ReturnAmount</col>
+			<col name="param_value">Return amount</col>
+		</item>
+		<item>
+			<col name="param_id">329</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CouponCount</col>
+			<col name="param_value">Coupon transactions</col>
+		</item>
+		<item>
+			<col name="param_id">330</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CouponAmount</col>
+			<col name="param_value">Coupon amount</col>
+		</item>
+		<item>
+			<col name="param_id">331</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CreditCardCount</col>
+			<col name="param_value">Credit transactions</col>
+		</item>
+		<item>
+			<col name="param_id">332</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CreditCardAmount</col>
+			<col name="param_value">Credit amount</col>
+		</item>
+		<item>
+			<col name="param_id">333</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CheckCount</col>
+			<col name="param_value">Check transactions</col>
+		</item>
+		<item>
+			<col name="param_id">334</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CheckAmount</col>
+			<col name="param_value">Check amount</col>
+		</item>
+		<item>
+			<col name="param_id">335</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">RecdOnAcctCount</col>
+			<col name="param_value">Received on account transactions</col>
+		</item>
+		<item>
+			<col name="param_id">336</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">RecdOnAcctAmount</col>
+			<col name="param_value">Received on account amount</col>
+		</item>
+		<item>
+			<col name="param_id">337</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PaidInCount</col>
+			<col name="param_value">Paid in transactions</col>
+		</item>
+		<item>
+			<col name="param_id">338</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PaidInAmount</col>
+			<col name="param_value">Paid in Amount</col>
+		</item>
+		<item>
+			<col name="param_id">339</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PaidOutCount</col>
+			<col name="param_value">Paid out transactions</col>
+		</item>
+		<item>
+			<col name="param_id">340</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PaidOutAmount</col>
+			<col name="param_value">Paid out Amount</col>
+		</item>
+		<item>
+			<col name="param_id">341</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashInDrCount</col>
+			<col name="param_value">Cash transactions</col>
+		</item>
+		<item>
+			<col name="param_id">342</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashInDrAmount</col>
+			<col name="param_value">Cash in Drawer Amount</col>
+		</item>
+		<item>
+			<col name="param_id">343</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">LoanCount</col>
+			<col name="param_value">Loan transactions</col>
+		</item>
+		<item>
+			<col name="param_id">344</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">LoanAmount</col>
+			<col name="param_value">Loans amount</col>
+		</item>
+		<item>
+			<col name="param_id">345</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PickupCount</col>
+			<col name="param_value">Pickup transactions</col>
+		</item>
+		<item>
+			<col name="param_id">346</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PickupAmount</col>
+			<col name="param_value">Pickup amount</col>
+		</item>
+		<item>
+			<col name="param_id">347</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name"/>
+			<col name="param_value"> transactions</col>
+		</item>
+		<item>
+			<col name="param_id">348</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name"/>
+			<col name="param_value"> amount</col>
+		</item>
+		<item>
+			<col name="param_id">349</col>
+			<col name="config_no">3</col>
+			<col name="param_type">2</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CashPickup</col>
+			<col name="param_value">10000.0</col>
+		</item>
+		<item>
+			<col name="param_id">350</col>
+			<col name="config_no">3</col>
+			<col name="param_type">1</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">NumCashDrawers</col>
+			<col name="param_value">2</col>
+		</item>
+		<item>
+			<col name="param_id">351</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptPosNo</col>
+			<col name="param_value">Enter POS Number: </col>
+		</item>
+		<item>
+			<col name="param_id">352</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptTransNo</col>
+			<col name="param_value">Enter Transaction Number:</col>
+		</item>
+		<item>
+			<col name="param_id">353</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">NoSaleCount</col>
+			<col name="param_value">No sale transactions</col>
+		</item>
+		<item>
+			<col name="param_id">354</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TransNo</col>
+			<col name="param_value">TRANS#</col>
+		</item>
+		<item>
+			<col name="param_id">355</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TransType</col>
+			<col name="param_value">TRANS TYPE</col>
+		</item>
+		<item>
+			<col name="param_id">356</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OperLogon</col>
+			<col name="param_value">Operator logon</col>
+		</item>
+		<item>
+			<col name="param_id">357</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OperLogoff</col>
+			<col name="param_value">Operator logoff</col>
+		</item>
+		<item>
+			<col name="param_id">358</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">BankTrans</col>
+			<col name="param_value">Bank transaction</col>
+		</item>
+		<item>
+			<col name="param_id">359</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCheckNo</col>
+			<col name="param_value">Enter check number:</col>
+		</item>
+		<item>
+			<col name="param_id">360</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCCNo</col>
+			<col name="param_value">Enter credit card number:</col>
+		</item>
+		<item>
+			<col name="param_id">361</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptCCExpr</col>
+			<col name="param_value">Enter expiration data:</col>
+		</item>
+		<item>
+			<col name="param_id">362</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Confirm</col>
+			<col name="param_value">Press enter</col>
+		</item>
+		<item>
+			<col name="param_id">363</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">GroupDiscount</col>
+			<col name="param_value">10% off third item</col>
+		</item>
+		<item>
+			<col name="param_id">364</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteName</col>
+			<col name="param_value">Olympic Retailers, Inc.</col>
+		</item>
+		<item>
+			<col name="param_id">365</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr1</col>
+			<col name="param_value">9601 Provost Road, NW</col>
+		</item>
+		<item>
+			<col name="param_id">366</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr2</col>
+			<col name="param_value">Silverdale</col>
+		</item>
+		<item>
+			<col name="param_id">367</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr3</col>
+			<col name="param_value">WA</col>
+		</item>
+		<item>
+			<col name="param_id">368</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr4</col>
+			<col name="param_value">98383</col>
+		</item>
+		<item>
+			<col name="param_id">369</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr5</col>
+			<col name="param_value"/>
+		</item>
+		<item>
+			<col name="param_id">370</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteAddr6</col>
+			<col name="param_value"/>
+		</item>
+		<item>
+			<col name="param_id">371</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SitePhone</col>
+			<col name="param_value">(555) 555-1234</col>
+		</item>
+		<item>
+			<col name="param_id">372</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">SiteFax</col>
+			<col name="param_value">(555) 555-4321</col>
+		</item>
+		<item>
+			<col name="param_id">373</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TrxTag</col>
+			<col name="param_value">Transaction</col>
+		</item>
+		<item>
+			<col name="param_id">374</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PosTag</col>
+			<col name="param_value">Register</col>
+		</item>
+		<item>
+			<col name="param_id">375</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">EmpTag</col>
+			<col name="param_value">Employee</col>
+		</item>
+		<item>
+			<col name="param_id">376</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">DateTag</col>
+			<col name="param_value">Time/Date</col>
+		</item>
+		<item>
+			<col name="param_id">377</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">TimeTag</col>
+			<col name="param_value">Time </col>
+		</item>
+		<item>
+			<col name="param_id">378</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">QtyHeader</col>
+			<col name="param_value">Qty</col>
+		</item>
+		<item>
+			<col name="param_id">379</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ItemHeader</col>
+			<col name="param_value">Item</col>
+		</item>
+		<item>
+			<col name="param_id">380</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">DescHeader</col>
+			<col name="param_value">Description</col>
+		</item>
+		<item>
+			<col name="param_id">381</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PriceHeader</col>
+			<col name="param_value">Price</col>
+		</item>
+		<item>
+			<col name="param_id">382</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustNoTag</col>
+			<col name="param_value">Number</col>
+		</item>
+		<item>
+			<col name="param_id">383</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustNameTag</col>
+			<col name="param_value">Name</col>
+		</item>
+		<item>
+			<col name="param_id">384</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustAddrTag</col>
+			<col name="param_value">Address</col>
+		</item>
+		<item>
+			<col name="param_id">385</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustCityTag</col>
+			<col name="param_value">City</col>
+		</item>
+		<item>
+			<col name="param_id">386</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustStateTag</col>
+			<col name="param_value">State</col>
+		</item>
+		<item>
+			<col name="param_id">387</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustZipTag</col>
+			<col name="param_value">Zip</col>
+		</item>
+		<item>
+			<col name="param_id">388</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustPhoneTag</col>
+			<col name="param_value">Phone</col>
+		</item>
+		<item>
+			<col name="param_id">389</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustFaxTag</col>
+			<col name="param_value">Fax</col>
+		</item>
+		<item>
+			<col name="param_id">390</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CustEmailTag</col>
+			<col name="param_value">E-Mail</col>
+		</item>
+		<item>
+			<col name="param_id">391</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">OverMeiaLimit</col>
+			<col name="param_value">Over Media Limit</col>
+		</item>
+		<item>
+			<col name="param_id">392</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">UnderMediaLimit</col>
+			<col name="param_value">Under Media Limit</col>
+		</item>
+		<item>
+			<col name="param_id">393</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">ConvertedTotal</col>
+			<col name="param_value">Converted Total</col>
+		</item>
+		<item>
+			<col name="param_id">394</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">AltCurrTotal</col>
+			<col name="param_value">Alternate Currency Total</col>
+		</item>
+		<item>
+			<col name="param_id">395</col>
+			<col name="config_no">3</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">Locale</col>
+			<col name="param_value">USA</col>
+		</item>
+		<item>
+			<col name="param_id">396</col>
+			<col name="config_no">3</col>
+			<col name="param_type">2</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">DecimalPlaces</col>
+			<col name="param_value">2</col>
+		</item>
+		<item>
+			<col name="param_id">397</col>
+			<col name="config_no">3</col>
+			<col name="param_type">4</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">PromptForCashBack</col>
+			<col name="param_value">TRUE</col>
+		</item>
+		<item>
+			<col name="param_id">398</col>
+			<col name="config_no">3</col>
+			<col name="param_type">1</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">DefaultDrawerNo</col>
+			<col name="param_value">1</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">399</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">CustDiscountTag</col>
+			<col name="PARAM_VALUE">Discount</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">400</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">PeriodicTotalsDateFormat</col>
+			<col name="PARAM_VALUE">MMddyy</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">401</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">PeriodicTotalsGetStartDate</col>
+			<col name="PARAM_VALUE">Start date (MMDDYY):</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">402</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">PeriodicTotalsGetStartNo</col>
+			<col name="PARAM_VALUE">Start no:</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">403</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">PeriodicTotalsGetEndDate</col>
+			<col name="PARAM_VALUE">End date (MMDDYY):</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">404</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">PeriodicTotalsGetEndNo</col>
+			<col name="PARAM_VALUE">End no:</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">405</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">CustNoDialogPrompt</col>
+			<col name="PARAM_VALUE">Customer no:</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">406</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">ErrorNoPaper</col>
+			<col name="PARAM_VALUE">No paper in attached device</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">407</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">ErrorFPState</col>
+			<col name="PARAM_VALUE">Invalid FP State</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">408</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">PrintingTranFound</col>
+			<col name="PARAM_VALUE">Not printed transaction found</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">409</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">ItemNotFound</col>
+			<col name="PARAM_VALUE">Item not found</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">410</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">CustomerNotFound</col>
+			<col name="PARAM_VALUE">Customer not found</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">411</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">ItemLocked</col>
+			<col name="PARAM_VALUE">Item locked</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">412</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">TrainingModeOn</col>
+			<col name="PARAM_VALUE">Training Mode is ON</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">413</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">TrainingModeOff</col>
+			<col name="PARAM_VALUE">Training Mode is OFF</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">414</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">EnterItemID</col>
+			<col name="PARAM_VALUE">Enter Item ID:</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">415</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">CreditTender</col>
+			<col name="PARAM_VALUE">Credit Tender</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">416</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">GiftTender</col>
+			<col name="PARAM_VALUE">Gift Tender</col>
+		</item>
+		<item>
+			<col name="param_id">417</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CreditCount</col>
+			<col name="param_value">Credit transactions</col>
+		</item>
+		<item>
+			<col name="param_id">418</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">CreditAmount</col>
+			<col name="param_value">Credit amount</col>
+		</item>
+		<item>
+			<col name="param_id">419</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">GiftCount</col>
+			<col name="param_value">Gift transactions</col>
+		</item>
+		<item>
+			<col name="param_id">420</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">GiftAmount</col>
+			<col name="param_value">Gift amount</col>
+		</item>
+		<item>
+			<col name="param_id">421</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">MarkdownByPercentDesc</col>
+			<col name="param_value">Markdown: {0}% off</col>
+		</item>
+		<item>
+			<col name="param_id">422</col>
+			<col name="config_no">2</col>
+			<col name="param_type">3</col>
+			<col name="cache_flag">0</col>
+			<col name="help_id">0</col>
+			<col name="param_name">AdjustTime</col>
+			<col name="param_value">New Time (HHMMSS):</col>
+		</item>
+
+
+		<item>
+			<col name="PARAM_ID">423</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">PaidInPromptAmount</col>
+			<col name="PARAM_VALUE">Paid In, amount:</col>
+		</item>
+		<item>
+			<col name="PARAM_ID">424</col>
+			<col name="CONFIG_NO">2</col>
+			<col name="PARAM_TYPE">3</col>
+			<col name="CACHE_FLAG">0</col>
+			<col name="HELP_ID">0</col>
+			<col name="PARAM_NAME">PaidOutPromptAmount</col>
+			<col name="PARAM_VALUE">Paid Out, amount::</col>
+		</item>
+
+	</tableinsert>
+</mercatordata>

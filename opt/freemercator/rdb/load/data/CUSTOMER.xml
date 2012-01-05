@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="CUSTOMER">
+
+  <item>
+    <col name="customer_id">-1</col>
+    <col name="customer_no">5</col>
+    <col name="customer_name">Customer with 5% discount</col>
+    <col name="addr1">Address Line</col>
+    <col name="addr2"></col>
+    <col name="addr3"></col>
+    <col name="addr4"></col>
+    <col name="addr5"></col>
+    <col name="phone">123456</col>
+    <col name="fax">456789</col>
+    <col name="email">customer@nowhere.com</col>
+    <col name="extra1"></col>
+    <col name="extra2"></col>
+    <col name="discount">5</col>
+    <col name="birthday"></col>
+    <col name="updatedate"></col>
+  </item>
+  <item>
+    <col name="customer_id">-2</col>
+    <col name="customer_no">10</col>
+    <col name="customer_name">Customer with 10% discount</col>
+    <col name="addr1">Address Line</col>
+    <col name="addr2"></col>
+    <col name="addr3"></col>
+    <col name="addr4"></col>
+    <col name="addr5"></col>
+    <col name="phone">123456</col>
+    <col name="fax">456789</col>
+    <col name="email">customer@nowhere.com</col>
+    <col name="extra1"></col>
+    <col name="extra2"></col>
+    <col name="discount">10</col>
+    <col name="birthday"></col>
+    <col name="updatedate"></col>
+  </item>
+  <item>
+    <col name="customer_id">-3</col>
+    <col name="customer_no">15</col>
+    <col name="customer_name">Customer with 15% discount</col>
+    <col name="addr1">Address Line</col>
+    <col name="addr2"></col>
+    <col name="addr3"></col>
+    <col name="addr4"></col>
+    <col name="addr5"></col>
+    <col name="phone">123456</col>
+    <col name="fax">456789</col>
+    <col name="email">customer@nowhere.com</col>
+    <col name="extra1"></col>
+    <col name="extra2"></col>
+    <col name="discount">15</col>
+    <col name="birthday"></col>
+    <col name="updatedate"></col>
+  </item>
+  <item>
+    <col name="customer_id">-4</col>
+    <col name="customer_no">20</col>
+    <col name="customer_name">Customer with 20% discount</col>
+    <col name="addr1">Address Line</col>
+    <col name="addr2"></col>
+    <col name="addr3"></col>
+    <col name="addr4"></col>
+    <col name="addr5"></col>
+    <col name="phone">123456</col>
+    <col name="fax">456789</col>
+    <col name="email">customer@nowhere.com</col>
+    <col name="extra1"></col>
+    <col name="extra2"></col>
+    <col name="discount">20</col>
+    <col name="birthday"></col>
+    <col name="updatedate"></col>
+  </item>
+</tableinsert>
+</mercatordata>

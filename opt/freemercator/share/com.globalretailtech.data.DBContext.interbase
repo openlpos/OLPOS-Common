@@ -1,0 +1,6 @@
+Driver=interbase.interclient.Driver
+ConnectPrefix=jdbc:interbase://
+ConnectHost=localhost
+ConnectFile=/home/dres/project/gnucash/related/mercator/mercator/rdb/db/site.gdb
+User=pos
+Password=pos

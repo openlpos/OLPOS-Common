@@ -1,0 +1,191 @@
+
+This file contains instructions for installing, compiling and running
+the Java POS application. 
+
+< http://freemercator.sf.net >
+
+System Requirements
+===================
+
+You will need a 200-300mhz processor and 64 megabytes or greater as a
+development environment. For deployment a 166mhz system and 32
+megabytes of memory is the minimum requirement. If you intend on
+populating a large item database (>5000 items) a larger system is
+required. Various configurations are possible such as hosting the
+database on a server. This lessens the POS system requirements
+significantly.
+
+========================
+
+Required for development:
+
+ - Java development kit (JDK 2.0) or runtime environment (JRE)
+
+Required for production use:
+
+ - Postgres or Interbase DB
+
+Java
+====
+
+Install a JDK (Java Development Kit), I've been using:
+
+http://java.sun.com/j2se/1.4/download.html
+
+Follow installation instructions that came with the JDK.
+
+Add $INSTALL_DIR/bin/ to your $PATH environment variable.
+
+
+Running the POS
+===============
+
+The pos may be started from the command line using the following
+command in the $ROOT/bin directory. 
+
+On Linux:
+
+> cd bin
+> ./run.sh  
+
+Or on Windows:
+
+> cd bin
+> run.bat
+
+There are three configurations in the current release, these are
+accessed via the login IDs 1, 2 and 3 with pins 1, 2 and 3. Lower
+profile versions of the same configuration are also included via
+IDs 11, 22 and 33 and PINS 11, 22 and 33. 
+
+The panel/button layouts are different for the different
+configurations.  In configuration 1, a PLU button and the cash key on
+the initial manu are used to key a sale, example:
+
+Press "1", "PLU" (French Bread is displayed), press "Cash" and "Enter"
+to close (emulate) the cash drawer.
+
+Configuring the Data
+====================
+
+> cd bin
+> ./admin.sh  (or admin.bat)
+
+This is a rudimentary configuration utility.  It will allow you to modify employees, menu_root, pos_config, and sub_menus.  Right click on an item to delete it, right-click on an item type to add.
+
+Additionally if you want to edit buttons (pos_keys), you can execute "run.sh --edit" and CTRL-click on any button to edit it's properties.
+
+
+Configuring key bindings
+=================================
+You may change binding between PC key - FreeMercator key,
+in order to do it, change property file bin/jpos.xml or use configuration utility
+(./admin.sh or admin.bat) then go to Hardware|Configure..., then POSKeyboard, then vendor 
+properties tab.
+property format:
+key.PC_Key=Mercator_Key
+
+PC_Key may be 
+  1. integer (key.100), 
+  2. hex (key.0xA0) or 
+  3. VK_XXXX constant (key.VK_F1, see java.awt.event.KeyEvent javadoc for details)
+  4. VK_XX+SHIFT - key with SHIFT,
+     ALT, SHIFT and CTRL are recognized
+examples:
+  key.VK_F1
+  key.VK_F1+SHIFT       - SHIFT+F1     
+  key.VK_F1+SHIFT+CTRL  - SHIFT+CTRL+F1 
+  
+Defaults are:
+0-9 keys (main & num pad)
+ESC-Cancel
+F1-PLU
+F11-Cash
+F12-Total
+Num*-Quantity
+Num/-PLU
+Num+-Cash
+Num--Void
+Enter-Enter
+
+Configuring graphic buttons
+===================================
+You may add an image for a pos menu button.
+1. Create or make sure share/buttons directory exists
+2. Find out KeyID to which you want to add an image,
+   (it can be done either checking POS_KEY table or Ctrl-Click on
+   button if you've started GPOS with --edit option)
+3. Add 2 images named as XX.gif and XXd.gif to the share/butons
+   directory where XX - KeyID. XX.gif will be used for enabled state,
+   XXd for disabled   
+You will see effect immediately, just click on Logon tab and then
+return back to force repainting.
+
+Configuring PostgreSQL/linux
+====================================
+In order to run FM under linux with PostgreSQL backend:
+1. Install postgresql-XX, postgresql-server-XX, postgresql-jdbc-XX
+   packages (rpms)
+2. Make sure postmaster is running,
+   try 'service postgresql start',
+   then 'ps -axw|grep postmaster'
+3. Create new db and user:
+   #su postgres
+   $createdb mercator (if you need another encoding: createdb mercator -E UNICODE)
+   $createuser -P
+     username: pos
+     password: pos
+   $exit
+4. Edit postgresql startup file (ex. /etc/init.d/postgresql)
+   and add "-i" option to postmaster, so it will accept tcp
+   connections on default 5432 or other specified port.
+   in case when postmaster is started via pg_ctl:
+   pg_ctl -o '-i -p 5432'   
+5. Edit pg_hba.conf file in the data directory,
+   (in my case /var/lib/pgsql/data).
+   Scroll to bottom and make sure you've got:
+     local                                 trust
+     host   all 127.0.0.1  255.255.255.255 trust
+   lines uncommented
+6. Restart postmaster or make it reload config with kill -HUP
+5. Put appropriate jdbc jar file into <mercator>/thirdparty
+6. Start admin utility (bin/admin.sh)
+7. Change db backend with 
+		Database|Change DB Backend...,
+   choose org.postgresql.Driver       
+   and correct user/password/port to your values
+   OK
+8. create tables with 
+		Database|Drop and Recreate Schema...,
+   then choose all files from src/sql/xmldef
+9. import data with 
+		Database|Import Data XML...     
+   then choose all files from rdb/load/data
+10. Close admin utility and start FM, you should
+    get it running with PostgreSQL
+    
+Internalization tip:
+   If you need to work with language different from English,
+   pgsql db must be created with encoding different from default,
+   in my case it was 'create -E WIN mercator'.
+   JDBC driver should also have same locale as parameter:
+   ConnectFile=/mercator?charSet=WIN.
+
+Configuring/enabling web server
+===============================
+Mercator comes with embedded server and it is possible
+(in the nearest future) to perform basic admin tasks and
+some reports. To enable embedded server, uncomment line
+net.sf.mercator.daemons.EmbeddedJetty
+in share/daemons file.
+To change server port and enable ssl connector follow instructions
+in share/net.sf.mercator.daemons.EmbeddedJetty
+
+
+Full Screen mode
+================
+Full screen mode is the default for FM and config#2 is optimized for
+that. If you need usual window mode do the following:
+1. replace west.gif with west.gif.nofullscreen in share/images
+2. set Undecorated=false in share/com.globalretailtech.pos.gui.PosFrame
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="PROMOTION_MAP">
+  <item>
+    <col name="promotion_id">3</col>
+    <col name="promotion_map">1540020084</col>
+    <col name="map_type">1</col>
+  </item>
+  <item>
+    <col name="promotion_id">3</col>
+    <col name="promotion_map">4116369848</col>
+    <col name="map_type">1</col>
+  </item>
+  <item>
+    <col name="promotion_id">4</col>
+    <col name="promotion_map">0000491320</col>
+    <col name="map_type">1</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

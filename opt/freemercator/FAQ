@@ -1,0 +1,38 @@
+
+FreeMercator FAQ (Frequently Asked Questions)
+
+Latest version: 
+http://freemercator.sourceforge.net/modules.php?name=FAQ
+
+
+1. How can I get the latest CVS snapshot of FM?
+   
+   Use you favorite cvs client with the following params:
+   host:             cvs.sourceforge.net
+   protocol:         :pserver:
+   repository path:  /cvsroot/freemercator
+   user:             anonymous
+   password:         <empty>
+   
+   I suggest to use TortoiseCVS from 
+   sourceforge.net/projects/tortoisecvs  (use stable version !!!)
+
+2. Why do I get error "Cash in drawer limit exceeded"?
+   
+   Limit in cash drawer is one of the Pos Parameters
+   and is separate for each config. Default limit is $100.
+   In order to increase it, go to admin utility and change
+   parameter "CashPickup" either for necessary configuration
+   or for all.   
+   
+3. How can I change screen size?
+
+   FM was designed to best fit 1024x768 screen size. Some size/width
+   parameters are stored in db in respect to the default size, but they
+   can be scaled to actual screen size. To change width/height, edit
+   shared file 
+   <share>/com.globalretailtech.pos.gui.PosFrame
+   This will do most of work, but to look really good on you resolution,
+   you will also have to change the following:
+   - west.gif, east.gif, north.gif, south.gif in <share>/images
+   - font size for most of gui elements, look into files in <share> dir

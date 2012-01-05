@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="HELP">
+  <item>
+    <col name="help_id">1</col>
+    <col name="display_name">Manager</col>
+    <col name="display_text">A very powerful profile set that only a manger should have.</col>
+  </item>
+  <item>
+    <col name="help_id">2</col>
+    <col name="display_name">Cashier</col>
+    <col name="display_text">Only allows item markdowns.</col>
+  </item>
+  <item>
+    <col name="help_id">3</col>
+    <col name="display_name">Item markdown priviledge</col>
+    <col name="display_text">Allows cashier to markdown the price of a single item.</col>
+  </item>
+  <item>
+    <col name="help_id">5</col>
+    <col name="display_name"></col>
+    <col name="display_text"></col>
+  </item>
+  <item>
+    <col name="help_id">6</col>
+    <col name="display_name"></col>
+    <col name="display_text"></col>
+  </item>
+  <item>
+    <col name="help_id">7</col>
+    <col name="display_name"></col>
+    <col name="display_text"></col>
+  </item>
+  <item>
+    <col name="help_id">8</col>
+    <col name="display_name"></col>
+    <col name="display_text"></col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

@@ -1,0 +1,13 @@
+#
+# <jcl-install-dir>/test
+# Root of all JCL JUnit tests.  To run tests do:
+# 1) Download and install the JUnit 3.7 or later from http://www.junit.org
+# 2) Set your JCL_HOME and build JCL (see <jcl-install-dir>/build.xml for details
+# 3) Run using Ant from <jcl-install-dir> with:
+#    %ant test
+# 4) Alternatively if you have the <jcl-install-dir>/bin set in your CLASSPATH then
+#    you can run the JUnit tests by doing:
+#    %java junit.textui.TestRunner jpos.AllTests 
+# @author E. Michael Maximilien (maxim@us.ibm.com)
+# @since 2.1.0
+#

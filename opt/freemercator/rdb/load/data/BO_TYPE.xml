@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="BO_TYPE">
+  <item>
+    <col name="obj_id">1</col>
+    <col name="bu_id">1</col>
+    <col name="obj_desc">Business Unit</col>
+  </item>
+  <item>
+    <col name="obj_id">2</col>
+    <col name="bu_id">1</col>
+    <col name="obj_desc">Point of Sale Terminal</col>
+  </item>
+  <item>
+    <col name="obj_id">3</col>
+    <col name="bu_id">1</col>
+    <col name="obj_desc">Point of Sale Transaction</col>
+  </item>
+  <item>
+    <col name="obj_id">4</col>
+    <col name="bu_id">1</col>
+    <col name="obj_desc">Tax Regions</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

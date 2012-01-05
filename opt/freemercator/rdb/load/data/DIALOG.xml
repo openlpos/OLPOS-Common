@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="DIALOG">
+  <item>
+    <col name="dialog_id">100</col>
+    <col name="config_no">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">Open</col>
+  </item>
+  <item>
+    <col name="dialog_id">101</col>
+    <col name="config_no">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">LogOn</col>
+  </item>
+  <item>
+    <col name="dialog_id">102</col>
+    <col name="config_no">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">ManagerRequired</col>
+  </item>
+  <item>
+    <col name="dialog_id">103</col>
+    <col name="config_no">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">CashTender</col>
+  </item>
+  <item>
+    <col name="dialog_id">104</col>
+    <col name="config_no">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">CheckTender</col>
+  </item>
+  <item>
+    <col name="dialog_id">105</col>
+    <col name="config_no">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">CreditTender</col>
+  </item>
+  <item>
+    <col name="dialog_id">106</col>
+    <col name="config_no">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">AltCurrTender</col>
+  </item>
+  <item>
+    <col name="dialog_id">107</col>
+    <col name="config_no">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">RecallEj</col>
+  </item>
+  <item>
+    <col name="dialog_id">108</col>
+    <col name="config_no">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">PaidIn</col>
+  </item>
+  <item>
+    <col name="dialog_id">109</col>
+    <col name="config_no">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">PaidOut</col>
+  </item>
+  <item>
+    <col name="dialog_id">110</col>
+    <col name="config_no">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">UnLock</col>
+  </item>
+  <item>
+    <col name="dialog_id">200</col>
+    <col name="config_no">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">Open</col>
+  </item>
+  <item>
+    <col name="dialog_id">201</col>
+    <col name="config_no">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">LogOn</col>
+  </item>
+  <item>
+    <col name="dialog_id">202</col>
+    <col name="config_no">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">ManagerRequired</col>
+  </item>
+  <item>
+    <col name="dialog_id">203</col>
+    <col name="config_no">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">CashTender</col>
+  </item>
+  <item>
+    <col name="dialog_id">204</col>
+    <col name="config_no">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">CheckTender</col>
+  </item>
+  <item>
+    <col name="dialog_id">205</col>
+    <col name="config_no">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">CreditTender</col>
+  </item>
+  <item>
+    <col name="dialog_id">206</col>
+    <col name="config_no">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">AltCurrTender</col>
+  </item>
+  <item>
+    <col name="dialog_id">207</col>
+    <col name="config_no">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">RecallEj</col>
+  </item>
+  <item>
+    <col name="dialog_id">208</col>
+    <col name="config_no">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">PaidIn</col>
+  </item>
+  <item>
+    <col name="dialog_id">209</col>
+    <col name="config_no">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">PaidOut</col>
+  </item>
+  <item>
+    <col name="dialog_id">210</col>
+    <col name="config_no">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">UnLock</col>
+  </item>
+  <item>
+    <col name="dialog_id">211</col>
+    <col name="config_no">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">CreditTender</col>
+  </item>
+  <item>
+    <col name="dialog_id">212</col>
+    <col name="config_no">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">GiftTender</col>
+  </item>
+
+  <item>
+    <col name="dialog_id">300</col>
+    <col name="config_no">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">Open</col>
+  </item>
+  <item>
+    <col name="dialog_id">301</col>
+    <col name="config_no">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">LogOn</col>
+  </item>
+  <item>
+    <col name="dialog_id">302</col>
+    <col name="config_no">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">ManagerRequired</col>
+  </item>
+  <item>
+    <col name="dialog_id">303</col>
+    <col name="config_no">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">CashTender</col>
+  </item>
+  <item>
+    <col name="dialog_id">304</col>
+    <col name="config_no">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">CheckTender</col>
+  </item>
+  <item>
+    <col name="dialog_id">305</col>
+    <col name="config_no">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">CreditTender</col>
+  </item>
+  <item>
+    <col name="dialog_id">306</col>
+    <col name="config_no">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">AltCurrTender</col>
+  </item>
+  <item>
+    <col name="dialog_id">307</col>
+    <col name="config_no">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">RecallEj</col>
+  </item>
+  <item>
+    <col name="dialog_id">308</col>
+    <col name="config_no">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">PaidIn</col>
+  </item>
+  <item>
+    <col name="dialog_id">309</col>
+    <col name="config_no">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">PaidOut</col>
+  </item>
+  <item>
+    <col name="dialog_id">310</col>
+    <col name="config_no">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_type">1</col>
+    <col name="dialog_name">UnLock</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

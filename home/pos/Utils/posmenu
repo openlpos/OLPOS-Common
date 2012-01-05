@@ -1,0 +1,60 @@
+#!/bin/bash
+#
+# QnD POS Tool menu
+# OpenLPOS.org
+#
+###########################
+
+tempfile="/home/admin/Utils/posmenu-tempfile"
+
+touch $tempfile
+
+do_menu(){
+Xdialog --title "OpenLPOS POS Menu" \
+        --menu "Please choose a POS function:" 15 55 5 \
+        "POSTest" "Check JavaPOS Drivers and Devices" \
+        "FreeMercator" "Run FreeMercator" \
+        "FMAdmin" "FreeMercator Admin Mode" \
+        "Keyboard" "Display onscreen keyboard" \
+        "Foo"  "Foo" 2> $tempfile
+}
+
+do_menu
+
+return_value=$?
+
+choice=`cat $tempfile`
+
+case $return_value in
+  0)
+    echo "Running '$choice'..."
+    case $choice in
+        "POSTest")
+            cd /opt/POSTest
+            sh POStest.sh
+            exit 0
+         ;;
+         
+        "FreeMercator")
+            cd /opt/freemercator/bin
+            sh run.sh
+            exit 0
+        ;;
+
+        "FMAdmin")
+            cd /opt/freemercator/bin
+            sh admin.sh
+            exit 0
+        ;;
+
+        "Keyboard")
+            Xdialog --msgbox "Sorry, no onscreen keyboard is available through this tool." 0 0
+            do_menu
+        ;;
+     esac
+    ;;
+  1)
+    exit 0 ;;
+  255)
+    exit 1 ;;
+esac

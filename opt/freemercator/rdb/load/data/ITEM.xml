@@ -1,0 +1,2318 @@
+<?xml version="1.0"?>
+<mercatordata>
+	<tableinsert table="ITEM">
+		<item>
+			<col name="ITEM_ID">0</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">8858643086</col>
+			<col name="SHORT_DESC">Wine</col>
+			<col name="AMOUNT">1299.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">1</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">4116397507</col>
+			<col name="SHORT_DESC">French Bread</col>
+			<col name="AMOUNT">149.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">1</col>
+			<col name="DIVIDER">2</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">2</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">7283000210</col>
+			<col name="SHORT_DESC">Tillamook Mild, 2lb.</col>
+			<col name="AMOUNT">599.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">3</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">1540020084</col>
+			<col name="SHORT_DESC">2% Milk</col>
+			<col name="AMOUNT">239.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">4</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">4116369848</col>
+			<col name="SHORT_DESC">Skim Milk</col>
+			<col name="AMOUNT">229.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">5</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000491320</col>
+			<col name="SHORT_DESC">12oz Sprite</col>
+			<col name="AMOUNT">45.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">6</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000010</col>
+			<col name="SHORT_DESC">TALL DRIP</col>
+			<col name="AMOUNT">190.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">7</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000011</col>
+			<col name="SHORT_DESC">SHORT DRIP</col>
+			<col name="AMOUNT">170.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">8</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000012</col>
+			<col name="SHORT_DESC">GRAND DRIP</col>
+			<col name="AMOUNT">205.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">9</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000013</col>
+			<col name="SHORT_DESC">VENTI DRIP</col>
+			<col name="AMOUNT">220.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">10</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000020</col>
+			<col name="SHORT_DESC">TALL AMER</col>
+			<col name="AMOUNT">190.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">11</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000021</col>
+			<col name="SHORT_DESC">SHORT AMER</col>
+			<col name="AMOUNT">170.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">12</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000022</col>
+			<col name="SHORT_DESC">GRAND AMER</col>
+			<col name="AMOUNT">205.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">13</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000023</col>
+			<col name="SHORT_DESC">VENTI AMER</col>
+			<col name="AMOUNT">220.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">14</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000030</col>
+			<col name="SHORT_DESC">TALL LATTE</col>
+			<col name="AMOUNT">190.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">15</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000031</col>
+			<col name="SHORT_DESC">SHORT LATTE</col>
+			<col name="AMOUNT">170.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">16</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000032</col>
+			<col name="SHORT_DESC">GRAND LATTE</col>
+			<col name="AMOUNT">205.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">17</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000033</col>
+			<col name="SHORT_DESC">VENTI LATTE</col>
+			<col name="AMOUNT">220.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">18</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000040</col>
+			<col name="SHORT_DESC">TALL CAPP</col>
+			<col name="AMOUNT">190.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">19</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000041</col>
+			<col name="SHORT_DESC">SHORT CAPP</col>
+			<col name="AMOUNT">170.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">20</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000042</col>
+			<col name="SHORT_DESC">GRAND CAPP</col>
+			<col name="AMOUNT">205.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">21</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000043</col>
+			<col name="SHORT_DESC">VENTI CAPP</col>
+			<col name="AMOUNT">220.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">22</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000055</col>
+			<col name="SHORT_DESC">ADD SHOTS</col>
+			<col name="AMOUNT">55.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">23</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000057</col>
+			<col name="SHORT_DESC">ADD SYRUP</col>
+			<col name="AMOUNT">25.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">24</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000052</col>
+			<col name="SHORT_DESC">ADD MILK</col>
+			<col name="AMOUNT">45.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">25</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000000054</col>
+			<col name="SHORT_DESC">ADD SOY</col>
+			<col name="AMOUNT">35.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">26</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001001</col>
+			<col name="SHORT_DESC">Flat White</col>
+			<col name="AMOUNT">255.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">27</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001002</col>
+			<col name="SHORT_DESC">Latte</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">28</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001003</col>
+			<col name="SHORT_DESC">Piccolo</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">29</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001004</col>
+			<col name="SHORT_DESC">Cappucino</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">30</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001011</col>
+			<col name="SHORT_DESC">Black Vienna</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">31</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001012</col>
+			<col name="SHORT_DESC">White Vienna</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">32</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001013</col>
+			<col name="SHORT_DESC">Macchiato</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">33</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001014</col>
+			<col name="SHORT_DESC">Long Macchiato</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">34</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001021</col>
+			<col name="SHORT_DESC">Short Black</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">35</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001022</col>
+			<col name="SHORT_DESC">Long Black</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">36</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001023</col>
+			<col name="SHORT_DESC">Ice Coffee</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">37</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001024</col>
+			<col name="SHORT_DESC">Hot Choc</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">38</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001031</col>
+			<col name="SHORT_DESC">Ice Choc</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">39</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000001032</col>
+			<col name="SHORT_DESC">Baby Cino</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">40</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002001</col>
+			<col name="SHORT_DESC">Pot Leaf Tea</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">41</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002002</col>
+			<col name="SHORT_DESC">Pot Bag Tea</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">42</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002003</col>
+			<col name="SHORT_DESC">T/A Leaf Tea</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">43</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002004</col>
+			<col name="SHORT_DESC">T/A Bag Tea</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">44</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002005</col>
+			<col name="SHORT_DESC">Arctic Fire</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">2</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">45</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002006</col>
+			<col name="SHORT_DESC">Aust Breakfast</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">2</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">46</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002007</col>
+			<col name="SHORT_DESC">Cammomile</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">2</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">47</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002008</col>
+			<col name="SHORT_DESC">Ceylon</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">2</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">48</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002009</col>
+			<col name="SHORT_DESC">Earl Grey</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">49</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002010</col>
+			<col name="SHORT_DESC">Peppermint</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">50</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002011</col>
+			<col name="SHORT_DESC">Trop Dream</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">51</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002012</col>
+			<col name="SHORT_DESC">Vanilla</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">52</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002013</col>
+			<col name="SHORT_DESC">Wild Berry</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">53</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002014</col>
+			<col name="SHORT_DESC">China Green</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">54</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000002015</col>
+			<col name="SHORT_DESC">Rooibos</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">55</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000009999</col>
+			<col name="SHORT_DESC">No Price</col>
+			<col name="AMOUNT">0.0</col>
+			<col name="DEPT">1</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">1</col>
+			<col name="TAX_EXEMPT">1</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">56</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003000</col>
+			<col name="SHORT_DESC">Short Americano</col>
+			<col name="AMOUNT">160.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">0</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">118</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003001</col>
+			<col name="SHORT_DESC">Tall Americano</col>
+			<col name="AMOUNT">160.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">120</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003002</col>
+			<col name="SHORT_DESC">Grande Americano</col>
+			<col name="AMOUNT">180.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">121</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003003</col>
+			<col name="SHORT_DESC">Venti Americano</col>
+			<col name="AMOUNT">180.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">122</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003010</col>
+			<col name="SHORT_DESC">Short Latte</col>
+			<col name="AMOUNT">175.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">123</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003011</col>
+			<col name="SHORT_DESC">Tall Latte</col>
+			<col name="AMOUNT">195.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">124</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003012</col>
+			<col name="SHORT_DESC">Grande Latte</col>
+			<col name="AMOUNT">220.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">125</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003013</col>
+			<col name="SHORT_DESC">Venti Latte</col>
+			<col name="AMOUNT">250.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">126</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003020</col>
+			<col name="SHORT_DESC">Short Breve</col>
+			<col name="AMOUNT">225.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">127</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003021</col>
+			<col name="SHORT_DESC">Tall Breve</col>
+			<col name="AMOUNT">2.45</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">138</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003022</col>
+			<col name="SHORT_DESC">Grande Breve</col>
+			<col name="AMOUNT">270.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">139</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003023</col>
+			<col name="SHORT_DESC">Venti Breve</col>
+			<col name="AMOUNT">300.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">141</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003030</col>
+			<col name="SHORT_DESC">Short Mocha</col>
+			<col name="AMOUNT">190.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">142</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003031</col>
+			<col name="SHORT_DESC">Tall Mocha</col>
+			<col name="AMOUNT">230.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">143</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003032</col>
+			<col name="SHORT_DESC">Grande Mocha</col>
+			<col name="AMOUNT">255.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">144</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003033</col>
+			<col name="SHORT_DESC">Venti Mocha</col>
+			<col name="AMOUNT">300.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">145</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003040</col>
+			<col name="SHORT_DESC">Short White Choc Mocha</col>
+			<col name="AMOUNT">190.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">146</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003041</col>
+			<col name="SHORT_DESC">Tall White Choc Mocha</col>
+			<col name="AMOUNT">230.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">147</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003042</col>
+			<col name="SHORT_DESC">Grande White Choc Mocha</col>
+			<col name="AMOUNT">255.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">148</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003043</col>
+			<col name="SHORT_DESC">Venti White Choc Mocha</col>
+			<col name="AMOUNT">300.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">149</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003050</col>
+			<col name="SHORT_DESC">Short Caramel Mocha</col>
+			<col name="AMOUNT">220.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">151</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003051</col>
+			<col name="SHORT_DESC">Tall Caramel Mocha</col>
+			<col name="AMOUNT">260.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">152</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003053</col>
+			<col name="SHORT_DESC">Venti Caramel Mocha</col>
+			<col name="AMOUNT">350.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">153</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003060</col>
+			<col name="SHORT_DESC">Short Cappuccino</col>
+			<col name="AMOUNT">175.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">154</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003061</col>
+			<col name="SHORT_DESC">Tall Cappuccino</col>
+			<col name="AMOUNT">195.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">155</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003062</col>
+			<col name="SHORT_DESC">Grande Cappuccino</col>
+			<col name="AMOUNT">215.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">157</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003063</col>
+			<col name="SHORT_DESC">Venti Cappuccino</col>
+			<col name="AMOUNT">235.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">158</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003070</col>
+			<col name="SHORT_DESC">Short Drip Coffee</col>
+			<col name="AMOUNT">140.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">159</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003071</col>
+			<col name="SHORT_DESC">Tall Drip Coffee</col>
+			<col name="AMOUNT">160.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">160</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003072</col>
+			<col name="SHORT_DESC">Grande Drip Coffee</col>
+			<col name="AMOUNT">180.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">161</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003073</col>
+			<col name="SHORT_DESC">Venti Drip Coffee</col>
+			<col name="AMOUNT">200.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">163</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003080</col>
+			<col name="SHORT_DESC">Espresso</col>
+			<col name="AMOUNT">120.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">164</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003090</col>
+			<col name="SHORT_DESC">Short Chai</col>
+			<col name="AMOUNT">175.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">165</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003091</col>
+			<col name="SHORT_DESC">Tall Chai</col>
+			<col name="AMOUNT">225.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">166</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003092</col>
+			<col name="SHORT_DESC">Grande Chai</col>
+			<col name="AMOUNT">275.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">167</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">0000003093</col>
+			<col name="SHORT_DESC">Venti Chai</col>
+			<col name="AMOUNT">325.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">168</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003100</col>
+			<col name="SHORT_DESC">Short Steamed Milk</col>
+			<col name="AMOUNT">125.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">169</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003101</col>
+			<col name="SHORT_DESC">Tall Steamed Milk</col>
+			<col name="AMOUNT">150.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">170</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003102</col>
+			<col name="SHORT_DESC">Grande Steamed Milk</col>
+			<col name="AMOUNT">175.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">171</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003103</col>
+			<col name="SHORT_DESC">Venti Steamed Milk</col>
+			<col name="AMOUNT">200.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">172</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003110</col>
+			<col name="SHORT_DESC">Short Tea</col>
+			<col name="AMOUNT">160.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">173</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003111</col>
+			<col name="SHORT_DESC">Tall Tea</col>
+			<col name="AMOUNT">160.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">174</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003112</col>
+			<col name="SHORT_DESC">Grande Tea</col>
+			<col name="AMOUNT">160.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">175</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003113</col>
+			<col name="SHORT_DESC">Venti Tea</col>
+			<col name="AMOUNT">160.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">176</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003120</col>
+			<col name="SHORT_DESC">Short Hot Chocolate</col>
+			<col name="AMOUNT">150.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">177</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003121</col>
+			<col name="SHORT_DESC">Tall Hot Chocolate</col>
+			<col name="AMOUNT">180.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">178</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003122</col>
+			<col name="SHORT_DESC">Grande Hot Chocolate</col>
+			<col name="AMOUNT">220.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">179</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003123</col>
+			<col name="SHORT_DESC">Venti Hot Chocolate</col>
+			<col name="AMOUNT">260.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">180</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003122</col>
+			<col name="SHORT_DESC">Grande Italian Soda</col>
+			<col name="AMOUNT">250.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">181</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003123</col>
+			<col name="SHORT_DESC">Venti Italian Soda</col>
+			<col name="AMOUNT">300.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">182</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003132</col>
+			<col name="SHORT_DESC">Grande Raspberry Fruit Smoothie</col>
+			<col name="AMOUNT">300.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">183</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003133</col>
+			<col name="SHORT_DESC">Venti Raspberry Smoothie</col>
+			<col name="AMOUNT">400.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">185</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003143</col>
+			<col name="SHORT_DESC">Venti Tropical Smoothie</col>
+			<col name="AMOUNT">400.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">186</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003142</col>
+			<col name="SHORT_DESC">Grande Tropical Smoothie</col>
+			<col name="AMOUNT">300.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">188</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003150</col>
+			<col name="SHORT_DESC">* Extra Shot</col>
+			<col name="AMOUNT">40.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">189</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003160</col>
+			<col name="SHORT_DESC">* Soy Milk</col>
+			<col name="AMOUNT">40.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">191</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003170</col>
+			<col name="SHORT_DESC">* Rice Milk</col>
+			<col name="AMOUNT">40.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">192</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000003180</col>
+			<col name="SHORT_DESC">* Add Syrup</col>
+			<col name="AMOUNT">40.0</col>
+			<col name="DEPT">2</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">193</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004001</col>
+			<col name="SHORT_DESC">Mixed Greens</col>
+			<col name="AMOUNT">450.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">194</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004002</col>
+			<col name="SHORT_DESC">Caesar</col>
+			<col name="AMOUNT">500.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">196</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004100</col>
+			<col name="SHORT_DESC">* Add Chicken</col>
+			<col name="AMOUNT">150.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">198</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004003</col>
+			<col name="SHORT_DESC">Cobb Salad</col>
+			<col name="AMOUNT">550.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">200</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004005</col>
+			<col name="SHORT_DESC">Anti Pasta Salad</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">201</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004006</col>
+			<col name="SHORT_DESC">Brown Rice Salad</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">203</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004005</col>
+			<col name="SHORT_DESC">Greek Salad</col>
+			<col name="AMOUNT">550.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">204</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004007</col>
+			<col name="SHORT_DESC">Mediterranean Plate</col>
+			<col name="AMOUNT">690.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">206</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004008</col>
+			<col name="SHORT_DESC">Veggie Calzone</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">207</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004009</col>
+			<col name="SHORT_DESC">Meat Calzone</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">208</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004010</col>
+			<col name="SHORT_DESC">Nachos</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">210</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004050</col>
+			<col name="SHORT_DESC">Cup of Soup</col>
+			<col name="AMOUNT">300.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">211</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004051</col>
+			<col name="SHORT_DESC">Bowl of Soup</col>
+			<col name="AMOUNT">400.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">212</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004011</col>
+			<col name="SHORT_DESC">East Coast</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">213</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004012</col>
+			<col name="SHORT_DESC">Genoa</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">214</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004013</col>
+			<col name="SHORT_DESC">Roasted Turkey</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">215</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004014</col>
+			<col name="SHORT_DESC">Hot Pastrami</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">216</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004015</col>
+			<col name="SHORT_DESC">Honey Ham</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">217</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004016</col>
+			<col name="SHORT_DESC">BLT</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">218</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004017</col>
+			<col name="SHORT_DESC">Meat and Potato</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">219</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004018</col>
+			<col name="SHORT_DESC">Almost Thanksgiving</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">220</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004019</col>
+			<col name="SHORT_DESC">Capitol Hill Club</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">221</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004020</col>
+			<col name="SHORT_DESC">Peppered Turkey Club</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">222</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004021</col>
+			<col name="SHORT_DESC">Caprese</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">223</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004022</col>
+			<col name="SHORT_DESC">Broadway</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">224</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004023</col>
+			<col name="SHORT_DESC">Garden Burger</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">225</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004024</col>
+			<col name="SHORT_DESC">Tapenade</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">226</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004025</col>
+			<col name="SHORT_DESC">Gimme the Greek</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">227</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004026</col>
+			<col name="SHORT_DESC">Vegan Special</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">228</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004027</col>
+			<col name="SHORT_DESC">Veggie</col>
+			<col name="AMOUNT">590.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">229</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004028</col>
+			<col name="SHORT_DESC">Grilled Double Cheese</col>
+			<col name="AMOUNT">490.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">230</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004029</col>
+			<col name="SHORT_DESC">Peanut Butter and Jelly</col>
+			<col name="AMOUNT">290.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">232</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004101</col>
+			<col name="SHORT_DESC">* Extra Meat</col>
+			<col name="AMOUNT">150.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">233</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004102</col>
+			<col name="SHORT_DESC">* Add Bacon</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">235</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004103</col>
+			<col name="SHORT_DESC">* Hummus</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">236</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004104</col>
+			<col name="SHORT_DESC">* Extra Cheese</col>
+			<col name="AMOUNT">50.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">237</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004105</col>
+			<col name="SHORT_DESC">* Add Avocado</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">238</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004106</col>
+			<col name="SHORT_DESC">* Extra Dressing</col>
+			<col name="AMOUNT">50.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">239</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004107</col>
+			<col name="SHORT_DESC">* Add Salsa</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">240</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004108</col>
+			<col name="SHORT_DESC">* Add Guacamole</col>
+			<col name="AMOUNT">100.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">241</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004109</col>
+			<col name="SHORT_DESC">* Add Sour Cream</col>
+			<col name="AMOUNT">50.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+		<item>
+			<col name="ITEM_ID">242</col>
+			<col name="CONFIG_NO">0</col>
+			<col name="SKU">000004110</col>
+			<col name="SHORT_DESC">* Add Pesto</col>
+			<col name="AMOUNT">50.0</col>
+			<col name="DEPT">3</col>
+			<col name="TAX_GROUP">2</col>
+			<col name="PRICING_OPT">1</col>
+			<col name="ACT_DATE">null</col>
+			<col name="DEACT_DATE">null</col>
+			<col name="TAX_INCLUSIVE">0</col>
+			<col name="TAX_EXEMPT">0</col>
+			<col name="LOCKED">0</col>
+		</item>
+	</tableinsert>
+</mercatordata>

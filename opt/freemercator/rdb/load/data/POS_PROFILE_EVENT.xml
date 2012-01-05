@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="POS_PROFILE_EVENT">
+  <item>
+    <col name="profile_event_id">0</col>
+    <col name="profile_id">2</col>
+    <col name="help_id">3</col>
+    <col name="pos_event">ItemMarkdown</col>
+  </item>
+  <item>
+    <col name="profile_event_id">0</col>
+    <col name="profile_id">4</col>
+    <col name="help_id">6</col>
+    <col name="pos_event">ItemMarkdown</col>
+  </item>
+  <item>
+    <col name="profile_event_id">0</col>
+    <col name="profile_id">6</col>
+    <col name="help_id">9</col>
+    <col name="pos_event">ItemMarkdown</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

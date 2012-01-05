@@ -1,0 +1,252 @@
+<!--
+
+To build FreeMercator:
+- download Ant, add it to your path, 
+- define JAVA_HOME, 
+- create directory mercator/build
+- put this build.xml into mercator/build
+- call "ant checkout jar"
+
+It will download and build the latest sources from CVS.  
+
+Other useful scenaries:
+ ant jar         - rebuild lib/mercator.jar
+ ant jar release - build release FreeMercator-XXX.tgz
+ ant jar night   - build FreeMercator-TIMESTAMP.tgz
+ ant testsuite   - run junit tests 
+ ant recreatedb  - drop and create db from .xml files
+ ant             - rebuild, recreatedb, run tests and create release file
+
+ ant reload.table -Dfile=DIALOG.xml                 - reload single table 
+ ant reload.table -Ddir=anotherdir -Dfile=SITE.xml  - override default db data dir
+
+
+Project version and other properties are taken from
+build/build.properties
+-->
+<project name="FreeMercator" default="main" basedir="..">
+
+    <description>
+        Compiles source code, runs testsuite and build a FreeMercator distribution file
+    </description>
+    
+    
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the output directory structure used by compile -->
+    <property environment="env" />        
+    <property file="${basedir}/build/build.properties" />        
+    <property name="dir" value="${dir.dbdata}"/> <!-- default -->
+
+    <path id="project.class.path">
+        <fileset dir="${dir.thirdparty}"      includes="**/*.jar" />
+    </path>   
+  </target>
+
+  <target name="prepare" depends="init">
+    <mkdir dir="${dir.lib}"/>
+    <mkdir dir="${dir.output}"/>
+  </target>
+
+    <target name="dropdb" depends="init" description="deletes demo db files">
+        <delete>
+            <fileset  dir="${dir.hsqldb}" includes="site*"/>
+        </delete>
+    </target>
+    <target name="createdb" depends="init" description="creates db from scratch from xml schema and data files">
+        <echo message="create schema from ${dir.dbschema}..."/>
+        <java classname="com.globalretailtech.admin.DataSchemaLoader"
+              dir="${basedir}/bin"
+              classpathref="project.class.path"
+              fork="true" failonerror="true"><!-- fork is required because System.exit is used in loader -->
+            <sysproperty key="log4j.configuration" value="${basedir}/etc/log4j.properties"/>  
+            <arg value="-p${basedir}/share/com.globalretailtech.data.DBContext"/> 
+            <arg value="-D${dir.dbschema}"/> 
+            <arg value="-schema"/> 
+            <arg value="-r"/> 
+            <classpath>
+               <pathelement path="${dir.output}"/>
+            </classpath>
+        </java>
+
+        <echo message="import data from ${dir.dbdata}..."/>
+        
+        <java classname="com.globalretailtech.admin.DataSchemaLoader"
+              dir="${basedir}/bin"
+              classpathref="project.class.path"
+              fork="true" failonerror="true"> 
+            <sysproperty key="log4j.configuration" value="${basedir}/etc/log4j.properties"/>  
+            <arg value="-p${basedir}/share/com.globalretailtech.data.DBContext"/> 
+            <arg value="-D${dir.dbdata}"/> 
+            <arg value="-data"/> 
+            <classpath>
+               <pathelement path="${dir.output}"/>
+            </classpath>
+        </java>
+              
+    </target>
+    
+  <target name="reload.table" depends="init" description="reloads single table specified by -Dfile= parameter">
+        <echo message="import data from ${dir}..."/>
+        <echo message="file: ${file}"/>
+        <java classname="com.globalretailtech.admin.DataSchemaLoader"
+              dir="${basedir}/bin"
+              classpathref="project.class.path"
+              fork="true" failonerror="true"> 
+            <arg value="-p${dir.share}/com.globalretailtech.data.DBContext"/> 
+            <arg value="-D${dir}"/> 
+            <arg value="-f${file}"/> 
+            <arg value="-data"/> 
+            <arg value="-r"/> 
+            <classpath>
+               <pathelement path="${dir.output}"/>
+            </classpath>
+        </java>
+              
+  </target>
+
+  <target name="recreatedb" depends="dropdb, createdb"/>
+    
+  <target name="compile" depends="prepare"
+        description="compile the source" >
+        <javac
+            srcdir="${dir.src}/java"
+            excludes="com/globalretailtech/util/Application.java"
+            destdir="${dir.output}"
+            debug="${compiler.debug}" 
+            deprecation="${compiler.deprecation}"
+            compiler="${compiler.type}"
+            classpathref="project.class.path"
+        />
+        <mkdir dir="${dir.output}/java/com/globalretailtech/util/"/>
+        <filter token="version" value="${version}"/>
+        <copy file="${dir.src}/java/com/globalretailtech/util/Application.java"
+             tofile="${dir.output}/java/com/globalretailtech/util/Application.java"
+             filtering="true"/>
+        <javac
+            srcdir="${dir.output}/java"
+            includes="com/globalretailtech/util/Application.java"
+            destdir="${dir.output}"
+            debug="${compiler.debug}" 
+            deprecation="${compiler.deprecation}"
+            compiler="${compiler.type}"
+            classpathref="project.class.path"
+        />
+  </target>
+
+  <target name="jar" depends="compile"
+        description="creates mercator.jar" >
+      <jar  jarfile="${dir.lib}/${jar.mercator}">
+        <fileset dir="${dir.output}">
+            <include name="com/**/*.class"/>
+            <include name="jpos/**/*.class"/>
+        </fileset>
+      </jar>
+  </target>
+
+  <target name="release" depends="init"
+        description="creates release build of FreeMercator" >
+        <property name="tar" value="${name.release}.tar"/>
+        <property name="gzip" value="${name.release}.tgz"/>
+        <antcall target="targz"/>
+  </target>
+
+  <target name="night" depends="init"
+        description="creates nightly build of FreeMercator" >
+        <property name="tar" value="${name.night}.tar"/>
+        <property name="gzip" value="${name.night}.tgz"/>
+        <antcall target="targz"/>
+  </target>
+        
+  <target name="clean" depends="init"
+        description="clean up" >
+    <delete dir="${dir.output}"/>
+  </target>
+
+  <target name="testsuite" depends="init"
+        description="runs testsuite" >
+    <ant antfile="${dir.testsuite}/build.xml" inheritAll="false"/>
+  </target>
+
+  <target name="checkout"
+        description="checkout latest snapshot from the server" >
+    <cvs 
+       cvsRoot=":pserver:anonymous@cvs.sourceforge.net:/cvsroot/freemercator"
+       command="checkout"
+       compression="true"
+       compressionlevel="9"
+       package="mercator"
+       dest="${basedir}/.."
+  />
+  </target>
+  
+  <target name="main" depends="clean, jar, testsuite, recreatedb, release"/>
+  
+  <target name="targz"
+        description="creates tar.gz" >
+    <tar tarfile="${tar}">
+        <tarfileset mode="755" dir="${basedir}/bin" prefix="freemercator/bin">
+            <include name="admin.bat"/>
+            <include name="admin.sh"/>
+            <include name="run.bat"/>
+            <include name="run.sh"/>
+            <include name="hsqldb.bat"/>
+            <include name="jpos.xml"/>
+            <include name="lcp.bat"/>
+            <include name="lcp.sh"/>
+        </tarfileset>
+        <tarfileset dir="${basedir}/rdb" prefix="freemercator/rdb">
+            <include name="db/site.hsqldb*"/>
+            <include name="load/data/*.xml"/>
+            <include name="load/scripts/*.xml"/>
+            <include name="load/updates/*.xml"/>
+        </tarfileset>
+        <tarfileset dir="${basedir}" prefix="freemercator">
+            <include name="etc/log4j.properties"/>
+            <include name="web/**"/>
+            <include name="testsuite/**"/>
+            <include name="src/java/**"/>
+            <include name="src/sql/**"/>
+            <include name="AUTHORS"/>
+            <include name="README"/>
+            <include name="COPYING"/>
+            <include name="INSTALL"/>
+            <include name="FAQ"/>
+        </tarfileset>
+        <tarfileset dir="${dir.thirdparty}" prefix="freemercator/thirdparty">
+            <include name="commons*.jar"/>
+            <include name="dom4j.jar"/>
+            <include name="hsqldb.jar"/>
+            <include name="java-getopt*.jar"/>
+            <include name="jcl*.jar"/>
+            <include name="jpos17-controls.jar"/>
+            <include name="junit*.jar"/>
+            <include name="log4j*.jar"/>
+            <include name="NetComponents*.jar"/>
+            <include name="org.apache.jasper.jar"/>
+            <include name="org.mortbay.jetty.jar"/>
+            <include name="servlet.jar"/>
+            <include name="struts*.jar"/>
+            <include name="xerces*.jar"/>
+        </tarfileset>
+        <tarfileset dir="${dir.lib}" prefix="freemercator/lib">
+            <include name="mercator.jar"/>
+        </tarfileset>
+        <tarfileset dir="${basedir}/scripts" prefix="freemercator/scripts">
+            <include name="**"/>
+        </tarfileset>
+        <tarfileset dir="${dir.share}" prefix="freemercator/share">
+            <include name="**"/>
+        </tarfileset>
+        <tarfileset dir="${basedir}/build" prefix="freemercator/build">
+            <include name="*.xml"/>
+            <include name="*.properties"/>
+        </tarfileset>
+    </tar>
+    <gzip zipfile="${gzip}" src="${tar}"/>
+    <delete file="${tar}"/> 
+  </target>
+</project>
+
+

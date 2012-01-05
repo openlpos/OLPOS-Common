@@ -1,0 +1,15 @@
+# Port - HTTP port
+Port=8080
+
+# See how to "Configuring SSL for Jetty"
+# http://jetty.mortbay.com/jetty/doc/SslListener.html
+#SecurePort=8443
+
+# Path to keystore
+# default to <mercator>/bin, startup dir
+#keystore=keystore
+#keystorePassword=changeit
+#keystoreKeyPassword=changeit
+
+# Path to the web application
+#webapp=../web

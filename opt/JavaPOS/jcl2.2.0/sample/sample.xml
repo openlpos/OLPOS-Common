@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JposEntries PUBLIC "JposEntries"
+                             "jpos/res/jcl.dtd">
+<JposEntries>
+<!--Saved by JavaPOS jpos.config/loader (JCL) version 1.2.0 on 2/5/00 5:13 PM-->
+    
+    <JposEntry logicalName="POSPrinter0">
+        <creation factoryClass="com.ibm.jpos.IBMJposServiceInstanceFactory" serviceClass="com.ibm.jpos.services.IBM4610Printer"/>
+        <vendor name="IBM, Corp." url="http://www.ibm.com"/>
+        <jpos category="POSPrinter" version="1.5"/>
+        <product description="IBM&apos;s POSPrinter Service for IBM&apos;s 4610 POS Printer" name="IBM Services for JavaPOS(TM) Standard" url="http://www.clearlakes.ibm.com"/>
+
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="impClass" value="com.ibm.jpos.services.poss.IBM4610PrinterImp"/>
+        <prop name="abstractionClass" value="com.ibm.jpos.services.IBM4610Printer"/>
+    </JposEntry>
+    
+    
+    <JposEntry logicalName="LineDisplay0">
+        <creation factoryClass="com.xyz.jpos.XyzJposServiceInstanceFactory" serviceClass="com.xyz.jpos.LineDisplayService"/>
+        <vendor name="Xyz, Corp." url="http://www.javapos.com"/>
+        <jpos category="LineDisplay" version="1.5"/>
+        <product description="Example virtual LineDisplay JavaPOS Service from virtual Xyz Corporation" name="Xyz Virtual LineDisplay Service for JavaPOS(TM) Standard" url="http://www.javapos.com"/>
+
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+    </JposEntry>
+    
+</JposEntries>
+

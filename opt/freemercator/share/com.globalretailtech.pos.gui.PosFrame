@@ -1,0 +1,13 @@
+## XOffset=0
+## YOffset=0
+## Width=800
+## Height=600
+XOffset=5
+YOffset=5
+Width=1024
+Height=768
+
+# This will remove title and border
+# Full screen mode
+# set to false if you don't need it
+Undecorated=false

@@ -1,0 +1,6 @@
+Description=POS Keyboard
+KeyboardFile=properties.keyfile
+x=0
+y=2
+h=1
+w=1

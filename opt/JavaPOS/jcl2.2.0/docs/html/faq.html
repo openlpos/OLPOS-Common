@@ -1,0 +1,399 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="KEYWORDS" content="javapos, javaPOS, Sun, NCR, IBM, pos, retail, e-commerce, javastation, thin client, point of sale, java programming">
+   <meta name="DESCRIPTION" content="Welcome to the JavaPOS home page. It was recognized early on that the emergence of the Java language on the computing scene offered major advantages for the developer of retail applications. The JavaPOS (Java for Point Of Sale) standards committee was formed by a collection of retail vendors and end users to examine the ways in which these Java advantages could best be exploited. This web site contains resources and information about the committee, this initiative, and the technical specifications of proposed JavaPOS implementations.">
+   <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+   <title>JavaPOS - jpos.config/loader (JCL) - FAQs</title>
+<!--
+
+This Web page was designed by:
+
+E. Michael Maximilien
+JavaPOS member (IBM)
+Email: maxim@us.ibm.com
+
+-->
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#006666" vlink="#666699" background="posbground.gif">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="632" HEIGHT="100%" >
+<caption></caption>
+
+<tr>
+<td ALIGN=LEFT VALIGN=TOP height="5097" width="144"><a href="http://www.javapos.com/index.html"><img SRC="res/newlogo.gif" ALT="Java POS" BORDER=0 height=40 width=112></a>
+  <p>
+  <img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120>
+      <P><a href="index.html"><font face="Arial" color="#FFFFFF" size="4">Home</font></a></P>
+      <P><a href="docs.html"><font face="Arial" color="#FFFFFF" size="4">Docs</font></a></P>
+  <P><a href="changes.html"><font face="Arial" color="#FFFFFF" size="4">Changes</font></a></P>
+  <P><a href="to-do.html"><font face="Arial" color="#FFFFFF" size="4">To-do</font></a></P>
+  <P><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P>
+  <P><font face="Arial" color="#FFFFFF" size="4"><b><em>End Users</em></b></font></P>
+      <P><a href="faq.html"><font face="Arial" color="#FFFFFF" size="4">FAQs</font></a></P>
+      <P><a href="getting_started.html"><font face="Arial" color="#FFFFFF" size="4">Getting 
+      Started</font></a></P>
+      <P><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P>
+  <P><font face="Arial" color="#FFFFFF" size="4"><b><em>Developers</em></b></font></P>
+      <P><a href="simple_jcl.html"><font face="Arial" color="#FFFFFF" size="4">JCL 
+      RI</font></a></P>
+      <P><a href="sample_code.html"><font face="Arial" color="#FFFFFF" size="4">Sample 
+      Code</font></a></P>
+      <P><a href="../jdoc/index.html"><font face="Arial" color="#FFFFFF" size="4">JavaDOC</font></a></P>
+      <P><a href="references.html"><font face="Arial" color="#FFFFFF" size="4">References</font></a><IMG
+			src="../../pixel_palepurple.gif" vspace="5" border="0" height="1"
+			width="120"></P>
+  <p>&nbsp;</td>
+
+<td height="5097" width="0"></td>
+
+<td ALIGN=LEFT VALIGN=TOP ROWSPAN="2" width="488"><a NAME="top"></a>
+  <table border="0" width="100%">
+    <tr>
+      <td width="100%">
+<center><map NAME="head.home"><area SHAPE="Rect" COORDS="10,-1,192,48" HREF="index.html"></map><img ISMAP SRC="res/head_home.gif" BORDER=0 USEMAP="#head.home" height=77 width=403 align=BOTTOM></center>
+
+      </td>
+    </tr>
+    <tr>
+      <td width="100%">
+        <p align="center"><b><font face="Times New Roman" size="5">jpos.config/loader
+        (JCL) - FAQ</font></b></td>
+    </tr>
+  </table>
+  <hr>
+  <p>The following is a set of frequently asked questions about the JCL:</p>
+  <ol>
+    <li><a href="#faq1">What is it?&nbsp; Why does it exist and who maintains
+      it?</a></li>
+    <li><a href="#faq2">Is the JCL 2.0 compatible with the JCL 1.2?</a></li>
+    <li><a href="#faq3">What are the required properties for the JCL 2.0?</a></li>
+    <li><a href="#faq4">What do I need to do to move my services to the JCL 2.0?</a></li>
+    <li><a href="#faq5">What about multi-vendor support and configuration?</a></li>
+    <li><a href="#faq6">What happens to Sun's JPS (aka JDDK, JSD/JSL)?</a></li>
+    <li><a href="#faq7">What do I need to use the JCL?</a></li>
+    <li><a href="#faq8">Who is using it now?</a></li>
+    <li><a href="#faq9">What is the &quot;simple&quot; reference implementation?</a></li>
+    <li><a href="#faq10">What JVM has it been tested on?</a></li>
+    <li><a href="#faq11">Will it work with J2ME?</a></li>
+    <li><a href="#faq12">Is it 100% pure Java?</a></li>
+    <li><a href="#faq13">Any legal stuff I need to know?</a></li>
+			<LI></LI>
+		</ol>
+  <hr>
+  <p><font color="#0000FF"><a name="faq1"></a><b>1. What is it?&nbsp; Why does it
+  exist? and who maintains it?</b></font></p>
+  <p>The jpos.config/loader (JCL) is a simple binding API
+  (configuration/loading) API for the JavaPOS services. <BR>
+		<BR>
+		It exist to allow the JavaPOS controls to bind to the JavaPOS service in a
+  manner independent of the actual configuration mechanism as well as vendor independence.&nbsp; In other
+  words, the API defines an abstract API with a reference implementation and
+  allows third parties to create their own implementation.<BR>
+		<BR>
+		It is currently maintained by IBM and the JavaPOS technical committee.</p>
+  
+  <hr>
+  <p><a name="faq2"></a><font color="#0000FF"><b>2. Is the JCL 2.0 compatible
+  with the JCL 1.2?</b></font></p>
+  <p>The JCL 2.0 is compatible with JCL 1.2.<BR>
+		<BR>
+		Services that used the JCL 1.2 should just work with the JCL 2.0.&nbsp; See
+  <A href="#faq4">FAQ4</A> for details on what to do to build your
+  services.&nbsp;</p>
+  <hr>
+  <p><font color="#0000FF"><a name="faq3"></a><b>3. What are the required
+  properties for the JCL 2.0?</b></font></p>
+  <p>The JCL requires few properties.&nbsp; They are the same as the JCL 1.2
+  (all properties names are defined in the <font face="Courier New" size="2">jpos.config.JposEntry</font>
+  and <font face="Courier New" size="2">jpos.config.JposEntryConst</font>
+  interfaces.</p>
+  <p><u><B>Required Properties</B></u></p>
+  <table border="1" width="100%">
+    <tr>
+      <td width="50%" align="center"><b>Name</b></td>
+      <td width="50%" align="center"><b>Description</b></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">logicalName</font></td>
+      <td width="50%" align="left">Unique value and defines the name that will
+        be used when doing the <font face="Courier New" size="2">open() </font>call
+        on the control instance</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">serviceInstanceFactoryClass</font></td>
+      <td width="50%" align="left">The class name of the class that implements
+        the <font face="Courier New" size="2">jpos.loader.JposServiceInstanceFactory</font>
+        interface.&nbsp; This class is provided by the service writer and used to create the service instances.</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">serviceClass</font></td>
+      <td width="50%" align="left">This is the fully qualified Java class name
+        for the service the this entry is defining. This class should implement one of the service category interfaces in <FONT
+					face="Courier New" size="2">jpos.services.&lt;DevCat&gt;Service1&lt;n&gt;</FONT><BR>where <BR>
+				<FONT size="2" face="Courier New">&lt;DevCat&gt; == CashDrawer, LineDisplay,</FONT> etc...<BR>and<BR>
+				<FONT size="2" face="Courier New">&lt;n&gt; == 4a, 5, 6, 7</FONT>, etc...
+				</td>
+    </tr>
+  </table>
+  <p><span style="background-color: #FFFF00">NOTE:</span> these required
+  properties have always been part of the JCL.</p>
+  <p><u><B>New JCL 2.0 Standard Properties (required for XML populator
+		and editor)</B></u></p>
+  <p>The following properties are standard properties required for using the JCL
+  XML populator.&nbsp; <BR>
+		<BR>
+		Of course you can define your own populator that does not
+  need these properties but we recommend using them anyway.</p>
+  <table border="1" width="100%">
+    <tr>
+      <td width="50%" align="center"><b>Name</b></td>
+      <td width="50%" align="center"><b>Description</b></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">deviceCategory</font></td>
+      <td width="50%" align="left">This is the device category of the service
+        that the entry describes.&nbsp; This should be one of the different
+        device categories defined by the JavaPOS specification (capitalization
+        IMPORTANT).&nbsp; e.g. CashDrawer, POSPrinter, ...</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">jposVersion</font></td>
+      <td width="50%" align="left">The JavaPOS version of the service described
+        by this entry.&nbsp; e.g. 1.5, 1.6 etc...</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">vendorName</td>
+      <td width="50%" align="left">The vendor name of the service e.g. IBM Corp.</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">vendorURL</font></td>
+      <td width="50%" align="left">The vendor URL</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">productName</font></td>
+      <td width="50%" align="left">The product name that the service under
+        description is part of</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">productDescription</font></td>
+      <td width="50%" align="left">Some description of the product</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">productURL</font></td>
+      <td width="50%" align="left">Any specific URL for the product</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">deviceBus</font></td>
+      <td width="50%" align="left">The device bus or connectivity.&nbsp; One of:
+        RS232, RS485, USB, Proprietary or Unknown</td>
+    </tr>
+  </table>
+  <p><u><B>RS232 Properties</B></u></p>
+  <p>The following are properties for defining RS232 service.&nbsp; These
+  are required if you use the JCL editor to configure your devices. They were decided on by the JavaPOS committee.<BR>
+		<BR>
+		NOTE: the property names and values are defined in the <FONT
+			face="Courier New" size="2">jpos.config.RS232Const</FONT>
+  interface. This file contains constant for the names defined here as well as possible values.</p>
+  <table border="1" width="100%">
+    <tr>
+      <td width="50%" align="center"><b>Name</b></td>
+      <td width="50%">
+        <p align="center"><b>Description</b></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">portName</font></td>
+      <td width="50%">The RS232 port name</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">baudRate</font></td>
+      <td width="50%">The baud rate.&nbsp; e.g. 1400</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">dataBits</font></td>
+      <td width="50%">The data bits.&nbsp; One of: 4, 5, 6, 7 or 8</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">parity</font></td>
+      <td width="50%">The parity value.&nbsp; e.g. None</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">stopBits</font></td>
+      <td width="50%">The stop bits.&nbsp; One of: 1.1.5 or 2</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><font face="Courier New" size="2">flowControl</font></td>
+      <td width="50%">The flow control.&nbsp; One of: Xon/Xoff, Hardware or
+        None.</td>
+    </tr>
+  </table>
+  <BR>
+		<hr>
+  <p><a name="faq4"></a><font color="#0000FF"><b>4. What do I need to do to move
+  my services to the JCL 2.0?</b></font></p>
+  <p>Make sure that your services implement the <FONT size="2"
+			face="Courier New">jpos.loader.JposServiceInstance</FONT>
+  interface.&nbsp; In the 1.5 release of the JavaPOS controls the
+  <FONT size="2" face="Courier New">jpos.services.BaseService</FONT> does not extend that interface, therefore your
+  services classes need to (directly or indirectly) implement both
+  interfaces.&nbsp; <BR>
+		<BR>
+		See the <FONT size="2" face="Courier New">com.xyz.jpos.LineDisplayService</FONT> for an
+  example.&nbsp; Also See the <a href="sample_code.html">JCL Sample</a> section
+  of this document for details.<BR>
+		<BR>
+		In addition,  you need to configure entries for your services.&nbsp; The easiest
+  mean to define this is via the <I>JposEntryEditor</I> or by editing the sample <I>jpos.xml</I> file to add a <I>JposEntry</I> for the service in question that includes all required and vendor properties.&nbsp; <BR>
+		<BR>
+		Please see the <A href="getting_started.html">Getting Started</A> section of this document for details.&nbsp; See also <A
+			href="#faq3">FAQ3</A>
+  for details on required properties.<BR>
+		<BR>
+		<SPAN
+			style="background-color: #FFFF00">NOTE:</SPAN> if you defined your
+  own <FONT size="2" face="Courier New">jpos.config.JposRegPopulator</FONT> you will need to implement a few more methods to the
+  implmenting class since more methods were added in the JCL 2.0
+  release.</p>
+  <hr>
+  <p><a name="faq5"></a><b><font color="#0000FF">5. What about multi-vendor
+  support and configuration?</font></b></p>
+  <p>One of the key new features of JCL 2.0 is the support for multiple vendor
+  configuration.&nbsp; This is accomplished by allowing the JCL to load entries
+  of more than one jpos.config.JposRegPopulator (or populator).<BR>
+		<BR>
+		<U><B>Multi-Populator Support</B></U><BR>
+		<BR>
+		The old way of defining populator takes precedence over the new
+  multi-populator.&nbsp; This is to maintain backward compatibility. That is if the <FONT
+			size="2" face="Courier New">jpos.config.regPopulatorClass</FONT> is set then it will be used as the default populator.<BR>
+		<BR>
+		To define one or many populator you do as usual and extract the <FONT
+			face="Courier New" size="2">jpos.properties</FONT>
+  file and edit it (you can also use the <I>JposEntryEditor</I> to do this, see the
+  <A href="getting_started.html">Getting Started</A> section of this document for details).<BR>
+		<BR>
+		Add the following properties for each populator:<BR>
+		<BR>
+		<FONT size="2" face="Courier New">jpos.config.populator.class.X =
+		&lt;class-name-of-populator&gt;<BR>
+		jpos.config.populator.file.X = &lt;file name to load populator
+		with&gt;<BR>
+		<BR>
+		Where X == 0, 1, 2, ...<BR>
+		<BR>
+		X == 0</FONT> indicates the &quot;default&quot; populator that is used
+  for all orphan entries (that is entries added to the registry w/o specifying a
+  populator)<BR>
+		<BR>
+		Once the modified <FONT face="Courier New" size="2">jpos/res/jpos.properties</FONT>
+  is added to the <FONT face="Courier New" size="2">jcl.jar</FONT> file or <FONT
+			face="Courier New" size="2">jpos15.</FONT>jar
+  then the JCL registry will be populated using the different defined populators.</p>
+  <hr>
+  <p><font color="#0000FF"><a name="faq6"></a><b>6. What happens to Sun's JPS (aka
+  JDDK, JSD/JSL)?</b></font></p>
+  <p>As of the JavaPOS NY-2K meeting in January 2000, Sun  decided to
+  endorse the JCL for JavaPOS in favor of the JPS.&nbsp; For
+  details see the <a href="http://www.javapos.com">JavaPOS web site</a> for
+  Sun's official position.</p>
+  <hr>
+  <p><font color="#0000FF"><a name="faq7"></a><b>7. What do I need to use the JCL?</b></font></p>
+  <p>You will need the JavaPOS controls 1.4a or later, the JCL JAR files and an
+  understanding on how to configure your services. <BR>
+		<BR>
+		Configuration of services is usualy specific to the service vendor, it involves setting the common properties and vendor defined properties names and values. Consult the service provider for details.<BR>
+		<BR>
+		Please see the <A
+			href="getting_started.html">Getting Started</A> section
+  of this document for more information.</p>
+  <hr>
+  <p><font color="#0000FF"><a name="faq8"></a><b>8. Who is using it now?</b></font></p>
+  <p>As of January 2000, all the JavaPOS technical committee members have pledge
+  to support the JCL with their JavaPOS services.</p>
+  <hr>
+  <p><font color="#0000FF"><a name="faq9"></a><b>9. What is the &quot;simple&quot;
+  reference implementation?</b></font></p>
+  <p>The &quot;simple&quot; reference implementation is a pure Java
+  implementation of the JCL.&nbsp; It stands as a robust, yet simple,
+  implementation of the JCL and also as an example implementation that third
+  parties can use as a starting point to create their own implementations if they so desire.<BR>
+		<BR>
+		See the <A
+			href="simple_jcl.html">JCL RI</A> page for more details.</p>
+  
+  <hr>
+  <p><font color="#0000FF"><a name="faq10"></a><b>10. What JVM has it been tested on?</b></font></p>
+  <p>The JCL 2.1.0 requires Java 2.&nbsp; <BR>
+		<BR>
+		It has been tested successfully under
+  the following:</p>
+  <table border="1" width="100%">
+    <tr>
+      <td width="33%" align="center">JVM</td>
+      <td width="33%" align="center">Platform(s)</td>
+      <td width="34%" align="center">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="33%" align="center">IBM's JDK 1.3</td>
+      <td width="33%" align="center">Linux and Win32</td>
+      <td width="34%" align="center" bgcolor="#008000">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="33%" align="center">IBM's JDK 1.2</td>
+      <td width="33%" align="center">IBM's 4690-OS</td>
+      <td width="34%" align="center" bgcolor="#008000">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="33%" align="center">Sun's JDK 1.3</td>
+      <td width="33%" align="center">Win32 and Linux</td>
+      <td width="34%" align="center" bgcolor="#008000">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="33%" align="center">Sun's JDK 1.4</td>
+      <td width="33%" align="center">Win32</td>
+      <td width="34%" align="center" bgcolor="#008000">&nbsp;</td>
+    </tr>
+  </table>
+  <p>NOTE: the JCL is written all in Java and should run on all compliant Java2 JVM.</p>
+  <hr>
+  <p><font color="#0000FF"><a name="faq11"></a><b>11. Will it work with J2ME?</b></font></p>
+  <p>The JCL has been found to work with  J2ME <a href="http://java.sun.com/products/cdc">CDC</a> using the <a href="http://java.sun.com/products/foundation">foundation profile</a>.
+  <BR>
+		<BR>
+		Depending on if your existing JavaPOS services work with J2ME, your mileage might vary.</p><hr>
+  <p><font color="#0000FF"><a name="faq12"></a><b>12. Is it 100% pure Java?</b></font></p>
+  <p>The JCL is all written in Java.<BR>
+		<BR>
+		PS: We have not tried to pass the 100% pure Java tests but we may in the
+  future and do not see any reason why we should not be able to pass these tests.</p>
+  <hr>
+  <p><font color="#0000FF"><a name="faq13"></a><b>13. Any legal stuff I need to know?</b></font></p>
+  <p>The JCL is an &quot;open source&quot; API that is currently maintained by <a href="http://www.ibm.com">IBM</a>
+  and the JavaPOS committee.&nbsp; It is licensed under the
+  <a href="http://oss.software.ibm.com/developerworks/opensource/license-cpl.html">
+  Common Public License</a> or CPL which is an Apache like license, follow the 
+  link for complete license terms.</p>
+  <hr>
+  <table border="0" width="100%">
+    <tr>
+      <td>
+        <p align="right"><font face="Arial" size="1">Last Modified by <A
+					href="mailto:maxim@us.ibm.com">EMM</A>
+        on 10/20/02 8:34 PM</font></td>
+    </tr>
+  </table>
+
+</td>
+</tr>
+
+<tr>
+<td ALIGN=LEFT VALIGN=BOTTOM height="94" width="144">
+<center><a href="#top"><img SRC="res/javawhite_onblue.gif" ALT="Java" BORDER=0 height=68 width=45></a></center>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

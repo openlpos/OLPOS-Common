@@ -1,0 +1,1 @@
+rem place command to shutdown computer here

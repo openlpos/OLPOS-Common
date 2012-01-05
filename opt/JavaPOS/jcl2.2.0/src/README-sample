@@ -1,0 +1,22 @@
+#
+# <jcl-install-dir>/sample
+# Root of all JCL sample and demo src files.
+# Build the JCL (see <jcl-install-dir>/build.xml for details)
+# then run the sample demo application by following these steps:
+# 1) Set your CLASSPATH to include the JCL and JavaPOS controls---the 
+#    <jcl-install-dir>/lib/jpos1<x>.jar is a one shot file that you can use for that
+#    purpose
+# 2) Extract the <jcl-install-dir>/lib/jcl_sample_src.jar in the <jcl-install-dir>/sample
+#    directory (if necessary)
+# 3) Build the <jcl-install-dir>/sample sources by issuing command:
+#    %javac com/xyz/*.java
+#    %javav com/xyz/jpos/*.java
+# 2) Go to <jcl-install-dir>/sample and assuming the CLASSPATH includes "." or current 
+#    directory then run:
+#    %java com.xyz.TestApp
+# 3) The sample.xml file provided can be used to see how one can use 
+#    the XML file to configure devices--an example of the Virtual LD
+#    device is provided
+# @author E. Michael Maximilien (maxim@us.ibm.com)
+# @since 2.1.0
+#

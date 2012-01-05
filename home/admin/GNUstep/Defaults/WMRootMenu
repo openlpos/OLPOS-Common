@@ -1,0 +1,105 @@
+(
+  Applications,
+  (Info, ("Info Panel", INFO_PANEL), (Legal, LEGAL_PANEL)),
+  (
+    "POS Tools",
+    ("Admin Utils", OPEN_MENU, "/home/admin/Utils/ WITH xterm -e bash")
+  ),
+  (Run..., EXEC, "%a(Run,Type command to run:)"),
+  (XTerm, EXEC, "xterm -sb"),
+  (Workspaces, WORKSPACE_MENU),
+  (
+    Commands,
+    ("Hide Others", HIDE_OTHERS),
+    ("Show All", SHOW_ALL),
+    ("Arrange Icons", ARRANGE_ICONS),
+    (Refresh, REFRESH),
+    (Lock, EXEC, "xlock -allowroot -usefirst"),
+    ("Save Session", SAVE_SESSION),
+    ("Clear Session", CLEAR_SESSION)
+  ),
+  (
+    Appearance,
+    (
+      "Run Program",
+      EXEC,
+      "xsetroot -cursor /home/admin/POS-Cursor/circle_cursor.xbm /home/admin/POS-Cursor/circle_cursor.xbm"
+    ),
+    (
+      Themes,
+      OPEN_MENU,
+      "-noext /usr/share/WindowMaker/Themes $HOME/GNUstep/Library/WindowMaker/Themes WITH setstyle"
+    ),
+    (
+      Styles,
+      OPEN_MENU,
+      "-noext /usr/share/WindowMaker/Styles $HOME/GNUstep/Library/WindowMaker/Styles WITH setstyle"
+    ),
+    (
+      "Icon Sets",
+      OPEN_MENU,
+      "-noext /usr/share/WindowMaker/IconSets $HOME/GNUstep/Library/WindowMaker/IconSets WITH seticons"
+    ),
+    (
+      Background,
+      (Images, OPEN_MENU, "/usr/share/wallpapers WITH wmsetbg -u -t"),
+      (
+        Solid,
+        (Black, EXEC, "wdwrite WindowMaker WorkspaceBack '(solid, black)'"),
+        (
+          Blue,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, \"#505075\")'"
+        ),
+        (
+          Indigo,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, \"#243e6c\")'"
+        ),
+        (
+          Bleumarine,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, \"#224477\")'"
+        ),
+        (
+          Purple,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, \"#554466\")'"
+        ),
+        (
+          Wheat,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, wheat4)'"
+        ),
+        (
+          "Dark Gray",
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, \"#333340\")'"
+        ),
+        (
+          Wine,
+          EXEC,
+          "wdwrite WindowMaker WorkspaceBack '(solid, \"#400020\")'"
+        )
+      )
+    ),
+    (
+      "Save Theme",
+      SHEXEC,
+      "getstyle -t $HOME/GNUstep/Library/WindowMaker/Themes/\"%a(Theme name)\""
+    ),
+    (
+      "Save IconSet",
+      SHEXEC,
+      "geticonset $HOME/GNUstep/Library/WindowMaker/IconSets/\"%a(IconSet name)\""
+    ),
+    (
+      "Preferences Utility",
+      EXEC,
+      "/usr/lib/GNUstep/Applications/WPrefs.app/WPrefs"
+    )
+  ),
+  (WindowMaker, OPEN_MENU, "/etc/X11/WindowMaker/SuSE_wmapps"),
+  (SuSE, OPEN_MENU, "| xdg_menu --format WindowMaker --charset UTF-8"),
+  (Exit, (Restart, RESTART), (Exit, EXIT))
+)

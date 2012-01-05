@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="TAX">
+  <item>
+    <col name="tax_id">0</col>
+    <col name="tax_group_id">1</col>
+    <col name="tax_type">1</col>
+    <col name="short_desc">WA State</col>
+    <col name="rate">0.035</col>
+    <col name="alt_rate">0.02</col>
+  </item>
+  <item>
+    <col name="tax_id">0</col>
+    <col name="tax_group_id">1</col>
+    <col name="tax_type">2</col>
+    <col name="short_desc">Local Tax</col>
+    <col name="rate">0.05</col>
+    <col name="alt_rate">0.03</col>
+  </item>
+  <item>
+    <col name="tax_id">0</col>
+    <col name="tax_group_id">2</col>
+    <col name="tax_type">1</col>
+    <col name="short_desc">WA State</col>
+    <col name="rate">0.035</col>
+    <col name="alt_rate">0.02</col>
+  </item>
+  <item>
+    <col name="tax_id">0</col>
+    <col name="tax_group_id">2</col>
+    <col name="tax_type">2</col>
+    <col name="short_desc">Local Tax</col>
+    <col name="rate">0.05</col>
+    <col name="alt_rate">0.03</col>
+  </item>
+  <item>
+    <col name="tax_id">0</col>
+    <col name="tax_group_id">3</col>
+    <col name="tax_type">1</col>
+    <col name="short_desc">GST</col>
+    <col name="rate">0.01</col>
+    <col name="alt_rate">5.0</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

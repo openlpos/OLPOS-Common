@@ -1,0 +1,14 @@
+OperReceiptFont=Helvetiva
+OperReceiptFontSize=10
+HeaderFont=Helvetica
+HeaderFontSize=10
+HeaderTitleFont=Helvetica
+HeaderTitleFontSize=10
+
+RowHeight=23
+QtyWidth=55
+DescWidth=250
+ValueWidth=112
+TableRows=100
+
+DisplayNavButtons=true

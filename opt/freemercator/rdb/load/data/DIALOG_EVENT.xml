@@ -1,0 +1,2154 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="DIALOG_EVENT">
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">100</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">Register Open</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">100</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">100</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.NewLogon</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">100</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">Complete logon</col>
+    <col name="state">8</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.LogOn</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">100</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">Get Open Amount</col>
+    <col name="state">3</col>
+    <col name="event_enabled">0</col>
+    <col name="event_required">0</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">100</col>
+    <col name="dialog_seq">6</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">Get Drawer</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">0</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">100</col>
+    <col name="dialog_seq">7</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">101</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">101</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">101</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.NewLogon</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">101</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">8</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.LogOn</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">101</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">3</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">101</col>
+    <col name="dialog_seq">6</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">101</col>
+    <col name="dialog_seq">7</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">101</col>
+    <col name="dialog_seq">8</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">101</col>
+    <col name="dialog_seq">9</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">102</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1005</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.Error</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">102</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">29</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.UserValidation</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">102</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">30</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">102</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">70</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">103</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">103</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">103</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">103</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">103</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjTender</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">104</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">104</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">104</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">104</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">104</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">5</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjCheckTender</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">104</col>
+    <col name="dialog_seq">6</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">104</col>
+    <col name="dialog_seq">7</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">105</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">105</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">105</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">105</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">105</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">7</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjCCTender</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">105</col>
+    <col name="dialog_seq">6</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">3</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">105</col>
+    <col name="dialog_seq">7</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">105</col>
+    <col name="dialog_seq">8</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">106</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">106</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">106</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">106</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">106</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjAltCurrTender</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">107</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">5</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RecallEj</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">107</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">107</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">108</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">108</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">108</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">108</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">108</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjBank</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">109</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">109</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">109</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">109</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">109</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjBank</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">110</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">4</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.UnLock</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">110</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">110</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">200</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">Register Open</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">200</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">200</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.NewLogon</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">200</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">Complete logon</col>
+    <col name="state">8</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.LogOn</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">200</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">Get Open Amount</col>
+    <col name="state">3</col>
+    <col name="event_enabled">0</col>
+    <col name="event_required">0</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">200</col>
+    <col name="dialog_seq">6</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">Get Drawer</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">0</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">200</col>
+    <col name="dialog_seq">7</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">201</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">201</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">201</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.NewLogon</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">201</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">8</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.LogOn</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">201</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">3</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">201</col>
+    <col name="dialog_seq">6</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">201</col>
+    <col name="dialog_seq">7</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">201</col>
+    <col name="dialog_seq">8</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">201</col>
+    <col name="dialog_seq">9</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">202</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1005</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.Error</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">202</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">29</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.UserValidation</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">202</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">30</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">202</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">70</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">203</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">203</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">203</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">203</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">203</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjTender</col>
+  </item>
+
+
+
+
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">211</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">211</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">211</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">211</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">211</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjCreditTender</col>
+  </item>
+
+
+
+
+
+
+
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">212</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">212</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">212</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">212</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">212</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjGiftTender</col>
+  </item>
+
+
+
+
+
+
+
+
+
+
+
+
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">204</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">204</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">204</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">204</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">204</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">5</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjCheckTender</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">204</col>
+    <col name="dialog_seq">6</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">204</col>
+    <col name="dialog_seq">7</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">205</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">205</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">205</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">205</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">205</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">7</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjCCTender</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">205</col>
+    <col name="dialog_seq">6</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">3</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">205</col>
+    <col name="dialog_seq">7</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">205</col>
+    <col name="dialog_seq">8</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">206</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">206</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">206</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">206</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">206</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjAltCurrTender</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">207</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">5</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RecallEj</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">207</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">207</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">208</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">208</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">208</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">208</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">208</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjBank</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">209</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">209</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">209</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">209</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">209</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjBank</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">210</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">4</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.UnLock</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">210</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">210</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">300</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">Register Open</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">300</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">300</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.NewLogon</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">300</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">Complete logon</col>
+    <col name="state">8</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.LogOn</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">300</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">Get Open Amount</col>
+    <col name="state">3</col>
+    <col name="event_enabled">0</col>
+    <col name="event_required">0</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">300</col>
+    <col name="dialog_seq">6</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">Get Drawer</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">0</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">300</col>
+    <col name="dialog_seq">7</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">301</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">301</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">301</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.NewLogon</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">301</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">8</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.LogOn</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">301</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">3</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">301</col>
+    <col name="dialog_seq">6</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">301</col>
+    <col name="dialog_seq">7</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">301</col>
+    <col name="dialog_seq">8</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">301</col>
+    <col name="dialog_seq">9</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">302</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1005</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.Error</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">302</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">29</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.UserValidation</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">302</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">30</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">302</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">70</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">303</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">303</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">303</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">303</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">303</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjTender</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">304</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">304</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">304</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">304</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">304</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">5</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjCheckTender</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">304</col>
+    <col name="dialog_seq">6</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">304</col>
+    <col name="dialog_seq">7</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">305</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">305</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">305</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">305</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">305</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">7</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjCCTender</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">305</col>
+    <col name="dialog_seq">6</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">3</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">305</col>
+    <col name="dialog_seq">7</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">305</col>
+    <col name="dialog_seq">8</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">306</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">306</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">306</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">306</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">306</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjAltCurrTender</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">307</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">5</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RecallEj</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">307</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">307</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">308</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">308</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">308</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">308</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">308</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjBank</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">309</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.RegisterOpen</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">309</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.StartTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">309</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.FinishTransaction</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">309</col>
+    <col name="dialog_seq">4</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.CloseCashDrawer</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">309</col>
+    <col name="dialog_seq">5</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">2</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.ej.EjBank</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">310</col>
+    <col name="dialog_seq">1</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">4</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">com.globalretailtech.pos.events.UnLock</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">310</col>
+    <col name="dialog_seq">2</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">1</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+  <item>
+    <col name="dialog_event_id">0</col>
+    <col name="dialog_id">310</col>
+    <col name="dialog_seq">3</col>
+    <col name="help_id">0</col>
+    <col name="dialog_desc">null</col>
+    <col name="state">0</col>
+    <col name="event_enabled">1</col>
+    <col name="event_required">1</col>
+    <col name="event_class">null</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

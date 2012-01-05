@@ -1,0 +1,174 @@
+{
+  HighlightColor = "#ffffff";
+  IconSlideSpeed = ultrafast;
+  CycleWorkspaces = YES;
+  AntialiasedText = YES;
+  DisableDock = YES;
+  ShadeSpeed = ultrafast;
+  MenuTextFont = "Trebuchet MS:slant=0:weight=80:width=100:pixelsize=11";
+  MoveResizeKey = None;
+  UTitleBack = (
+    tvgradient,
+    "/usr/share/WindowMaker/Themes/ModernGlassBlue-0.91.themed/unfocused_window.tif",
+    38,
+    "#9d9d9d",
+    "#000000"
+  );
+  StickyIcons = YES;
+  PixmapPath = (
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/WindowMaker/Backgrounds",
+    "/usr/share/wallpapers"
+  );
+  WindowShortcut10Key = None;
+  PTitleBack = (
+    mvgradient,
+    "#b3b6b6",
+    "#6a957887926d",
+    "#659a728d857a",
+    "#5e6c82",
+    "#5e6d82",
+    "#5da26c93817e",
+    "#56a9659a7c83",
+    "#4fb05fa07689",
+    "#46b957a8718e",
+    "#3e516d",
+    "#031a36",
+    "#031236",
+    "#041738",
+    "#041738",
+    "#031940",
+    "#011b3d"
+  );
+  MiniwindowTitleBalloons = NO;
+  NoWindowOverDock = NO;
+  WindowTitleFont = "Trebuchet MS:slant=0:weight=200:width=100:pixelsize=11";
+  ClipTitleFont = "Trebuchet MS:slant=0:weight=80:width=100:pixelsize=10";
+  MenuDisabledColor = "#949294";
+  MenuTextBack = (
+    mvgradient,
+    "#a3b1cc",
+    "#6a7892",
+    "#657285",
+    "#5e6c82",
+    "#5e6d82",
+    "#5d6c81",
+    "#56657c",
+    "#4f5f76",
+    "#465771",
+    "#3e516d",
+    "#031a36",
+    "#031236",
+    "#041738",
+    "#041738",
+    "#031940",
+    "#011b3d"
+  );
+  IconBack = (
+    spixmap,
+    "/usr/share/WindowMaker/Themes/ModernGlassBlue-0.91.themed/BrushedX.3_Tile2.png",
+    "#b5b6b5"
+  );
+  MenuTitleBack = (
+    mvgradient,
+    "#a3b1cc",
+    "#6a7892",
+    "#657285",
+    "#5e6c82",
+    "#5e6d82",
+    "#5d6c81",
+    "#56657c",
+    "#4f5f76",
+    "#465771",
+    "#3e516d",
+    "#031a36",
+    "#031236",
+    "#041738",
+    "#041738",
+    "#031940",
+    "#011b3d"
+  );
+  WindowShortcut1Key = None;
+  FTitleBack = (
+    mvgradient,
+    "#b3b6b6",
+    "#6a957887926d",
+    "#659a728d857a",
+    "#5e6c82",
+    "#5e6d82",
+    "#5da26c93817e",
+    "#56a9659a7c83",
+    "#4fb05fa07689",
+    "#46b957a8718e",
+    "#3e516d",
+    "#031a36",
+    "#031236",
+    "#041738",
+    "#041738",
+    "#031940",
+    "#011b3d"
+  );
+  IconificationStyle = none;
+  WindowShortcut2Key = None;
+  WindowShortcut3Key = None;
+  ResizebarBack = (
+    mvgradient,
+    "#b3b6b6",
+    "#b0b0b0",
+    "#adadad",
+    "#b2b2b2",
+    "#c9c9c9",
+    "#cfcfcf",
+    "#d8d8d8",
+    "#dedede",
+    "#ededed",
+    "#ffffff",
+    "#e8e7f0"
+  );
+  WindowShortcut4Key = None;
+  MenuTextColor = "#f7fff7";
+  HighlightTextColor = "#000000";
+  WindowShortcut5Key = None;
+  MenuTitleFont = "Trebuchet MS:slant=0:weight=200:width=100:pixelsize=11";
+  MenuTitleColor = "#a5b2ce";
+  WindowShortcut6Key = None;
+  WorkspaceNameDisplayPosition = center;
+  LargeDisplayFont = "Trebuchet MS-10:slant=0:weight=80:width=100:pixelsize=10";
+  WindowShortcut7Key = None;
+  FTitleColor = "#a5b2ce";
+  AppIconBalloons = NO;
+  WorkspaceBack = (
+    tvgradient,
+    "/usr/share/WindowMaker/Themes/ModernGlassBlue-0.91.themed/black.xpm",
+    128,
+    "#0d0a40",
+    "#031a2e"
+  );
+  WorkspaceBorderSize = 2;
+  MenuScrollSpeed = ultrafast;
+  IconTitleFont = "Trebuchet MS:slant=0:weight=80:width=100:pixelsize=10";
+  HideOthersKey = None;
+  SmoothWorkspaceBack = YES;
+  IconPath = (
+    "/home/admin/GNUstep/Library/Icons",
+    "/usr/share/WindowMaker/Icons",
+    "/usr/share/icons"
+  );
+  UTitleColor = "#848684";
+  PTitleColor = "#d6e3ff";
+  WorkspaceBorder = AllDirections;
+  Attraction = NO;
+  WindowTitleBalloons = NO;
+  HelpBalloons = NO;
+  WindowShortcut8Key = None;
+  TitleJustify = left;
+  CClipTitleColor = "#0e1e42";
+  ScreenSwitchKey = None;
+  WindowShortcut9Key = None;
+  ClipTitleColor = "#778fbd";
+  IconTitleBack = "#061b25";
+  IconTitleColor = "#ffd906";
+  HMaximizeKey = None;
+  DisableBlinking = NO;
+  MouseWheelAction = SwitchWorkspaces;
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="TRANS_TENDER">
+  <item>
+    <col name="trans_id">0</col>
+    <col name="seq_no">7</col>
+    <col name="tendertype">0</col>
+    <col name="amount">429.0</col>
+    <col name="change">0.0</col>
+    <col name="tender_desc">Cash Tender</col>
+    <col name="change_desc">Change Due</col>
+    <col name="locale_language">US</col>
+    <col name="locale_variant">en</col>
+    <col name="data_capture"></col>
+  </item>
+  <item>
+    <col name="trans_id">2</col>
+    <col name="seq_no">2</col>
+    <col name="tendertype">0</col>
+    <col name="amount">100.0</col>
+    <col name="change">0.0</col>
+    <col name="tender_desc">Cash Tender</col>
+    <col name="change_desc">Change Due</col>
+    <col name="locale_language">US</col>
+    <col name="locale_variant">en</col>
+    <col name="data_capture"></col>
+  </item>
+  <item>
+    <col name="trans_id">2</col>
+    <col name="seq_no">11</col>
+    <col name="tendertype">0</col>
+    <col name="amount">1765.0</col>
+    <col name="change">0.0</col>
+    <col name="tender_desc">Cash Tender</col>
+    <col name="change_desc">Change Due</col>
+    <col name="locale_language">US</col>
+    <col name="locale_variant">en</col>
+    <col name="data_capture"></col>
+  </item>
+  <item>
+    <col name="trans_id">2</col>
+    <col name="seq_no">16</col>
+    <col name="tendertype">0</col>
+    <col name="amount">865.0</col>
+    <col name="change">0.0</col>
+    <col name="tender_desc">Cash Tender</col>
+    <col name="change_desc">Change Due</col>
+    <col name="locale_language">US</col>
+    <col name="locale_variant">en</col>
+    <col name="data_capture"></col>
+  </item>
+  <item>
+    <col name="trans_id">114</col>
+    <col name="seq_no">4</col>
+    <col name="tendertype">0</col>
+    <col name="amount">455.0</col>
+    <col name="change">0.0</col>
+    <col name="tender_desc">Cash Tender</col>
+    <col name="change_desc">Change Due</col>
+    <col name="locale_language">US</col>
+    <col name="locale_variant">en</col>
+    <col name="data_capture"></col>
+  </item>
+  <item>
+    <col name="trans_id">115</col>
+    <col name="seq_no">6</col>
+    <col name="tendertype">0</col>
+    <col name="amount">810.0</col>
+    <col name="change">0.0</col>
+    <col name="tender_desc">Cash Tender</col>
+    <col name="change_desc">Change Due</col>
+    <col name="locale_language">US</col>
+    <col name="locale_variant">en</col>
+    <col name="data_capture"></col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="CURRENCY_DENOMINATION">
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">103</col>
+    <col name="denom_amount">10000.0</col>
+    <col name="denom_desc">Hundred</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">103</col>
+    <col name="denom_amount">5000.0</col>
+    <col name="denom_desc">Fifty</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">103</col>
+    <col name="denom_amount">2000.0</col>
+    <col name="denom_desc">Twenty</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">103</col>
+    <col name="denom_amount">1000.0</col>
+    <col name="denom_desc">Ten</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">103</col>
+    <col name="denom_amount">500.0</col>
+    <col name="denom_desc">Five</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">103</col>
+    <col name="denom_amount">100.0</col>
+    <col name="denom_desc">One</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">103</col>
+    <col name="denom_amount">100.0</col>
+    <col name="denom_desc">One Coin</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">103</col>
+    <col name="denom_amount">50.0</col>
+    <col name="denom_desc">Half Dollar</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">103</col>
+    <col name="denom_amount">25.0</col>
+    <col name="denom_desc">Quarter</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">103</col>
+    <col name="denom_amount">10.0</col>
+    <col name="denom_desc">Dime</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">103</col>
+    <col name="denom_amount">5.0</col>
+    <col name="denom_desc">Nickel</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">103</col>
+    <col name="denom_amount">1.0</col>
+    <col name="denom_desc">Penny</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">104</col>
+    <col name="denom_amount">100000.0</col>
+    <col name="denom_desc">Tausend Mark</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">104</col>
+    <col name="denom_amount">50000.0</col>
+    <col name="denom_desc">Funf Hundert Mark</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">104</col>
+    <col name="denom_amount">10000.0</col>
+    <col name="denom_desc">Hundert Mark</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">104</col>
+    <col name="denom_amount">5000.0</col>
+    <col name="denom_desc">Funfzig Mark</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">104</col>
+    <col name="denom_amount">1000.0</col>
+    <col name="denom_desc">Zwanzig Mark</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">104</col>
+    <col name="denom_amount">2000.0</col>
+    <col name="denom_desc">Zwanzig Mark</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">104</col>
+    <col name="denom_amount">1000.0</col>
+    <col name="denom_desc">Zehn Mark</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">104</col>
+    <col name="denom_amount">500.0</col>
+    <col name="denom_desc">Funf Mark</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">104</col>
+    <col name="denom_amount">100.0</col>
+    <col name="denom_desc">Ein Mark</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">104</col>
+    <col name="denom_amount">50.0</col>
+    <col name="denom_desc">Funfzig Pfenning</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">104</col>
+    <col name="denom_amount">10.0</col>
+    <col name="denom_desc">Zehn Pfenning</col>
+  </item>
+  <item>
+    <col name="currency_denom_id">1</col>
+    <col name="currency_id">104</col>
+    <col name="denom_amount">1.0</col>
+    <col name="denom_desc">Ein Pfenning</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

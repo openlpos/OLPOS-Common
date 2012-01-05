@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="MENU_ROOT">
+  <item>
+    <col name="menu_id">1</col>
+    <col name="config_no">1</col>
+    <col name="xpos">0</col>
+    <col name="ypos">0</col>
+    <col name="height">1</col>
+    <col name="width">2</col>
+    <col name="pix_width">1000</col>
+    <col name="pix_height">32</col>
+    <col name="name">Prompt</col>
+  </item>
+  <item>
+    <col name="menu_id">2</col>
+    <col name="config_no">1</col>
+    <col name="xpos">0</col>
+    <col name="ypos">1</col>
+    <col name="height">2</col>
+    <col name="width">1</col>
+    <col name="pix_width">420</col>
+    <col name="pix_height">650</col>
+    <col name="name">Invoice</col>
+  </item>
+  <item>
+    <col name="menu_id">3</col>
+    <col name="config_no">1</col>
+    <col name="xpos">1</col>
+    <col name="ypos">1</col>
+    <col name="height">1</col>
+    <col name="width">1</col>
+    <col name="pix_width">580</col>
+    <col name="pix_height">350</col>
+    <col name="name">Main</col>
+  </item>
+  <item>
+    <col name="menu_id">4</col>
+    <col name="config_no">1</col>
+    <col name="xpos">1</col>
+    <col name="ypos">2</col>
+    <col name="height">1</col>
+    <col name="width">1</col>
+    <col name="pix_width">580</col>
+    <col name="pix_height">300</col>
+    <col name="name">Keypad</col>
+  </item>
+  <item>
+    <col name="menu_id">14</col>
+    <col name="config_no">1</col>
+    <col name="xpos">0</col>
+    <col name="ypos">0</col>
+    <col name="height">0</col>
+    <col name="width">0</col>
+    <col name="pix_width">0</col>
+    <col name="pix_height">0</col>
+    <col name="name">Invisible Buttons 1</col>
+  </item>
+  
+  
+  <item>
+    <col name="menu_id">5</col>
+    <col name="config_no">2</col>
+    <col name="xpos">1</col>
+    <col name="ypos">0</col>
+    <col name="height">1</col>
+    <col name="width">1</col>
+    <col name="pix_width">500</col>
+    <col name="pix_height">130</col>
+    <col name="name">Prompt</col>
+  </item>
+  <item>
+    <col name="menu_id">6</col>
+    <col name="config_no">2</col>
+    <col name="xpos">1</col>
+    <col name="ypos">3</col>
+    <col name="height">1</col>
+    <col name="width">1</col>
+    <col name="pix_width">500</col>
+    <col name="pix_height">260</col>
+    <col name="name">Customer</col>
+  </item>
+  <item>
+    <col name="menu_id">7</col>
+    <col name="config_no">2</col>
+    <col name="xpos">0</col>
+    <col name="ypos">0</col>
+    <col name="height">4</col>
+    <col name="width">1</col>
+    <col name="pix_width">512</col>
+    <col name="pix_height">718</col>
+    <col name="name">Invoice</col>
+  </item>
+  <item>
+    <col name="menu_id">8</col>
+    <col name="config_no">2</col>
+    <col name="xpos">1</col>
+    <col name="ypos">1</col>
+    <col name="height">2</col>
+    <col name="width">1</col>
+    <col name="pix_width">500</col>
+    <col name="pix_height">322</col>
+    <col name="name">Main</col>
+  </item>
+<!--  <item>
+    <col name="menu_id">9</col>
+    <col name="config_no">2</col>
+    <col name="xpos">1</col>
+    <col name="ypos">5</col>
+    <col name="height">4</col>
+    <col name="width">1</col>
+    <col name="pix_width">580</col>
+    <col name="pix_height">330</col>
+    <col name="name">Keypad</col>
+  </item> -->
+  <item>
+    <col name="menu_id">9</col>
+    <col name="config_no">2</col>
+    <col name="xpos">0</col>
+    <col name="ypos">0</col>
+    <col name="height">0</col>
+    <col name="width">0</col>
+    <col name="pix_width">0</col>
+    <col name="pix_height">0</col>
+    <col name="name">Invisible Buttons 2</col>
+  </item>
+
+
+
+  <item>
+    <col name="menu_id">12</col>
+    <col name="config_no">3</col>
+    <col name="xpos">0</col>
+    <col name="ypos">2</col>
+    <col name="height">2</col>
+    <col name="width">1</col>
+    <col name="pix_width">460</col>
+    <col name="pix_height">276</col>
+    <col name="name">Keypad</col>
+  </item>
+  <item>
+    <col name="menu_id">11</col>
+    <col name="config_no">3</col>
+    <col name="xpos">0</col>
+    <col name="ypos">0</col>
+    <col name="height">2</col>
+    <col name="width">1</col>
+    <col name="pix_width">460</col>
+    <col name="pix_height">400</col>
+    <col name="name">Receipt</col>
+  </item>
+  <item>
+    <col name="menu_id">10</col>
+    <col name="config_no">3</col>
+    <col name="xpos">1</col>
+    <col name="ypos">0</col>
+    <col name="height">1</col>
+    <col name="width">1</col>
+    <col name="pix_width">540</col>
+    <col name="pix_height">65</col>
+    <col name="name">Prompt</col>
+  </item>
+  <item>
+    <col name="menu_id">13</col>
+    <col name="config_no">3</col>
+    <col name="xpos">1</col>
+    <col name="ypos">1</col>
+    <col name="height">3</col>
+    <col name="width">1</col>
+    <col name="pix_width">540</col>
+    <col name="pix_height">612</col>
+    <col name="name">Coffee</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

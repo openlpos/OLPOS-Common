@@ -1,0 +1,1 @@
+start java -cp ../thirdparty/hsqldb.jar org.hsqldb.Server -port 9001 -trace true -database ../rdb/db/site.hsqldb 

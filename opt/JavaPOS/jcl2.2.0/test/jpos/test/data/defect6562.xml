@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JposEntries PUBLIC "-//JavaPOS//DTD//EN"
+                             "jpos/res/jcl.dtd">
+
+<!-- Data file for CMVC defect #6562: XML pop does not find file in CLASSPATH  -->
+                             
+<JposEntries>
+<!--Saved by JavaPOS jpos.config/loader (JCL) version 2.0.0 RC2 on 6/26/01 11:26 AM-->
+    
+    <JposEntry logicalName="defect6562">
+        <creation factoryClass="com.xyz.jpos.XyzJposServiceInstanceFactory" serviceClass="com.xyz.jpos.LineDisplayService"/>
+        <vendor name="Xyz, Corp." url="http://www.javapos.com"/>
+        <jpos category="LineDisplay" version="1.4a"/>
+        <product description="Example virtual LineDisplay JavaPOS Service from virtual Xyz Corporation" name="Virtual LineDisplay JavaPOS Service" url="http://www.javapos.com"/>
+
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+</JposEntry>
+    
+</JposEntries>

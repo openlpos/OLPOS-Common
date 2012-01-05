@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableupdate table="SITE" pk="site_id">
+  <item>
+    <col name="site_id">1</col>
+    <col name="site_no">1</col>
+    <col name="name">Default Site Name*</col>
+    <col name="lat">1</col>
+    <col name="lon">1</col>
+    <col name="addr1">Site address, line 1</col>
+    <col name="addr2">address, line 2</col>
+    <col name="addr3">1</col>
+    <col name="addr4">1</col>
+    <col name="addr5">1</col>
+    <col name="phone">123-456-789</col>
+    <col name="ip">localhost</col>
+    <col name="port">8000</col>
+    <col name="merchant_id">1</col>
+  </item>
+
+</tableupdate>
+
+</mercatordata>

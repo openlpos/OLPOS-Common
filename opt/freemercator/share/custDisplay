@@ -1,0 +1,8 @@
+Description=Customer Display
+Columns=32
+Rows=1
+StartupText=OpenLPOS
+x=0
+y=1
+h=1
+w=2

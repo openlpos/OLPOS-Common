@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="ITEM_LINK">
+  <item>
+    <col name="link_id">0</col>
+    <col name="sku">8858643086</col>
+    <col name="sku_link">4116397507</col>
+  </item>
+  <item>
+    <col name="link_id">1</col>
+    <col name="sku">8858643086</col>
+    <col name="sku_link">7283000210</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

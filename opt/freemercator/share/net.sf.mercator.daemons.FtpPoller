@@ -1,0 +1,22 @@
+#
+# server - directory to watch
+Hostname=192.168.1.254
+Username=is
+Password=Private
+RemoteDir=data
+
+# Pattern - file names to recognize as update requests
+Pattern=UPD_(\\w)*\\.xml
+
+TempDir=../tmp
+
+LogPattern=%-4r %-5p %c %x - %m%n
+
+# PollInterval - polling interval in seconds
+# Default - 5 minutes
+PollInterval=15
+
+# Where to archivate processed requests
+# and which prefix to add
+ArchiveDir=../share/exchange/archive
+ArchivePrefix=yyMMdd_hhmmss_

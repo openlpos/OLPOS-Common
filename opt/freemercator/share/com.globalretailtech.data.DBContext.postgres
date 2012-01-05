@@ -1,0 +1,6 @@
+Driver=org.postgresql.Driver
+ConnectPrefix=jdbc:postgresql://
+ConnectHost=localhost:5432
+ConnectFile=/merctest
+User=dres
+Password=

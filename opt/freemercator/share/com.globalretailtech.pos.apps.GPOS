@@ -1,0 +1,12 @@
+Site=1
+POS=1
+Configuration=1
+Debug=y
+LogEvents=y
+LogFile=pos.log
+EventFile=event.log
+SleepInterval=500
+
+# change to context no
+# if zero or less, don't warm up
+WarmupContext=0

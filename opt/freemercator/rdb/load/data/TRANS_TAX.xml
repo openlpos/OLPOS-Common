@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="TRANS_TAX">
+  <item>
+    <col name="trans_id">0</col>
+    <col name="seq_no">2</col>
+    <col name="tax_id">0</col>
+    <col name="tax_desc">WA State</col>
+    <col name="rate">0.035</col>
+    <col name="taxable_amount">190.0</col>
+    <col name="tax_amount">6.65</col>
+  </item>
+  <item>
+    <col name="trans_id">0</col>
+    <col name="seq_no">3</col>
+    <col name="tax_id">0</col>
+    <col name="tax_desc">Local Tax</col>
+    <col name="rate">0.05</col>
+    <col name="taxable_amount">190.0</col>
+    <col name="tax_amount">9.5</col>
+  </item>
+  <item>
+    <col name="trans_id">0</col>
+    <col name="seq_no">5</col>
+    <col name="tax_id">0</col>
+    <col name="tax_desc">WA State</col>
+    <col name="rate">0.035</col>
+    <col name="taxable_amount">205.0</col>
+    <col name="tax_amount">7.175</col>
+  </item>
+  <item>
+    <col name="trans_id">0</col>
+    <col name="seq_no">6</col>
+    <col name="tax_id">0</col>
+    <col name="tax_desc">Local Tax</col>
+    <col name="rate">0.05</col>
+    <col name="taxable_amount">205.0</col>
+    <col name="tax_amount">10.25</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

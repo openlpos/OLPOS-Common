@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="BU">
+  <item>
+    <col name="bu_id">1</col>
+    <col name="bu_desc">Olympic Retailers Inc.</col>
+    <col name="create_date">null</col>
+  </item>
+  <item>
+    <col name="bu_id">2</col>
+    <col name="bu_desc">Districts</col>
+    <col name="create_date">null</col>
+  </item>
+  <item>
+    <col name="bu_id">3</col>
+    <col name="bu_desc">Items</col>
+    <col name="create_date">null</col>
+  </item>
+  <item>
+    <col name="bu_id">4</col>
+    <col name="bu_desc">Taxes</col>
+    <col name="create_date">null</col>
+  </item>
+  <item>
+    <col name="bu_id">5</col>
+    <col name="bu_desc">Pos Config</col>
+    <col name="create_date">null</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

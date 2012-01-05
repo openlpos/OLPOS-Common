@@ -1,0 +1,127 @@
+{
+  Dock = {
+    Lowered = No;
+    Applications960 = (
+      {
+        Name = Logo.WMDock;
+        Command = "-";
+        AutoLaunch = No;
+        Lock = No;
+        Position = "0,0";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        Name = xterm.XTerm;
+        Command = xterm;
+        AutoLaunch = No;
+        Lock = No;
+        Position = "0,1";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        Name = groupLeader.WPrefs;
+        Command = "/usr/lib/GNUstep/Applications/WPrefs.app/WPrefs";
+        AutoLaunch = No;
+        Lock = Yes;
+        Position = "0,2";
+        Forced = No;
+        BuggyApplication = No;
+      }
+    );
+    Position = "-64,0";
+    Applications = (
+      {
+        Name = Logo.WMDock;
+        Command = "-";
+        AutoLaunch = No;
+        Lock = No;
+        Position = "0,0";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        Name = xterm.XTerm;
+        Command = xterm;
+        AutoLaunch = No;
+        Lock = No;
+        Position = "0,1";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        Name = groupLeader.WPrefs;
+        Command = "/usr/lib/GNUstep/Applications/WPrefs.app/WPrefs";
+        AutoLaunch = No;
+        Lock = Yes;
+        Position = "0,2";
+        Forced = No;
+        BuggyApplication = No;
+      }
+    );
+  };
+  Clip = {
+    Name = Logo.WMClip;
+    Lock = No;
+    AutoLaunch = No;
+    Command = "-";
+    Position = "134,190";
+    Forced = No;
+    BuggyApplication = No;
+  };
+  Workspace = Main;
+  Menus = {
+    SwitchMenu = ("1192,128");
+    "\\Applications" = ("279,100");
+  };
+  Workspaces = (
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = (
+          {
+            PasteCommand = "xterm -sb %s";
+            Name = xterm.XTerm;
+            Lock = No;
+            AutoLaunch = No;
+            Command = "xterm -sb";
+            Position = "1,0";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "firefox %s";
+            Name = firefox.Firefox;
+            Lock = No;
+            AutoLaunch = No;
+            Command = firefox;
+            Position = "1,1";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          }
+        );
+      };
+      Name = Main;
+    }
+  );
+  Applications = (
+    {
+      Dock = Main;
+      Hidden = No;
+      ShortcutMask = 0;
+      Name = xterm.XTerm;
+      Geometry = "501x316+507+140";
+      Workspace = Main;
+      Shaded = No;
+      Miniaturized = No;
+      Command = "xterm -sb";
+    }
+  );
+}

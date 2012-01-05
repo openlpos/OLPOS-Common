@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+	 xsi:noNamespaceSchemaLocation="jpos/res/jcl_profile.xsd"
+	 name="JCL JUnit Corp. JavaPOS Profile" >
+
+    <ProfileInfo version="1.0" vendorName="JCL JUnit, Corp." 
+		      vendorUrl="http://www.jcl-junit.com"
+                      description="Simple JCL profile XML file for JUnit testing"/>
+</Profile>

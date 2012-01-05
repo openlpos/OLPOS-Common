@@ -1,0 +1,8 @@
+Font=Helvetiva
+FontSize=12
+
+TransWidth=60
+DateWidth=60
+AmountWidth=60
+BalanceWidth=60
+TableRows=20

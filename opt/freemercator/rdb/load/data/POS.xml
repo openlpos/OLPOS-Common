@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="POS">
+  <item>
+    <col name="pos_id">1</col>
+    <col name="pos_no">1</col>
+    <col name="num_drawers">1</col>
+    <col name="short_desc">First POS</col>
+    <col name="create_date">null</col>
+    <col name="modify_date">null</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

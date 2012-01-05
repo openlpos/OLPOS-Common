@@ -1,0 +1,8 @@
+Driver=interbase.interclient.Driver
+ConnectPrefix=jdbc:interbase://
+ConnectHost=localhost
+ConnectFile=<your working area>/rdb/db/site.gdb
+User=pos
+Password=pos
+#User=sysdba
+#Password=masterkey

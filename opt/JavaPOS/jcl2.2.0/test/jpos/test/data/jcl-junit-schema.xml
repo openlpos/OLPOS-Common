@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JposEntries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="jpos/res/jcl.xsd">
+                                
+	<JposEntry logicalName="entry0"> 
+        <creation factoryClass="com.xyz.jpos.XyzJposServiceInstanceFactory" serviceClass="com.xyz.jpos.LineDisplayService"/>
+        <vendor name="Xyz, Corp." url="http://www.javapos.com"/>
+        <jpos category="LineDisplay" version="1.5"/>
+        <product description="Example virtual LineDisplay JavaPOS Service from virtual Xyz Corporation" 
+                 name="Virtual LineDisplay JavaPOS Service" url="http://www.javapos.com"/>
+        
+        <prop name="deviceBus" value="Unknown"/>
+        <prop name="vendor.prop.name2" value="vendor.prop.value2"/>
+        <prop name="vendor.prop.name1" value="vendor.prop.value1"/>
+        <prop name="vendor.prop.name0" value="vendor.prop.value0"/>        
+    </JposEntry>
+</JposEntries>

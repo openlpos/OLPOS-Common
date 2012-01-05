@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JposEntries PUBLIC "-//JavaPOS//DTD//EN"
+                             "jpos/res/jcl.dtd">
+<JposEntries>
+    <!--Saved by JavaPOS jpos.config/loader (JCL) version 2.1.0-RC2 on 22.03.03 6:39-->
+    <!--                                       -->
+    <!-- key definition examples -->
+    <!-- key.VK_F1             - F1            -->
+    <!-- key.VK_F1+SHIFT       - SHIFT+F1      -->
+    <!-- key.VK_F1+SHIFT+CTRL  - SHIFT+CTRL+F1 -->
+    <!--                                       -->
+    <!-- ALT, CTRL, SHIFT are recognized       -->
+    <!--                                       -->
+    <JposEntry logicalName="POSKeyboard">
+        <creation factoryClass="com.globalretailtech.pos.services.factories.PCKeyboardServiceInstanceFactory" serviceClass="com.globalretailtech.pos.services.PCKeyboard"/>
+        <vendor name="Igor Semenko" url="http://www.UnknownVerdorURL.com"/>
+        <jpos category="POSKeyboard" version="1.4"/>
+        <product description="Free java POS software" name="Free Mercator" url="http://freemercator.sf.net"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="key.VK_ENTER" type="String" value="50"/>
+        <prop name="key.VK_9" type="String" value="109"/>
+        <prop name="key.VK_8" type="String" value="108"/>
+        <prop name="key.VK_7" type="String" value="107"/>
+        <prop name="key.VK_6" type="String" value="106"/>
+        <prop name="key.VK_5" type="String" value="105"/>
+        <prop name="key.VK_4" type="String" value="104"/>
+        <prop name="key.VK_3" type="String" value="103"/>
+        <prop name="key.VK_2" type="String" value="102"/>
+        <prop name="key.VK_ESCAPE" type="String" value="51"/>
+        <prop name="key.VK_1" type="String" value="101"/>
+        <prop name="key.VK_0" type="String" value="100"/>
+        <prop name="key.VK_MULTIPLY" type="String" value="301"/>
+        <prop name="key.VK_NUMPAD9" type="String" value="109"/>
+        <prop name="key.VK_NUMPAD8" type="String" value="108"/>
+        <prop name="key.VK_NUMPAD7" type="String" value="107"/>
+        <prop name="key.VK_NUMPAD6" type="String" value="106"/>
+        <prop name="key.VK_NUMPAD5" type="String" value="105"/>
+        <prop name="key.VK_NUMPAD4" type="String" value="104"/>
+        <prop name="key.VK_NUMPAD3" type="String" value="103"/>
+        <prop name="key.VK_NUMPAD2" type="String" value="102"/>
+        <prop name="key.VK_NUMPAD1" type="String" value="101"/>
+        <prop name="key.VK_NUMPAD0" type="String" value="100"/>
+        <prop name="key.VK_DECIMAL" type="String" value="111"/>
+        <prop name="key.VK_BACK_SPACE" type="String" value="112"/>
+        <prop name="key.VK_ADD" type="String" value="400"/>       <!-- cash -->
+        <prop name="key.VK_DIVIDE" type="String" value="300"/>    <!-- PLU -->
+        <prop name="key.VK_SUBTRACT" type="String" value="501"/>  <!-- void item     -->
+        <prop name="key.VK_DELETE" type="String" value="502"/>    <!-- void sale     -->
+        <prop name="key.VK_UP" type="String" value="801"/>        <!-- arrow up -->
+        <prop name="key.VK_DOWN" type="String" value="802"/>      <!-- arrow down -->
+        <prop name="key.VK_PAGE_UP" type="String" value="803"/>   <!-- page up -->
+        <prop name="key.VK_PAGE_DOWN" type="String" value="804"/> <!-- page down -->
+        
+        <prop name="key.VK_F1" type="String" value="201"/> <!-- total -->
+        <prop name="key.VK_F2" type="String" value="202"/> <!-- paid in -->
+        <prop name="key.VK_F2+CTRL" type="String" value="203"/> <!-- paid out -->
+        <prop name="key.VK_F3" type="String" value="204"/> <!-- x report -->
+        <prop name="key.VK_F3+CTRL" type="String" value="205"/> <!-- z report -->
+        <prop name="key.VK_F3+SHIFT" type="String" value="210"/> <!-- discount report -->
+        <prop name="key.VK_F4" type="String" value="401"/> <!-- GiftTender -->
+        <prop name="key.VK_F5" type="String" value="402"/> <!-- CreditTender -->
+        <prop name="key.VK_F6" type="String" value="206"/> <!-- periodic report date-date -->
+        <prop name="key.VK_F6+CTRL" type="String" value="207"/> <!-- periodic report start-end -->
+        
+        <prop name="key.VK_F7" type="String" value="604"/> <!-- SaveEj -->
+        <prop name="key.VK_F7+CTRL" type="String" value="605"/> <!-- RecallEj -->
+        <prop name="key.VK_F7+CTRL+SHIFT" type="String" value="220"/> <!-- AdjustTime -->
+
+        <prop name="key.VK_F8" type="String" value="208"/> <!-- paper feed -->
+        <prop name="key.VK_F9" type="String" value="209"/> <!-- customer no -->
+        <prop name="key.VK_F11" type="String" value="211"/> <!-- logoff -->
+        <prop name="key.VK_F12" type="String" value="212"/> <!-- system shutdown -->
+
+        <prop name="key.VK_F12+CTRL" type="String" value="221"/> <!-- Training mode -->
+        <prop name="key.VK_F10+SHIFT" type="String" value="222"/>  <!-- Item(s) unlock -->
+        <prop name="key.VK_F10+CTRL" type="String" value="224"/> <!-- LockedItemsReport -->
+        <prop name="key.VK_F10" type="String" value="223"/>      <!-- Price Override -->
+    </JposEntry>
+
+<!--    EXAMPLE of POSScanner configuration
+		rename to POSScanner
+-->
+    <JposEntry logicalName="POSScanner_EXAMPLE">
+        <creation factoryClass="Metrologic.JavaPos.Service.MtlgJposServiceInstanceFactory" serviceClass="Metrologic.JavaPos.Service.MtlgScan"/>
+        <vendor name="Metrologic" url="http://www.metrologic.com"/>
+        <jpos category="Scanner" version="1.6"/>
+        <product description="Free Mercator" name="Free Mercator" url="http://www.UnknownProductURL.com"/>
+
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="parity" type="String" value="None"/>
+        <prop name="flowControl" type="String" value="None"/>
+        <prop name="portName" type="String" value="COM2"/>
+<!--        <prop name="portName" type="String" value="/dev/ttyS1"/> -->
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="dataBits" type="String" value="8"/>
+    </JposEntry>
+
+<!-- Receipt Printer Software simulator 
+
+    <JposEntry logicalName="POSPrinter">
+        <creation factoryClass="com.globalretailtech.pos.services.factories.JournalPrinterServiceInstanceFactory" serviceClass="com.globalretailtech.pos.services.JournalPrinter"/>
+        <vendor name="Igor Semenko" url="mailto:igorsemenko@yahoo.com"/>
+        <jpos category="POSPrinter" version="1.2"/>
+        <product description="FreeMercator" name="FreeMercator" url="www.sourceforge.net/projects/freemercator"/>
+        <prop name="vendor.Title" type="String" value="Receipt Printer"/>
+        <prop name="vendor.Columns" type="String" value="20"/>
+        <prop name="vendor.Rows" type="String" value="10"/>
+        <prop name="vendor.font" type="String" value="Courier"/>
+        <prop name="vendor.pointsize" type="String" value="9"/>
+        <prop name="vendor.Width" type="String" value="200"/>
+        <prop name="vendor.Height" type="String" value="200"/>
+        <prop name="vendor.Xoffset" type="String" value="800"/>
+        <prop name="vendor.Yoffset" type="String" value="0"/>
+    </JposEntry>
+-->
+
+<!-- Journal Printer Software simulator 
+
+    <JposEntry logicalName="JournalPrinter">
+        <creation factoryClass="com.globalretailtech.pos.services.factories.JournalPrinterServiceInstanceFactory" serviceClass="com.globalretailtech.pos.services.JournalPrinter"/>
+        <vendor name="Igor Semenko" url="mailto:igorsemenko@yahoo.com"/>
+        <jpos category="POSPrinter" version="1.2"/>
+        <product description="FreeMercator" name="FreeMercator" url="www.sourceforge.net/projects/freemercator"/>
+        <prop name="vendor.Title" type="String" value="Journal Printer"/>
+        <prop name="vendor.Columns" type="String" value="20"/>
+        <prop name="vendor.Rows" type="String" value="10"/>
+        <prop name="vendor.font" type="String" value="Courier"/>
+        <prop name="vendor.pointsize" type="String" value="9"/>
+        <prop name="vendor.Width" type="String" value="200"/>
+        <prop name="vendor.Height" type="String" value="200"/>
+        <prop name="vendor.Xoffset" type="String" value="800"/>
+        <prop name="vendor.Yoffset" type="String" value="200"/>
+    </JposEntry>
+-->
+
+
+<!-- Add entries for
+   	 	 CashDrawer
+		 OperDisplay
+		 FiscalPrinter
+	 if you have appropriate drivers
+-->
+    
+</JposEntries>

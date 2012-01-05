@@ -1,0 +1,247 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="KEYWORDS" content="javapos, javaPOS, Sun, NCR, IBM, pos, retail, e-commerce, javastation, thin client, point of sale, java programming">
+   <meta name="DESCRIPTION" content="Welcome to the JavaPOS home page. It was recognized early on that the emergence of the Java language on the computing scene offered major advantages for the developer of retail applications. The JavaPOS (Java for Point Of Sale) standards committee was formed by a collection of retail vendors and end users to examine the ways in which these Java advantages could best be exploited. This web site contains resources and information about the committee, this initiative, and the technical specifications of proposed JavaPOS implementations.">
+   <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+   <title>JavaPOS - jpos.config/loader (JCL) - Changes</title>
+<!--
+
+This Web page was designed by:
+
+E. Michael Maximilien
+JavaPOS member (IBM)
+Email: maxim@us.ibm.com
+
+-->
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#006666" vlink="#666699" background="posbground.gif">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="632" HEIGHT="100%" >
+<caption><!-- Top left cell contains logo and navigation -->
+<br><!-- Bottom left cell, has java logo --></caption>
+
+<tr>
+<td ALIGN=LEFT VALIGN=TOP WIDTH="156"><a href="http://www.javapos.com/index.html"><img SRC="res/newlogo.gif" ALT="Java POS" BORDER=0 height=40 width=112></a>
+  <p><!--<A HREF="http://www.sun.com/retail"><IMG SRC="gif/retail.link.blue.gif" ALT="Retail" WIDTH="112" HEIGHT="34" BORDER="0"></A><BR><BR>-->
+  <img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120>
+      <P><a href="index.html"><font face="Arial" color="#FFFFFF" size="4">Home</font></a></P>
+      <P><a href="docs.html"><font face="Arial" color="#FFFFFF" size="4">Docs</font></a></P>
+  <P><a href="changes.html"><font face="Arial" color="#FFFFFF" size="4">Changes</font></a></P>
+  <P><a href="to-do.html"><font face="Arial" color="#FFFFFF" size="4">To-do</font></a></P>
+  <P><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P>
+  <P><font face="Arial" color="#FFFFFF" size="4"><b><em>End Users</em></b></font></P>
+      <P><a href="faq.html"><font face="Arial" color="#FFFFFF" size="4">FAQs</font></a></P>
+      <P><a href="getting_started.html"><font face="Arial" color="#FFFFFF" size="4">Getting 
+      Started</font></a></P>
+      <P><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P>
+  <P><font face="Arial" color="#FFFFFF" size="4"><b><em>Developers</em></b></font></P>
+      <P><a href="simple_jcl.html"><font face="Arial" color="#FFFFFF" size="4">JCL 
+      RI</font></a></P>
+      <P><a href="sample_code.html"><font face="Arial" color="#FFFFFF" size="4">Sample 
+      Code</font></a></P>
+      <P><a href="../jdoc/index.html"><font face="Arial" color="#FFFFFF" size="4">JavaDOC</font></a></P>
+      <P><a href="references.html"><font face="Arial" color="#FFFFFF" size="4">References</font></a></P>
+      <P><FONT color=white><!--<A HREF="http://www.sun.com/retail"><IMG SRC="gif/retail.link.blue.gif" ALT="Retail" WIDTH="112" HEIGHT="34" BORDER="0"></A><BR><BR>--></FONT><img SRC="../../pixel_palepurple.gif" VSPACE=5 BORDER=0 height=1 width=120></P></td>
+
+<td width="6"><!-- Main content Cell --></td>
+
+<td ALIGN=LEFT VALIGN=TOP ROWSPAN="2" WIDTH="464"><a NAME="top"></a>
+  <table border="0" width="100%">
+    <tr>
+      <td width="100%">
+<center><map NAME="head.home"><area SHAPE="Rect" COORDS="10,-1,192,48" HREF="index.html"></map><img ISMAP SRC="res/head_home.gif" BORDER=0 USEMAP="#head.home" height=77 width=403 align=BOTTOM></center>
+
+      </td>
+    </tr>
+    <tr>
+      <td width="100%">
+        <p align="center"><b><font face="Times New Roman" size="5">jpos.config/loader
+        (JCL) - Getting Started</font></b></td>
+    </tr>
+  </table>
+  <hr>
+  <p><!-- 	* INSERT    * -->This page will help and guide you on using the JCL.&nbsp; Please see the <a href="file:///C:/WorkStuff/JavaPOS/docs/html/sample_code.html">Sample
+  Code</a> for information on how to write JCL compatible JavaPOS services and
+  on how to configure them.</p>
+  <p><span style="background-color: #FFFF00">NOTE:</span> this page assumes that
+  you are using the <a href="file:///C:/WorkStuff/JavaPOS/docs/html/simple_jcl.html">Simple
+  JCL</a> reference implementation.&nbsp; If you are not, then most of this will
+  apply to all implementations but one should refer to the third party provider
+  for details on anything specific to their implementation.&nbsp;</p>
+  <ul>
+    <li><a href="#dir_and_files">Directory and Files in the JCL Release</a></li>
+    <li><a href="#setup_and_test">Setup and Quick test</a></li>
+    <li>Multi-Vendor Support (multi-populator)</li>
+  </ul>
+
+  <p align="center"><img border="0" src="res/Duke-UnderConstruction.gif" width="84" height="90"></p>
+  <p align="center"><span style="background-color: #FFFF00"><b>This page is
+  Under Construction (needs updating for 2.1.0 release)</b></span></p>
+
+  <hr>
+  <p><b><a name="dir_and_files"></a>Directory and Files in the JCL Release</b></p>
+  <p>The JCL is released as a Zip file.&nbsp; When extracted it will create a 
+  directory by the name of the JCL release.</p>
+  <p>By default the source files are jarred into JAR files in the &quot;lib&quot; 
+  directory with names terminating in &quot;src.jar&quot;.&nbsp; If you want to
+  build or see the source files then extract the JAR files in the appropriate 
+  directory &quot;src&quot;,
+  &quot;sample&quot; and &quot;test&quot; directory using the command:</p>
+  <p><font face="Courier New" size="2">&gt;jar xvf &lt;sourceFile&gt;.jar&nbsp;</font></p>
+  <p><span style="background-color: #FFFF00">NOTE:</span> the only difference is
+  that in Win32 path separation is &quot;\&quot; but &quot;/&quot; in UNIX and
+  setting environment variables will differ on UNIX depending on what shell you
+  are using.</p>
+  <p>Once the JCL is installed and the sources extracted (assume in <font face="Courier New" size="2">&lt;jcl-dir&gt;</font>)
+  you will have the following files and directories (not all the files are
+  listed e.g. html files, ...):</p>
+  <table border="1" width="479">
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;</font></td>
+      <td width="233"><font size="3">Root directory of JCL installation.&nbsp;
+        Contains readme.html pointer and changes.txt files</font></td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\lib</font></td>
+      <td width="233"><font size="3">Contain all JAR files</font></td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\docs</font></td>
+      <td width="233"><font size="3">Contain the white paper doc and other doc
+        directories</font></td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\docs\html</font></td>
+      <td width="233"><font size="3">Contain this set of HTML files</font></td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\docs\html\jdoc</font></td>
+      <td width="233"><font size="3">Contain generated JavaDOC files for this
+        JCL release</font></td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\sample</font></td>
+      <td width="233"><font size="3">Contain the sample JCL service and test
+        application</font></td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\src</font></td>
+      <td width="233"><font size="3">Contain all the JCL source files including
+        simple reference implementation source and JCL enabled JavaPOS controls</font></td>
+    </tr>
+    <tr>
+      <td width="230" align="left">&lt;jcl-dir&gt;\test</td>
+      <td width="233">Contains the JCL JUnit sources tests files</td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;src\jpos\res\jpos.properties</font></td>
+      <td width="233">An example of the properties file to use with the JCL</td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;src\jpos\res\jcl.dtd</font></td>
+      <td width="233">DTD for the simple XML registry populator</td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\src\jpos\res\jcl.xsd</font></td>
+      <td width="233">XML Schema for the XML registry</td>
+    </tr>
+    <tr>
+      <td width="230" align="left">&nbsp;</td>
+      <td width="233">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\lib\jcl.jar</font></td>
+      <td width="233">Core JCL classes</td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\lib\jcl_src.jar</font></td>
+      <td width="233">Core JCL sources</td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\lib\jcl_editor.jar</font></td>
+      <td width="233">JCL editor classes</td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\lib\jcl_editor_src.jar</font></td>
+      <td width="233">JCL editor sources</td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\lib\jpos1&lt;x&gt;.jar</font></td>
+      <td width="233">JCL-enabled JavaPOS controls where x == 5, 6 and 7 for the 
+      JavaPOS controls 1.5, 1.6 and 1.7</td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\lib\jcl_sample.jar</font></td>
+      <td width="233">Sample JCL-enabled JavaPOS virtual service + sample Swing
+        application</td>
+    </tr>
+    <tr>
+      <td width="230" align="left"><font face="Courier New" size="2">&lt;jcl-dir&gt;\lib\jcl_sample_src.jar</font></td>
+      <td width="233">Sample sources</td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <hr>
+  <p><b><a name="setup_and_test"></a>Setup and Quick Test</b></p>
+  <p>In order to setup the JCL you need to get JCL-enabled services or test
+  using the sample virtual LineDisplay service.&nbsp; In either case the process
+  to setting up the JCL is the same.&nbsp; What will follow is the setup of the
+  JCL for the sample service, but you should be able to extrapolate for other
+  service packages.</p>
+  <p><i>Setting your CLASSPATH</i></p>
+  <p>Your CLASSPATH environment variable must have the following JAR files
+  listed:</p>
+  <p><span style="background-color: #FFFF00">NOTE:</span> If you are using
+  JDK1.1.8 you must have to install swing in your computer and add it in your
+  CLASSPATH.</p>
+  <p>&nbsp; <font face="Courier New" size="2">&lt;jcl-dir&gt;\lib\jclall.jar or
+  ( &lt;jcl-dir&gt;\lib\jcl.jar, &lt;jcl-dir&gt;\lib\jcl_simple.jar and &lt;jcl-dir&gt;\lib\jpos.jar)</font></p>
+  <p><font face="Courier New" size="2">You can set your CLASSPATH with the
+  following command (on Win32):</font></p>
+  <p><font face="Courier New" size="2">set CLASSPATH=&lt;jcl-dir&gt;\lib\jclall.jar;%CLASSPATH%</font></p>
+  <p><font face="Courier New" size="2">OR</font></p>
+  <p><font face="Courier New" size="2">set CLASSPATH=&lt;jcl-dir&gt;\lib\jcl.jar;&lt;jcl-dir&gt;\lib\jcl_simple.jar;
+  and &lt;jcl-dir&gt;\lib\jpos.jar;%CLASSPATH%</font></p>
+  <p>Either options are equivalent in functionality but not in typing!</p>
+  <p>To do a quick verification that the JCL is installed and setup you can run
+  the simple version applications by issuing the following command at the
+  command prompt:</p>
+  <p><font face="Courier New" size="2">&gt;java jpos.config.Version</font></p>
+  <p>OR</p>
+  <p><font face="Courier New" size="2">&gt;java jpos.loader.Version</font></p>
+  <p>The output should be something like the following:</p>
+  <p align="left"><font face="Courier New" size="2">JavaPOS jpos.config/loader
+  (JCL) version 1.2.0 EA3</font></p>
+  <p align="left"><img border="0" src="res/version.gif" width="468" height="169"></p>
+  <p align="left"><font face="Courier New" size="2">Now you are ready to use it!</font></p>
+  <p align="left">You can also test the sample service (thereby binding a
+  control to a JCL-enabled service) by following the <a href="sample_code.html">Sample
+  Code</a> example setup and running instructions.</p>
+  <hr>
+  <p>&nbsp;</p>
+
+  <hr>
+  <table border="0" width="100%">
+    <tr>
+      <td>
+        <p align="right"><font face="Arial" size="1">Last modified by <a href="mailto:maxim@us.ibm.com">EMM</a>
+        on <!--webbot bot="Timestamp" S-Type="EDITED"
+        S-Format="%m/%d/%Y %I:%M %p" startspan -->05/05/2002 10:37 PM<!--webbot bot="Timestamp" endspan i-checksum="26518" -->
+        </font></td>
+    </tr>
+  </table>
+
+<p align="right"><!-- 	* END       * --><!-- 	* CONTENT   * --><!-- 	* HERE      * --><!-- 	*           * --></td>
+</tr>
+
+<tr>
+<td ALIGN=LEFT VALIGN=BOTTOM width="156">
+<center><a href="#top"><img SRC="res/javawhite_onblue.gif" ALT="Java" BORDER=0 height=68 width=45></a></center>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

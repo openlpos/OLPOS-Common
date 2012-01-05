@@ -1,0 +1,764 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="CURRENCY_CODE">
+  <item>
+    <col name="currency_code_id">1</col>
+    <col name="currency_code">0</col>
+    <col name="language">EN</col>
+    <col name="variant">en</col>
+    <col name="currency_desc">English</col>
+  </item>
+  <item>
+    <col name="currency_code_id">2</col>
+    <col name="currency_code">0</col>
+    <col name="language">US</col>
+    <col name="variant">en</col>
+    <col name="currency_desc">English (United States)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">3</col>
+    <col name="currency_code">0</col>
+    <col name="language">AR</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic</col>
+  </item>
+  <item>
+    <col name="currency_code_id">4</col>
+    <col name="currency_code">0</col>
+    <col name="language">AE</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (United Arab Emirates)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">5</col>
+    <col name="currency_code">0</col>
+    <col name="language">BH</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Bahrain)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">6</col>
+    <col name="currency_code">0</col>
+    <col name="language">DZ</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Algeria)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">7</col>
+    <col name="currency_code">0</col>
+    <col name="language">EG</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Egypt)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">8</col>
+    <col name="currency_code">0</col>
+    <col name="language">IQ</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Iraq)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">9</col>
+    <col name="currency_code">0</col>
+    <col name="language">JO</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Jordan)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">10</col>
+    <col name="currency_code">0</col>
+    <col name="language">KW</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Kuwait)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">11</col>
+    <col name="currency_code">0</col>
+    <col name="language">LB</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Lebanon)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">12</col>
+    <col name="currency_code">0</col>
+    <col name="language">LY</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Libya)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">13</col>
+    <col name="currency_code">0</col>
+    <col name="language">MA</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Morocco)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">14</col>
+    <col name="currency_code">0</col>
+    <col name="language">OM</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Oman)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">15</col>
+    <col name="currency_code">0</col>
+    <col name="language">QA</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Qatar)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">16</col>
+    <col name="currency_code">0</col>
+    <col name="language">SA</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Saudi Arabia)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">17</col>
+    <col name="currency_code">0</col>
+    <col name="language">SD</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Sudan)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">18</col>
+    <col name="currency_code">0</col>
+    <col name="language">SY</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Syria)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">19</col>
+    <col name="currency_code">0</col>
+    <col name="language">TN</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Tunisia)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">20</col>
+    <col name="currency_code">0</col>
+    <col name="language">YE</col>
+    <col name="variant">ar</col>
+    <col name="currency_desc">Arabic (Yemen)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">21</col>
+    <col name="currency_code">0</col>
+    <col name="language">BE</col>
+    <col name="variant">be</col>
+    <col name="currency_desc">Byelorussian</col>
+  </item>
+  <item>
+    <col name="currency_code_id">22</col>
+    <col name="currency_code">0</col>
+    <col name="language">BY</col>
+    <col name="variant">be</col>
+    <col name="currency_desc">Byelorussian (Belarus)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">23</col>
+    <col name="currency_code">0</col>
+    <col name="language">BG</col>
+    <col name="variant">bg</col>
+    <col name="currency_desc">Bulgarian</col>
+  </item>
+  <item>
+    <col name="currency_code_id">24</col>
+    <col name="currency_code">0</col>
+    <col name="language">ES</col>
+    <col name="variant">ca</col>
+    <col name="currency_desc">Catalan</col>
+  </item>
+  <item>
+    <col name="currency_code_id">25</col>
+    <col name="currency_code">0</col>
+    <col name="language">CZ</col>
+    <col name="variant">cs</col>
+    <col name="currency_desc">Czech (Czech Republic)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">26</col>
+    <col name="currency_code">0</col>
+    <col name="language">DK</col>
+    <col name="variant">da</col>
+    <col name="currency_desc">Danish</col>
+  </item>
+  <item>
+    <col name="currency_code_id">27</col>
+    <col name="currency_code">0</col>
+    <col name="language">DK</col>
+    <col name="variant">da</col>
+    <col name="currency_desc">Danish (Denmark)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">28</col>
+    <col name="currency_code">0</col>
+    <col name="language">DE</col>
+    <col name="variant">de</col>
+    <col name="currency_desc">German</col>
+  </item>
+  <item>
+    <col name="currency_code_id">29</col>
+    <col name="currency_code">0</col>
+    <col name="language">AT</col>
+    <col name="variant">de</col>
+    <col name="currency_desc">German (Austria,Euro)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">30</col>
+    <col name="currency_code">0</col>
+    <col name="language">CH</col>
+    <col name="variant">de</col>
+    <col name="currency_desc">German (Switzerland)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">31</col>
+    <col name="currency_code">0</col>
+    <col name="language">DE</col>
+    <col name="variant">de</col>
+    <col name="currency_desc">German (Germany)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">32</col>
+    <col name="currency_code">0</col>
+    <col name="language">LU</col>
+    <col name="variant">de</col>
+    <col name="currency_desc">German (Luxembourg)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">33</col>
+    <col name="currency_code">0</col>
+    <col name="language">GR</col>
+    <col name="variant">el</col>
+    <col name="currency_desc">Greek</col>
+  </item>
+  <item>
+    <col name="currency_code_id">34</col>
+    <col name="currency_code">0</col>
+    <col name="language">GR</col>
+    <col name="variant">el</col>
+    <col name="currency_desc">Greek (Greece)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">35</col>
+    <col name="currency_code">0</col>
+    <col name="language">AU</col>
+    <col name="variant">en</col>
+    <col name="currency_desc">English (Australia)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">36</col>
+    <col name="currency_code">0</col>
+    <col name="language">BE</col>
+    <col name="variant">en</col>
+    <col name="currency_desc">English (Belgium)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">37</col>
+    <col name="currency_code">0</col>
+    <col name="language">CA</col>
+    <col name="variant">en</col>
+    <col name="currency_desc">English (Canada)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">38</col>
+    <col name="currency_code">0</col>
+    <col name="language">GB</col>
+    <col name="variant">en</col>
+    <col name="currency_desc">English (United Kingdom)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">39</col>
+    <col name="currency_code">0</col>
+    <col name="language">IE</col>
+    <col name="variant">en</col>
+    <col name="currency_desc">English (Ireland)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">40</col>
+    <col name="currency_code">0</col>
+    <col name="language">NZ</col>
+    <col name="variant">en</col>
+    <col name="currency_desc">English (New Zealand)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">41</col>
+    <col name="currency_code">0</col>
+    <col name="language">ZA</col>
+    <col name="variant">en</col>
+    <col name="currency_desc">English (South Africa)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">42</col>
+    <col name="currency_code">0</col>
+    <col name="language">ES</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish</col>
+  </item>
+  <item>
+    <col name="currency_code_id">43</col>
+    <col name="currency_code">0</col>
+    <col name="language">AR</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Argentina)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">44</col>
+    <col name="currency_code">0</col>
+    <col name="language">BO</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Bolivia)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">45</col>
+    <col name="currency_code">0</col>
+    <col name="language">CL</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Chile)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">46</col>
+    <col name="currency_code">0</col>
+    <col name="language">CO</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Colombia)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">47</col>
+    <col name="currency_code">0</col>
+    <col name="language">CR</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Costa Rica)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">48</col>
+    <col name="currency_code">0</col>
+    <col name="language">DO</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Dominican Republic)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">49</col>
+    <col name="currency_code">0</col>
+    <col name="language">EC</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Ecuador)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">50</col>
+    <col name="currency_code">0</col>
+    <col name="language">ES</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Spain)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">51</col>
+    <col name="currency_code">0</col>
+    <col name="language">GT</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Guatemala)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">52</col>
+    <col name="currency_code">0</col>
+    <col name="language">HN</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Honduras)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">53</col>
+    <col name="currency_code">0</col>
+    <col name="language">MX</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Mexico)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">54</col>
+    <col name="currency_code">0</col>
+    <col name="language">NI</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Nicaragua)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">55</col>
+    <col name="currency_code">0</col>
+    <col name="language">PA</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Panama)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">56</col>
+    <col name="currency_code">0</col>
+    <col name="language">PE</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Peru)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">57</col>
+    <col name="currency_code">0</col>
+    <col name="language">PR</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Puerto Rico)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">58</col>
+    <col name="currency_code">0</col>
+    <col name="language">PY</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Paraguay)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">59</col>
+    <col name="currency_code">0</col>
+    <col name="language">SV</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (El Salvador)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">60</col>
+    <col name="currency_code">0</col>
+    <col name="language">UY</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Uruguay)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">61</col>
+    <col name="currency_code">0</col>
+    <col name="language">VE</col>
+    <col name="variant">es</col>
+    <col name="currency_desc">Spanish (Venezuela)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">62</col>
+    <col name="currency_code">0</col>
+    <col name="language">ET</col>
+    <col name="variant">et</col>
+    <col name="currency_desc">Estonian</col>
+  </item>
+  <item>
+    <col name="currency_code_id">63</col>
+    <col name="currency_code">0</col>
+    <col name="language">EE</col>
+    <col name="variant">et</col>
+    <col name="currency_desc">Estonian (Estonia)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">64</col>
+    <col name="currency_code">0</col>
+    <col name="language">FI</col>
+    <col name="variant">fi</col>
+    <col name="currency_desc">Finnish</col>
+  </item>
+  <item>
+    <col name="currency_code_id">65</col>
+    <col name="currency_code">0</col>
+    <col name="language">FR</col>
+    <col name="variant">fr</col>
+    <col name="currency_desc">French</col>
+  </item>
+  <item>
+    <col name="currency_code_id">66</col>
+    <col name="currency_code">0</col>
+    <col name="language">BE</col>
+    <col name="variant">fr</col>
+    <col name="currency_desc">French (Belgium)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">67</col>
+    <col name="currency_code">0</col>
+    <col name="language">CA</col>
+    <col name="variant">fr</col>
+    <col name="currency_desc">French (Canada)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">68</col>
+    <col name="currency_code">0</col>
+    <col name="language">CH</col>
+    <col name="variant">fr</col>
+    <col name="currency_desc">French (Switzerland)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">69</col>
+    <col name="currency_code">0</col>
+    <col name="language">FR</col>
+    <col name="variant">fr</col>
+    <col name="currency_desc">French (France)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">70</col>
+    <col name="currency_code">0</col>
+    <col name="language">LU</col>
+    <col name="variant">fr</col>
+    <col name="currency_desc">French (Luxembourg)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">71</col>
+    <col name="currency_code">0</col>
+    <col name="language">IN</col>
+    <col name="variant">hi</col>
+    <col name="currency_desc">Hindi (India)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">72</col>
+    <col name="currency_code">0</col>
+    <col name="language">HR</col>
+    <col name="variant">hr</col>
+    <col name="currency_desc">Croatian</col>
+  </item>
+  <item>
+    <col name="currency_code_id">73</col>
+    <col name="currency_code">0</col>
+    <col name="language">HU</col>
+    <col name="variant">hu</col>
+    <col name="currency_desc">Hungarian</col>
+  </item>
+  <item>
+    <col name="currency_code_id">74</col>
+    <col name="currency_code">0</col>
+    <col name="language">IS</col>
+    <col name="variant">is</col>
+    <col name="currency_desc">Icelandic</col>
+  </item>
+  <item>
+    <col name="currency_code_id">75</col>
+    <col name="currency_code">0</col>
+    <col name="language">IS</col>
+    <col name="variant">is</col>
+    <col name="currency_desc">Icelandic (Iceland)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">76</col>
+    <col name="currency_code">0</col>
+    <col name="language">IT</col>
+    <col name="variant">it</col>
+    <col name="currency_desc">Italian</col>
+  </item>
+  <item>
+    <col name="currency_code_id">77</col>
+    <col name="currency_code">0</col>
+    <col name="language">IT</col>
+    <col name="variant">it</col>
+    <col name="currency_desc">Italian (Italy)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">78</col>
+    <col name="currency_code">0</col>
+    <col name="language">IW</col>
+    <col name="variant">iw</col>
+    <col name="currency_desc">Hebrew</col>
+  </item>
+  <item>
+    <col name="currency_code_id">79</col>
+    <col name="currency_code">0</col>
+    <col name="language">IL</col>
+    <col name="variant">iw</col>
+    <col name="currency_desc">Hebrew (Israel)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">80</col>
+    <col name="currency_code">0</col>
+    <col name="language">JA</col>
+    <col name="variant">ja</col>
+    <col name="currency_desc">Japanese</col>
+  </item>
+  <item>
+    <col name="currency_code_id">81</col>
+    <col name="currency_code">0</col>
+    <col name="language">JP</col>
+    <col name="variant">ja</col>
+    <col name="currency_desc">Japanese (Japan)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">82</col>
+    <col name="currency_code">0</col>
+    <col name="language">KR</col>
+    <col name="variant">ko</col>
+    <col name="currency_desc">Korean</col>
+  </item>
+  <item>
+    <col name="currency_code_id">83</col>
+    <col name="currency_code">0</col>
+    <col name="language">LT</col>
+    <col name="variant">lt</col>
+    <col name="currency_desc">Lithuanian</col>
+  </item>
+  <item>
+    <col name="currency_code_id">84</col>
+    <col name="currency_code">0</col>
+    <col name="language">LV</col>
+    <col name="variant">lv</col>
+    <col name="currency_desc">Latvian (Lettish)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">85</col>
+    <col name="currency_code">0</col>
+    <col name="language">MK</col>
+    <col name="variant">mk</col>
+    <col name="currency_desc">Macedonian</col>
+  </item>
+  <item>
+    <col name="currency_code_id">86</col>
+    <col name="currency_code">0</col>
+    <col name="language">NL</col>
+    <col name="variant">nl</col>
+    <col name="currency_desc">Dutch</col>
+  </item>
+  <item>
+    <col name="currency_code_id">87</col>
+    <col name="currency_code">0</col>
+    <col name="language">BE</col>
+    <col name="variant">nl</col>
+    <col name="currency_desc">Dutch (Belgium)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">88</col>
+    <col name="currency_code">0</col>
+    <col name="language">NL</col>
+    <col name="variant">nl</col>
+    <col name="currency_desc">Dutch (Netherlands)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">89</col>
+    <col name="currency_code">0</col>
+    <col name="language">NL</col>
+    <col name="variant">nl</col>
+    <col name="currency_desc">Dutch (Netherlands,Euro)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">90</col>
+    <col name="currency_code">0</col>
+    <col name="language">NO</col>
+    <col name="variant">no</col>
+    <col name="currency_desc">Norwegian (Norway)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">91</col>
+    <col name="currency_code">0</col>
+    <col name="language">PL</col>
+    <col name="variant">pl</col>
+    <col name="currency_desc">Polish (Poland)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">92</col>
+    <col name="currency_code">0</col>
+    <col name="language">BR</col>
+    <col name="variant">pt</col>
+    <col name="currency_desc">Portuguese (Brazil)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">93</col>
+    <col name="currency_code">0</col>
+    <col name="language">PT</col>
+    <col name="variant">pt</col>
+    <col name="currency_desc">Portuguese (Portugal)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">94</col>
+    <col name="currency_code">0</col>
+    <col name="language">RO</col>
+    <col name="variant">ro</col>
+    <col name="currency_desc">Romanian (Romania)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">95</col>
+    <col name="currency_code">0</col>
+    <col name="language">RU</col>
+    <col name="variant">ru</col>
+    <col name="currency_desc">Russian (Russia)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">96</col>
+    <col name="currency_code">0</col>
+    <col name="language">YU</col>
+    <col name="variant">sh</col>
+    <col name="currency_desc">Serbo-Croatian (Yugoslavia)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">97</col>
+    <col name="currency_code">0</col>
+    <col name="language">SK</col>
+    <col name="variant">sk</col>
+    <col name="currency_desc">Slovak (Slovakia)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">98</col>
+    <col name="currency_code">0</col>
+    <col name="language">SI</col>
+    <col name="variant">sl</col>
+    <col name="currency_desc">Slovenian (Slovenia)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">99</col>
+    <col name="currency_code">0</col>
+    <col name="language">AL</col>
+    <col name="variant">sq</col>
+    <col name="currency_desc">Albanian (Albania)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">100</col>
+    <col name="currency_code">0</col>
+    <col name="language">YU</col>
+    <col name="variant">sr</col>
+    <col name="currency_desc">Serbian (Yugoslavia)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">101</col>
+    <col name="currency_code">0</col>
+    <col name="language">SE</col>
+    <col name="variant">sv</col>
+    <col name="currency_desc">Swedish (Sweden)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">102</col>
+    <col name="currency_code">0</col>
+    <col name="language">TH</col>
+    <col name="variant">th</col>
+    <col name="currency_desc">Thai (Thailand)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">103</col>
+    <col name="currency_code">0</col>
+    <col name="language">TR</col>
+    <col name="variant">tr</col>
+    <col name="currency_desc">Turkish (Turkey)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">104</col>
+    <col name="currency_code">0</col>
+    <col name="language">UA</col>
+    <col name="variant">uk</col>
+    <col name="currency_desc">Ukrainian (Ukraine)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">105</col>
+    <col name="currency_code">0</col>
+    <col name="language">VN</col>
+    <col name="variant">vi</col>
+    <col name="currency_desc">Vietnamese (Vietnam)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">106</col>
+    <col name="currency_code">0</col>
+    <col name="language">CN</col>
+    <col name="variant">zh</col>
+    <col name="currency_desc">Chinese (China)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">107</col>
+    <col name="currency_code">0</col>
+    <col name="language">HK</col>
+    <col name="variant">zh</col>
+    <col name="currency_desc">Chinese (Hong Kong)</col>
+  </item>
+  <item>
+    <col name="currency_code_id">108</col>
+    <col name="currency_code">0</col>
+    <col name="language">TW</col>
+    <col name="variant">zh</col>
+    <col name="currency_desc">Chinese (Taiwan)</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

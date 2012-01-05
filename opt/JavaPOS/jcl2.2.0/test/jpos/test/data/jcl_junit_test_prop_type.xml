@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JposEntries PUBLIC "-//JavaPOS//DTD//EN"
+                             "jpos/res/jcl.dtd">
+
+<!-- Data file for CMVC defect #6562: XML pop does not find file in CLASSPATH  -->
+                             
+<JposEntries>
+<!--Saved by JavaPOS jpos.config/loader (JCL) version 2.0.0 RC2 on 6/26/01 11:26 AM-->
+    
+    <JposEntry logicalName="testPropType">
+        <creation factoryClass="com.xyz.jpos.XyzJposServiceInstanceFactory" serviceClass="com.xyz.jpos.LineDisplayService"/>
+        <vendor name="Xyz, Corp." url="http://www.javapos.com"/>
+        <jpos category="LineDisplay" version="1.5"/>
+        <product description="Example virtual LineDisplay JavaPOS Service from virtual Xyz Corporation" name="Virtual LineDisplay JavaPOS Service" url="http://www.javapos.com"/>
+
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="stringProp" value="stringPropValue" type="String"/>
+        
+        <prop name="booleanProp" value="true" type="Boolean"/>
+        
+        <prop name="byteProp" value="0xA" type="Byte"/>
+        
+        <prop name="characterProp" value="z" type="Character"/>
+        
+        <prop name="doubleProp" value="3.14159" type="Double"/>
+        
+        <prop name="floatProp" value="3.1415" type="Float"/>
+        
+        <prop name="integerProp" value="1234" type="Integer"/>
+        
+        <prop name="longProp" value="123456" type="Long"/>
+        
+        <prop name="shortProp" value="123" type="Short"/>
+        
+</JposEntry>
+    
+</JposEntries>

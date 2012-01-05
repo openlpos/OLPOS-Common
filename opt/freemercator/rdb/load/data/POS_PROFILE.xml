@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="POS_PROFILE">
+  <item>
+    <col name="profile_id">1</col>
+    <col name="config_no">1</col>
+    <col name="help_id">1</col>
+    <col name="profile_name">Manager</col>
+  </item>
+  <item>
+    <col name="profile_id">2</col>
+    <col name="config_no">1</col>
+    <col name="help_id">2</col>
+    <col name="profile_name">Cashier</col>
+  </item>
+  <item>
+    <col name="profile_id">3</col>
+    <col name="config_no">2</col>
+    <col name="help_id">4</col>
+    <col name="profile_name">Manager</col>
+  </item>
+  <item>
+    <col name="profile_id">4</col>
+    <col name="config_no">2</col>
+    <col name="help_id">5</col>
+    <col name="profile_name">Cashier</col>
+  </item>
+  <item>
+    <col name="profile_id">5</col>
+    <col name="config_no">3</col>
+    <col name="help_id">7</col>
+    <col name="profile_name">Manager</col>
+  </item>
+  <item>
+    <col name="profile_id">6</col>
+    <col name="config_no">3</col>
+    <col name="help_id">8</col>
+    <col name="profile_name">Cashier</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

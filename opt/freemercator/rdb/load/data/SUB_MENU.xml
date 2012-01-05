@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="SUB_MENU">
+  <item>
+    <col name="SUB_MENU_ID">1</col>
+    <col name="MENU_ID">1</col>
+    <col name="SUB_MENU_NAME">Prompt</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">2</col>
+    <col name="MENU_ID">2</col>
+    <col name="SUB_MENU_NAME">Invoice</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">3</col>
+    <col name="MENU_ID">3</col>
+    <col name="SUB_MENU_NAME">Main</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">4</col>
+    <col name="MENU_ID">3</col>
+    <col name="SUB_MENU_NAME">Functions</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">5</col>
+    <col name="MENU_ID">3</col>
+    <col name="SUB_MENU_NAME">Alternate Currency Entry</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">6</col>
+    <col name="MENU_ID">3</col>
+    <col name="SUB_MENU_NAME">PLU Menu</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">7</col>
+    <col name="MENU_ID">4</col>
+    <col name="SUB_MENU_NAME">Keypad</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">10</col>
+    <col name="MENU_ID">5</col>
+    <col name="SUB_MENU_NAME">Prompt</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">11</col>
+    <col name="MENU_ID">6</col>
+    <col name="SUB_MENU_NAME">Customer</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">13</col>
+    <col name="MENU_ID">7</col>
+    <col name="SUB_MENU_NAME">Invoice</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">14</col>
+    <col name="MENU_ID">8</col>
+    <col name="SUB_MENU_NAME">Main</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">15</col>
+    <col name="MENU_ID">8</col>
+    <col name="SUB_MENU_NAME">Functions</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">16</col>
+    <col name="MENU_ID">8</col>
+    <col name="SUB_MENU_NAME">Alternate Currency Entry</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">17</col>
+    <col name="MENU_ID">8</col>
+    <col name="SUB_MENU_NAME">PLU Menu</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">20</col>
+    <col name="MENU_ID">10</col>
+    <col name="SUB_MENU_NAME">Prompt</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">22</col>
+    <col name="MENU_ID">11</col>
+    <col name="SUB_MENU_NAME">Receipt</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">23</col>
+    <col name="MENU_ID">12</col>
+    <col name="SUB_MENU_NAME">Keypad</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">24</col>
+    <col name="MENU_ID">13</col>
+    <col name="SUB_MENU_NAME">Coffee</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">25</col>
+    <col name="MENU_ID">13</col>
+    <col name="SUB_MENU_NAME">Sandwiches</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">26</col>
+    <col name="MENU_ID">13</col>
+    <col name="SUB_MENU_NAME">Drinks</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">27</col>
+    <col name="MENU_ID">13</col>
+    <col name="SUB_MENU_NAME">Food</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">28</col>
+    <col name="MENU_ID">13</col>
+    <col name="SUB_MENU_NAME">Computers</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">29</col>
+    <col name="MENU_ID">13</col>
+    <col name="SUB_MENU_NAME">Accessories</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">30</col>
+    <col name="MENU_ID">13</col>
+    <col name="SUB_MENU_NAME">Sales</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">31</col>
+    <col name="MENU_ID">13</col>
+    <col name="SUB_MENU_NAME">Functions</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">32</col>
+    <col name="MENU_ID">14</col>
+    <col name="SUB_MENU_NAME">Invisible OperPrompt buttons 1</col>
+  </item>
+  <item>
+    <col name="SUB_MENU_ID">33</col>
+    <col name="MENU_ID">9</col>
+    <col name="SUB_MENU_NAME">Invisible OperPrompt buttons 2</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>

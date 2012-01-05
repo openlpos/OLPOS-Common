@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<mercatordata>
+    <tableinsert table="INPUT_FILTER">
+        <item>
+            <col name="filter_id">1</col>
+            <col name="filter_type">1</col>
+            <col name="filter_sub_type">1</col>
+            <col name="filter_name">MasterCardTrack1</col>
+            <col name="display_name">MasterCard</col>
+            <col name="regex">^;(54\d{14})=(\d{2})(\d{2})</col>
+            <col name="check_digit_class">null</col>
+            <col name="filter_class">null</col>
+        </item>
+        <item>
+            <col name="filter_id">2</col>
+            <col name="filter_type">1</col>
+            <col name="filter_sub_type">1</col>
+            <col name="filter_name">MasterCardTrack2</col>
+            <col name="display_name">MasterCard</col>
+            <col name="regex">^%B(54\d{14})^(\\w+)/(\\w+)?</col>
+            <col name="check_digit_class">null</col>
+            <col name="filter_class">null</col>
+        </item>
+        <item>
+            <col name="filter_id">3</col>
+            <col name="filter_type">1</col>
+            <col name="filter_sub_type">2</col>
+            <col name="filter_name">VisaTrack1</col>
+            <col name="display_name">Visa</col>
+            <col name="regex">^;(48[1-7]\d{13})</col>
+            <col name="check_digit_class">null</col>
+            <col name="filter_class">null</col>
+        </item>
+        <item>
+            <col name="filter_id">4</col>
+            <col name="filter_type">1</col>
+            <col name="filter_sub_type">1</col>
+            <col name="filter_name">MasterCardTrack1</col>
+            <col name="display_name">MasterCard</col>
+            <col name="regex">^(5\d{15})</col>
+            <col name="check_digit_class">null</col>
+            <col name="filter_class">null</col>
+        </item>
+        <item>
+            <col name="filter_id">5</col>
+            <col name="filter_type">2</col>
+            <col name="filter_sub_type">1</col>
+            <col name="filter_name">EAN</col>
+            <col name="display_name">EAN</col>
+            <col name="regex">^(\d{1})(\d{5})(\d{5})(\d{1})</col>
+            <col name="check_digit_class">null</col>
+            <col name="filter_class">com.globalretailtech.pos.operators.EANFilter</col>
+        </item>
+        <item>
+            <col name="filter_id">6</col>
+            <col name="filter_type">2</col>
+            <col name="filter_sub_type">1</col>
+            <col name="filter_name">ItemBarCode13</col>
+            <col name="display_name">ItemBarCode (13)</col>
+            <col name="regex">^(\d{13})$</col>
+            <col name="check_digit_class">null</col>
+            <col name="filter_class">com.globalretailtech.pos.operators.ItemBarCodeFilter</col>
+        </item>
+        <item>
+            <col name="filter_id">7</col>
+            <col name="filter_type">2</col>
+            <col name="filter_sub_type">1</col>
+            <col name="filter_name">ItemBarCode12</col>
+            <col name="display_name">ItemBarCode (12)</col>
+            <col name="regex">^(\d{12})$</col>
+            <col name="check_digit_class">null</col>
+            <col name="filter_class">com.globalretailtech.pos.operators.ItemBarCodeFilter</col>
+        </item>
+        <item>
+            <col name="filter_id">8</col>
+            <col name="filter_type">2</col>
+            <col name="filter_sub_type">1</col>
+            <col name="filter_name">ItemBarCode7</col>
+            <col name="display_name">ItemBarCode (7)</col>
+            <col name="regex">^(\d{7})$</col>
+            <col name="check_digit_class">null</col>
+            <col name="filter_class">com.globalretailtech.pos.operators.ItemBarCodeFilter</col>
+        </item>
+        <item>
+            <col name="filter_id">9</col>
+            <col name="filter_type">2</col>
+            <col name="filter_sub_type">1</col>
+            <col name="filter_name">ItemBarCode8</col>
+            <col name="display_name">ItemBarCode (8)</col>
+            <col name="regex">^[1-9]\d{7}$</col>
+            <col name="check_digit_class">null</col>
+            <col name="filter_class">com.globalretailtech.pos.operators.ItemBarCodeFilter</col>
+        </item>
+        <item>
+            <col name="filter_id">10</col>
+            <col name="filter_type">2</col>
+            <col name="filter_sub_type">1</col>
+            <col name="filter_name">CustDiscountCard</col>
+            <col name="display_name">Customer Discount Card</col>
+            <col name="regex">^0[2-9]([\d]{6})$</col>
+            <col name="check_digit_class">null</col>
+            <col name="filter_class">com.globalretailtech.pos.operators.CustDiscountCardFilter</col>
+        </item>
+    </tableinsert>
+</mercatordata>

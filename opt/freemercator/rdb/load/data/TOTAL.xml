@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+
+<mercatordata>
+<tableinsert table="TOTAL">
+  <item>
+    <col name="total_id">1</col>
+    <col name="pos_total_id">1</col>
+    <col name="total_type">14</col>
+    <col name="total_count">0</col>
+    <col name="total_amount">0.0</col>
+  </item>
+  <item>
+    <col name="total_id">2</col>
+    <col name="pos_total_id">1</col>
+    <col name="total_type">11</col>
+    <col name="total_count">0</col>
+    <col name="total_amount">0.0</col>
+  </item>
+  <item>
+    <col name="total_id">3</col>
+    <col name="pos_total_id">1</col>
+    <col name="total_type">12</col>
+    <col name="total_count">0</col>
+    <col name="total_amount">0.0</col>
+  </item>
+  <item>
+    <col name="total_id">4</col>
+    <col name="pos_total_id">1</col>
+    <col name="total_type">3</col>
+    <col name="total_count">0</col>
+    <col name="total_amount">0.0</col>
+  </item>
+  <item>
+    <col name="total_id">5</col>
+    <col name="pos_total_id">1</col>
+    <col name="total_type">4</col>
+    <col name="total_count">0</col>
+    <col name="total_amount">0.0</col>
+  </item>
+  <item>
+    <col name="total_id">6</col>
+    <col name="pos_total_id">1</col>
+    <col name="total_type">5</col>
+    <col name="total_count">0</col>
+    <col name="total_amount">0.0</col>
+  </item>
+  <item>
+    <col name="total_id">7</col>
+    <col name="pos_total_id">1</col>
+    <col name="total_type">6</col>
+    <col name="total_count">0</col>
+    <col name="total_amount">0.0</col>
+  </item>
+  <item>
+    <col name="total_id">8</col>
+    <col name="pos_total_id">1</col>
+    <col name="total_type">7</col>
+    <col name="total_count">0</col>
+    <col name="total_amount">0.0</col>
+  </item>
+  <item>
+    <col name="total_id">0</col>
+    <col name="pos_total_id">1</col>
+    <col name="total_type">13</col>
+    <col name="total_count">5</col>
+    <col name="total_amount">3995.0</col>
+  </item>
+  <item>
+    <col name="total_id">9</col>
+    <col name="pos_total_id">1</col>
+    <col name="total_type">13</col>
+    <col name="total_count">6</col>
+    <col name="total_amount">4424.0</col>
+  </item>
+
+</tableinsert>
+
+</mercatordata>
