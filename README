@@ -1,0 +1,5 @@
+OpenLPOS Common
+
+This repo contains most of the resources common to Server and Client releases.
+
+Exceptions to this are software packages which are managed using separate package management; OFBiz, Java, etc.
